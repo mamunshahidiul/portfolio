@@ -1,0 +1,778 @@
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  /* Style adjustments for viewports that meet the condition */
+  .navbar-default .navbar-nav > li > a {
+      font-size: 13px;
+    }
+    .banner{
+      padding: 0px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    /* Style adjustments for viewports that meet the condition */
+    .navbar-default .navbar-nav > li > a {
+      font-size: 13px;
+    }
+    .banner{
+      padding: 0px;
+    }
+    .dessert-details h4 {
+      font-size: 28px;
+    }
+    .dessert-details p {
+      font-size: 9px;
+    }
+    .gallery-heading-inn h2 {
+      font-size: 35px;
+    }
+    .gallery-caption {
+      margin: 0 9px auto;
+    }
+    .gallery-caption h3 {
+      font-size: 16px;
+    }
+    .star ul li i {
+      font-size: 14px;
+    }
+    .rate span {
+      font-size: 18px;
+    }
+    .add-top-cart {
+      height: 40px;
+      right: 20px;
+      width: 40px;
+    }
+    .head h2 {
+      font-size: 45px;
+    }
+    .drinks-list ul li {
+      font-size: 18px;
+    }
+    .best-sell-head h2 {
+      font-size: 20px;
+    }
+    .bitem{
+      padding-left: 0px;
+    }
+    .bitem-details{
+      padding: 0px;
+    }
+    .bitem-details h3 {
+      font-size: 13px;
+    }
+    .bitem-details h4 {
+      font-size: 15px;
+    }
+    .bitem-details a {
+      font-size: 10px;
+    }
+    .testmonial-top {
+      padding: 10px;
+    }
+    .test-pics{
+      padding-left: 0px; 
+      padding-right: 10px;
+    }
+    .testmonial-top p {
+      font-size: 12px;
+      line-height: 20px;
+      margin: 0 0 40px;
+    }
+    .about-us p {
+      font-size: 12px;
+      line-height: 22px;
+    }
+    .container{
+      width: 95%;
+    }
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      Inner Page: About;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .paddingabout{
+      padding: 0px;
+    }
+    .about-banner {
+      margin-top: 2px;
+    }
+    .about-banner-caption {
+      left: 40%;
+      top: 280px;
+    }
+    .item-one h2 {
+      font-size: 20px;
+    }
+    .item-one span {
+      font-size: 18px;
+      height: 35px;
+      line-height: 35px;
+      width: 35px;
+    }
+    .item-list-descript h1 {
+      font-size: 28px;
+      padding-bottom: 0;
+    }
+    .item-list-descript p {
+      font-size: 12px;
+      line-height: 22px;
+      margin-top: 10px;
+    }
+    .over-pattern {
+      height: 14.8999%;
+      left: 24px;
+      top: 1635px;
+      width: 95%;
+    }
+    .hypen {
+      height: 3px;
+      left: 180px;
+      top: 42%;
+      width: 60px;
+    }
+    .contact-inner span::before {
+      height: 3px;
+      left: 190px;
+      top: 50%;
+      width: 55px;
+    } 
+    .contact-inner span::after {
+      height: 3px;
+      right: 190px;
+      top: 50%;
+      width: 55px;
+    }
+    .contact-feature-inn p {
+      font-size: 12px;
+    }
+    .fetured-caption {
+      bottom: -15px;
+      left: 65px !important;
+      position: absolute;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    .menu-caption strong.price {
+      font-size: 16px;
+      height: 60px;
+      line-height: 60px;
+      width: 60px;
+    }
+    .menu-list strong.hover-panel {
+      background: #f3f3f3 none repeat scroll 0 0;
+      bottom: -125px;
+      color: #151515;
+      font-family: "museo300";
+      font-size: 13px;
+      left: 21px !important;
+      line-height: 45px;
+      margin: 0;
+      position: absolute;
+      text-align: center;
+      transition: all 0.3s ease-in-out 0s;
+      width: 86%;
+    }
+    .overlay p{
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    #effect-1 .img.hover .overlay {
+      height: 40%;
+    }
+    .menu-add-cart{
+      width: 80px;
+      height: 20px;
+      font-size: 11px;
+      line-height: 22px;
+    }
+  
+}
+@media only screen and (max-width: 768px) {
+    .navbar-default .navbar-nav > li > a {
+      font-size: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    .banner{
+      padding: 0px;
+    }
+    .dessert-details h4 {
+      font-size: 22px;
+    }
+    .dessert-details p {
+      font-size: 8px;
+    }
+    .gallery-heading-inn h2 {
+      font-size: 35px;
+    }
+    .gallery-caption {
+      margin: 0 9px auto;
+    }
+    .gallery-caption h3 {
+      font-size: 16px;
+    }
+    .star ul li i {
+      font-size: 14px;
+    }
+    .rate span {
+      font-size: 18px;
+    }
+    .add-top-cart {
+      height: 40px;
+      right: 20px;
+      width: 40px;
+    }
+    .head h2 {
+      font-size: 45px;
+    }
+    .drinks-list ul li {
+      font-size: 18px;
+    }
+    .best-sell-head h2 {
+      font-size: 18px;
+    }
+    .bitem{
+      padding-left: 0px;
+    }
+    .bitem-details{
+      padding: 0px;
+    }
+    .bitem-details h3 {
+      font-size: 13px;
+    }
+    .bitem-details h4 {
+      font-size: 15px;
+    }
+    .bitem-details a {
+      font-size: 10px;
+    }
+    .testmonial-top {
+      padding: 10px;
+    }
+    .test-pics{
+      padding-left: 0px; 
+      padding-right: 10px;
+    }
+    .testmonial-top p {
+      font-size: 12px;
+      line-height: 20px;
+      margin: 0 0 40px;
+    }
+    .about-us p {
+      font-size: 12px;
+      line-height: 22px;
+    }
+    .footer-list ul li{
+      padding-right: 26px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      Inner Page: About;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .over-pattern {
+      height: 14.8999%;
+      left: 18px;
+      top: 1670px;
+      width: 95%;
+    }
+    .contact-inner span::before {
+      height: 3px;
+      left: 90px;
+      top: 50%;
+      width: 55px;
+    } 
+    .contact-inner span::after {
+      height: 3px;
+      right: 90px;
+      top: 50%;
+      width: 55px;
+    }
+    .hypen {
+      height: 3px;
+      left: 137px;
+      top: 42%;
+      width: 52px;
+    }
+    #effect-1 .img.hover .overlay {
+      height: 50%;
+    }
+    .fetured-caption {
+      bottom: -15px;
+      left: 50px !important;
+      position: absolute;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    #effect-1 .overlay {
+      width: 81%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    /* Style adjustments for viewports that meet the condition */
+    #menu{
+      display: none;
+    }
+    .header-toggle{
+      display: block;
+    }
+    .banner{
+      padding: 0px;
+    }
+    .item{
+      margin-top: 20px;
+    }
+    .drinks-list {
+      width: 70%;
+    }
+    .drinks-list ul {
+      padding-left: 10px;
+    }
+    .about-max{
+      margin-top: 15px;
+    }
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      Inner Page: About;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .paddingabout{
+      padding: 0px
+    }
+    .about-banner-caption{
+      top: 0%;
+    }
+    .contact-part {
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+    .item-details {
+      margin-top: 40px;
+    }
+    .content-dish-left img {
+      margin: 10px auto;
+      display: block;  
+    }
+    .content-dish-right img {
+      margin: 10px auto;
+      display: block;  
+    }
+    .contact-part {
+      background: #78734D; 
+      margin-top: 60px;
+    }
+}     
+@media only screen and (max-width: 640px) {
+    /* Style adjustments for viewports that meet the condition */
+    .gallery-caption {
+      margin: 0 10px auto;
+    }
+    .drinks-list {
+      width: 40%;
+    }
+    .bitem{
+      width: 22%;
+    }
+    .best-sell-head h2 {
+      font-size: 23px;
+      text-align: center;
+    }
+    .dessert-details p{
+      font-size: 13px;
+    }
+    .social ul {
+      float: none;
+      margin: 10px auto;
+      width: 40%;
+    }
+    .footer-list ul{
+      margin: 0px auto;
+      display: block;
+      width: 60%;
+    }
+    .footer-bottom-right p {
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      Inner Page: About;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .test-pics a img{
+      float: right;
+    }
+    .about-banner-caption {
+      left: 38%;
+      top: 230px;
+    }
+    .item-one h2 {
+      font-size: 34px;
+    }
+    .item-list-descript h1 {
+      font-size: 32px;
+      margin-top: 25px;
+      padding-bottom: 10px;
+    }
+    .contact-inner span::before {
+      display: none;
+    }
+    .contact-inner span::after {
+      display: none;
+    }
+    .contact-inner p {
+      font-size: 12px;
+    }
+    .fetured-caption {
+      bottom: -15px;
+      left:100px !important;
+      position: absolute;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    #effect-1 .overlay {
+      width: 89%;
+    }
+    #effect-1 .img.hover .overlay {
+      height: 40%;
+    }
+    .overlay p {
+      font-size: 14px;
+    }
+    .menu-add-cart {
+      font-size: 12px;
+      height: 25px;
+      line-height: 22px;
+      width: 100px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+    .gallery-caption {
+      margin: 0 11px auto;
+    }
+    .drinks-list {
+      width: 55%;
+    }
+    .bitem{
+      width: 30%;
+    }
+    .best-sell-head h2 {
+      font-size: 23px;
+      text-align: center;
+    }
+    .social ul {
+      float: none;
+      margin: 10px auto;
+      width: 48%;
+    }
+    .footer-list ul{
+      margin: 0px auto;
+      display: block;
+      width: 78%;
+    }
+    .footer-bottom-right p {
+      text-align: center;
+      margin-top: 0px;
+    }
+    .header-left , .header-right{
+      width: 100%;
+    }
+    .header-left img{
+      margin: 0px auto;
+      text-align: center;
+    }
+    .header-right{
+      padding-right: 15px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      Inner Page: About;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .test-pics a img{
+      float: right;
+    }
+    .about-banner-caption {
+      left: 34%;
+      top: 320px;
+    }
+    .item-one h2 {
+      font-size: 34px;
+    }
+    .item-list-descript h1 {
+      font-size: 32px;
+      margin-top: 25px;
+      padding-bottom: 10px;
+    }
+    .contact-inner span::before {
+      display: none;
+    }
+    .contact-inner span::after {
+      display: none;
+    }
+    .contact-inner p {
+      font-size: 12px;
+    }
+    #effect-1 .overlay {
+      width: 86%;
+    }
+    .fetured-caption {
+      bottom: -15px;
+      left:60px !important;
+      position: absolute;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    #effect-1 .img.hover .overlay {
+      height: 40%;
+    }
+    .overlay p {
+      font-size: 14px;
+    }
+    .menu-add-cart {
+      font-size: 12px;
+      height: 25px;
+      line-height: 22px;
+      width: 100px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    /* Style adjustments for viewports that meet the condition */
+    .banner_caption h3{
+      font-size: 30px;
+    }
+    .view-btn{
+      width: 80px;
+      height: 30px;
+      font-size: 11px;
+      line-height: 30px;
+    }
+    .dessert-details h4 {
+      font-size: 28px;
+    }
+    .dessert-details p {
+      font-size: 13px;
+    }
+    .gallery-heading-inn h2 {
+      font-size: 35px;
+    }
+    .gallery-caption {
+      margin: 0 16px auto;
+    }
+    .drinks-list {
+      width: 75%;
+    }
+    .best-sell-head h2 {
+      font-size: 23px;
+      text-align: center;
+    }
+    .bitem{
+      width: 50%;
+    }
+    .bitem-details h3 {
+      font-size: 15px;
+    }
+    .bitem-details h4 {
+      font-size: 18px;
+    }
+    .testimonial > div{
+      margin: 0px auto;
+    }
+    .social ul {
+      float: none;
+      margin: 10px auto;
+      width: 65%;
+    }
+    .footer-list ul{
+      margin: 0px auto;
+      display: block;
+      width: 88%;
+    }
+    .footer-list ul li {
+      padding-right: 16px;
+    }
+    .about-us p{
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .footer-bottom-right p {
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      Inner Page: About;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    
+    .about-banner-caption {
+      left: 25%;
+      top: 320px;
+    }
+    .recipes h4 {
+      font-size: 16px;
+    }
+    .item-one h2 {
+      font-size: 32px;
+    }
+    .item-list-descript h1 {
+      font-size: 22px;
+    }
+    .item-list-descript p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .contact-inner span::before {
+      display: none;
+    }
+    .contact-inner span::after {
+      display: none;
+    }
+    .contact-inner span {
+      font-size: 22px;
+      padding-top: 20px;
+    }
+    .contact-inner p {
+      font-size: 12px;
+    }
+    .menu-caption strong.price {
+      font-size: 14px;
+      height: 80px;
+      line-height: 80px;
+      width: 80px;
+    }
+    .fetured-caption {
+      bottom: -15px;
+      left: 80px !important;
+      position: absolute;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    .menu-list{
+      display: block;
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 90%;
+      padding-left: 20px;
+    }
+    #effect-1 .overlay {
+      width: 90%;
+    }
+    #effect-1 .img.hover .overlay {
+      height: 30%;
+    }
+    .overlay p {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 359px) {
+    /* Style adjustments for viewports that meet the condition */
+    .banner_caption h3{
+      font-size: 30px;
+    }
+    .view-btn{
+      width: 80px;
+      height: 30px;
+      font-size: 11px;
+      line-height: 30px;
+    }
+    .dessert-details h4 {
+      font-size: 28px;
+    }
+    .dessert-details p {
+      font-size: 13px;
+    }
+    .gallery-heading-inn h2 {
+      font-size: 35px;
+    }
+    .gallery-caption {
+      margin: 0 14px auto;
+    }
+    .drinks-list {
+      width: 75%;
+    }
+    .best-sell-head h2 {
+      font-size: 23px;
+      text-align: center;
+    }
+    .bitem{
+      width: 50%;
+    }
+    .bitem-details h3 {
+      font-size: 15px;
+    }
+    .bitem-details h4 {
+      font-size: 18px;
+    }
+    .social ul {
+      float: none;
+      margin: 10px auto;
+      width: 72%;
+    }
+    .footer-list ul{
+      margin: 0px auto;
+      display: block;
+      width: 100%;
+    }
+    .footer-list ul li {
+      padding-right: 16px;
+    }
+    .about-us p{
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .footer-bottom-right p {
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    .dessert-details p{
+      font-size: 11px;
+    }
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      Inner Page: About;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .item-one h2 {
+      font-size: 32px;
+    }
+    .item-list-descript {
+      margin-top: 20px;
+    }
+    .contact-part {
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+    .item-details {
+      margin-top: 40px;
+    }
+    .menu-caption strong.price {
+      font-size: 14px;
+      height: 80px;
+      line-height: 80px;
+      width: 80px;
+    }
+    .fetured-caption {
+      bottom: -15px;
+      left: 80px !important;
+      position: absolute;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    .menu-list{
+      width: 100%;
+      float: none;
+      margin: 0px auto;
+      display: block;
+      padding-left: 20px;
+    }
+    #effect-1 .overlay {
+      width: 89%;
+    }
+    #effect-1 .img.hover .overlay {
+      height: 30%;
+    }
+    .overlay p {
+      font-size: 13px;
+    }
+} 
+

@@ -1,0 +1,674 @@
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 992px) {
+    /* Style adjustments for viewports that meet the condition */
+    .modal-lg{
+      width: 1170px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    /* Style adjustments for viewports that meet the condition */
+    .header-right{
+      padding-left: 42px;
+    }
+    .header{
+      left: 0;
+      right: 0;
+    }
+    .nav > li > a {
+      padding: 10px 14px;
+    }
+    .navbar-default .navbar-nav > li > a {
+      font-size: 15px;
+    }
+    .misson-btn {
+      top: 50px;
+      width: 160px;
+      height: 45px;
+      font-size: 15px;
+      left: 40px;
+      line-height: 30px;
+    }
+    .source-btn {
+      top: 50px;
+      width: 160px;
+      height: 45px;
+      font-size: 15px;
+      left: 40px;
+      line-height: 30px;
+    }
+    .men::before {
+      width: 280px;
+    }
+    .acceso::after{
+      width: 280px;
+    }
+    .footer {
+      margin-top: 25px;
+    }
+    .social-list ul li {
+      padding: 0px 4px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    /* Style adjustments for viewports that meet the condition */
+    .header-left{
+      padding-right: 0px;
+    } 
+    .header-left img{
+      max-width: 100%;
+    }
+    .header-right{
+      padding-left: 0px;
+      padding-right: 15px;
+    }
+    .wrap-menu {
+      margin-top: 13px;
+      max-height: 0px;
+    }
+    .support {
+      margin-top: 5px;
+      margin-bottom: 12px;
+    }
+    .support-detials h4 {
+      font-size: 11px;
+    }
+    .navbar-default .navbar-nav > li > a {
+      font-size: 13px;
+    }
+    .nav > li > a {
+      padding: 10px 15px;
+    }
+    .welcome-heading h1 {
+      font-size: 25px;
+    }
+    .welcome-heading {
+      padding: 25px 0px 20px 0px;
+    }
+    .welcome-heading p {
+      padding: 0px 90px;
+    }
+    .misson-btn {
+      top: 38px;
+      width: 90px;
+      height: 32px;
+      font-size: 15px;
+      left: 45px;
+      line-height: 15px;
+    }
+    .source-btn {
+      top: 38px;
+      width: 121px;
+      height: 35px;
+      font-size: 11px;
+      left: 34px;
+      line-height: 15px;
+    }
+    .news-heading h2 {
+      font-size: 14px;
+      margin: 10px 0px !important;
+    }
+    .news-details h3 {
+      font-size: 11px;
+    }
+    .news-details p {
+      font-size: 11px;
+      margin-top: 5px;
+    }
+    .category-list ul {
+      width: 57%;
+    }
+    .gallery-heading h1 {
+      font-size: 25px;
+    }
+    .men::before {
+      width: 171px;
+    }
+    .acceso::after {
+      width: 170px;
+    }
+    .nbs-flexisel-nav-left {
+      top: 55px !important;
+    }
+    .nbs-flexisel-nav-right {
+      top: 55px !important;
+    }
+    .footer-left h2 {
+      font-size: 14px;
+    }
+    .footer-left h6 {
+      font-size: 12px;
+    }
+    .footer-left p {
+      font-size: 12px;
+    }
+    .footer-list h3 {
+      font-size: 12px;
+    }
+    .footer-list ul li a {
+      font-size: 12px;
+    }
+    .social-list h3 {
+      font-size: 12px;
+    }
+    .social-list ul li {
+      padding: 3px 3px;
+    }
+    .hypen {
+      top: 15%;
+      width: 72px;
+    }
+    .soc-hypen {
+      top: 24%;
+    }
+
+    /*----------------------------
+      Inner Page: About us....
+    -----------------------------*/
+    .about-heading h1 {
+      font-size: 22px;
+    }
+    .about-heading h1::before{
+      width: 180px;
+      left: 232px;
+      margin-top: 13px
+    }
+    .about-heading h1::after{
+      width: 180px;
+      right: 232px;
+      margin-top: 13px;
+    }
+    .about-article p {
+      font-size: 13px;
+    }
+    .mision p {
+      font-size: 13px;
+    }
+    .vision p {
+      font-size: 13px;
+    }
+     /*----------------------------
+      Inner Page: Product...
+    -----------------------------*/
+    .modal-product-heading h1 {
+      font-size: 18px;
+    }
+    .modal-product-description p {
+      font-size: 13px;
+    }
+    .modal-dialog {
+      margin: 200px auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+    .header{
+      position: absolute;
+      z-index: 999999;
+    }
+    .header-left{
+      padding-right: 0px;
+    } 
+    .header-left img{
+      max-width: 100%;
+    }
+    .header-right{
+      padding-left: 0px;
+      padding-right: 15px;
+    }
+    .wrap-menu {
+      margin-top: 1px;
+      max-height: 0px;
+    }
+    .support {
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
+    .support-detials h4 {
+      font-size: 11px;
+    }
+    .navbar-default .navbar-nav > li > a {
+      font-size: 13px;
+    }
+    .nav > li > a {
+      padding: 10px 9px;
+    }
+    .welcome-heading h1 {
+      font-size: 25px;
+    }
+    .welcome-heading {
+      padding: 25px 0px 20px 0px;
+    }
+    .welcome-heading p {
+      padding: 0px 90px;
+    }
+    .misson-btn {
+      top: 38px;
+      width: 90px;
+      height: 32px;
+      font-size: 15px;
+      left: 45px;
+      line-height: 15px;
+    }
+    .source-btn {
+      top: 38px;
+      width: 121px;
+      height: 35px;
+      font-size: 11px;
+      left: 34px;
+      line-height: 15px;
+    }
+    .news-heading h2 {
+      font-size: 14px;
+      margin: 10px 0px !important;
+    }
+    .news-details h3 {
+      font-size: 11px;
+    }
+    .news-details p {
+      font-size: 11px;
+      margin-top: 5px;
+    }
+    .category-list ul {
+      width: 57%;
+    }
+    .gallery-heading h1 {
+      font-size: 25px;
+    }
+    .men::before {
+      width: 171px;
+    }
+    .acceso::after {
+      width: 170px;
+    }
+    .nbs-flexisel-nav-left {
+      top: 45px !important;
+    }
+    .nbs-flexisel-nav-right {
+      top: 45px !important;
+    }
+    .footer-left h2 {
+      font-size: 14px;
+    }
+    .footer-left h6 {
+      font-size: 12px;
+    }
+    .footer-left p {
+      font-size: 12px;
+    }
+    .footer-list h3 {
+      font-size: 12px;
+    }
+    .footer-list ul li a {
+      font-size: 12px;
+    }
+    .social-list h3 {
+      font-size: 12px;
+    }
+    .social-list ul li {
+      padding: 3px 3px;
+    }
+    .hypen {
+      top: 15%;
+      width: 72px;
+    }
+    .soc-hypen {
+      top: 24%;
+    }
+
+    /*----------------------------
+      Inner Page: About us....
+    -----------------------------*/
+    .about-heading h1::before{
+      width: 180px;
+      left: 125px;
+      margin-top: 13px
+    }
+    .about-heading h1::after{
+      width: 180px;
+      right: 125px;
+      margin-top: 13px;
+    }
+    /*----------------------------
+      Inner Page: Product...
+    -----------------------------*/
+    .modal-product-heading h1 {
+      font-size: 16px;
+    }
+    .modal-product-description p {
+      font-size: 12px;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    /* Style adjustments for viewports that meet the condition */
+    .header{
+      position: relative;
+    }
+    .header-left{
+      background: #161616;
+    }
+    .header-left a{
+      text-align: center;
+      display: block;
+    }
+    .header-right{
+      background: #161616;
+      text-align: center;
+    }
+    .support-detials{
+      text-align: left;
+    }
+    .header-right .pull-right{
+      float: none!important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border: 0px none; 
+    }
+    .navbar-nav {
+      margin: 0px 0px;
+      background: red;
+      width: 100% !important;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+      color: #fff !important;
+    }
+    .navbar-default .navbar-nav > li > a {
+      text-align: left;
+    }
+    /*----------------------------
+      Inner Page: About us....
+    -----------------------------*/
+    .about{
+      padding-left: 15px;
+     }
+    .about-banner-image {
+      padding-right: 15px;
+    }
+    .about-mision{
+      padding-left: 15px;
+    }
+    .mision h1::before{
+      left: 15px;
+    }
+    .about-vision{
+      padding-right: 15px;
+    }
+    .about-heading h1::before{
+      width: 180px;
+      left: 125px;
+      margin-top: 13px
+    }
+    .about-heading h1::after{
+      width: 180px;
+      right: 125px;
+      margin-top: 13px;
+    }
+    .product-heading p {
+      font-size: 14px;
+    }
+    .product-image {
+      font-size: 14px;
+    }
+    .padding-15{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+   
+ }     
+@media only screen and (max-width: 640px) {
+    /* Style adjustments for viewports that meet the condition */
+    
+    .welcome-heading h1 {
+      font-size: 20px;
+    }
+    .welcome-heading p {
+      padding: 0px 70px;
+    }
+    .mission img{
+      margin: 0px auto;
+    }
+    .misson-btn {
+      left: 0px;
+      right: 0px;
+      top: 42%;
+    }
+    .news-part {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .read-btn {
+      line-height: 60px;
+    }
+    .source-btn {
+      top: 40%;
+      left: 0px;
+      right: 0px;
+    }
+    .sourcing img{
+      margin: 0px auto;
+    }  
+    .gallery-heading h1 {
+      font-size: 20px;
+    }
+    .men::before {
+      width: 116px;
+    }
+    .acceso::after {
+      width: 116px;
+    }
+    .category-list ul li a {
+      line-height: 22px;
+      font-size: 13px;
+    }
+    .nbs-flexisel-nav-left {
+      top: 75px !important;
+    }
+    .nbs-flexisel-nav-right {
+      top: 75px !important;
+    }
+    .hypen {
+      left: 80px;
+    }
+    .soc-hypen {
+      top: 34%;
+    }
+    .footer {
+      padding-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+    .welcome-heading h1 {
+      font-size: 20px;
+    }
+    .welcome-heading p {
+      padding: 0px 40px;
+    }
+    .gallery-heading h1 {
+      font-size: 18px;
+    }
+    .men::before {
+      width: 37px;
+    }
+     .acceso::after {
+      width: 36px;
+    }
+    .read-btn {
+      line-height: 0px;
+    }
+    .news-details p {
+      margin-bottom: 0px;
+    }
+    .news-part {
+      padding-bottom: 10px;
+    }
+    .nbs-flexisel-nav-left {
+      top: 75px !important;
+    }
+    .nbs-flexisel-nav-right {
+      top: 75px !important;
+    }
+    .category-list ul li a {
+      font-size: 12px;
+    }
+    /*----------------------------
+      Inner Page: About us....
+    -----------------------------*/
+    .about-heading h1::before{
+      width: 150px;
+      left: 20px;
+      margin-top: 13px
+    }
+    .about-heading h1::after{
+      width: 150px;
+      right: 20px;
+      margin-top: 13px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    /* Style adjustments for viewports that meet the condition */
+     
+    .gallery-images li img{
+      margin: 0px auto;
+      display: block;
+    }
+    .clients-icon li img{
+      margin: 0px auto;
+      display: block;
+    }
+    .category-list button {
+      margin: 0px 5px;
+      font-size: 12px;
+    }
+    .men {
+      width: 50px;
+      height: 24px;
+    }
+    .women {
+      width: 65px;
+      height: 24px;
+    }
+    .kids {
+      width: 50px;
+      height: 24px;
+    }
+    .acceso {
+      width: 100px;
+      height: 24px;
+    }
+    .men::before {
+      width: 28px;
+    }
+    .men::after {
+      left: 42px;
+      width: 15px;
+    }
+    .women::after {
+      left: 58px;
+      width: 15px;
+    }
+    .kids::after {
+      left: 42px;
+      width: 15px;
+    }
+    .acceso::after {
+      width: 27px;
+    }
+    /*----------------------------
+      Inner Page: About us....
+    -----------------------------*/
+    .about-heading h1{
+      font-size: 18px;
+    }
+    .about-heading h1::before{
+      width: 100px;
+      left: 20px;
+      margin-top: 8px
+    }
+    .about-heading h1::after{
+      width: 100px;
+      right: 20px;
+      margin-top: 8px;
+    }
+    .about-article p {
+      font-size: 12px;
+    }
+    .mision p{
+      font-size: 12px;
+    }
+    .vision p{
+      font-size: 12px;
+    }
+    .product-heading p {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /* Style adjustments for viewports that meet the condition */
+    .category-list button {
+      margin: 0px 5px;
+      font-size: 11px;
+    }
+    .men {
+      width: 45px;
+      height: 22px;
+    }
+    .women {
+      width: 55px;
+      height: 22px;
+    }
+    .kids {
+      width: 45px;
+      height: 22px;
+    }
+    .acceso {
+      width: 85px;
+      height: 22px;
+    }
+    .men::before {
+      width: 25px;
+    }
+    .men::after {
+      left: 38px;
+      width: 14px;
+    }
+    .women::after {
+      left: 48px;
+      width: 15px;
+    }
+    .kids::after {
+      left: 38px;
+      width: 14px;
+    }
+    .acceso::after {
+      width: 25px;
+    }
+    /*----------------------------
+      Inner Page: About us....
+    -----------------------------*/
+    .about-heading h1::before{
+      width: 80px;
+      left: 20px;
+      margin-top: 10px
+    }
+    .about-heading h1::after{
+      width: 80px;
+      right: 20px;
+      margin-top: 10px;
+    }
+    
+}
+

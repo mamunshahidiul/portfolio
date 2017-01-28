@@ -1,0 +1,1544 @@
+
+/*** Media query for very small devices ***/
+@media(max-width: 359px){
+	.logo img{
+		margin: 0px auto;
+		display: block;
+	}
+	.name h2{
+		text-align: center;
+		font-size: 22px;
+	}
+	.header-right{	
+		margin-top: 0px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: none;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 14px;
+    	text-align: center;
+	}
+	.flex-caption-top{
+		height: 30px;
+		left: 3%;
+		top: 40%;
+		width: 230px;
+	}
+	.flex-caption-top h1{
+		font-size: 18px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 64%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 12px;
+	}
+	.welcome-area {
+		padding: 10px;
+	}
+	.welcome-area h1{
+		font-size: 20px;
+	}
+	.welcome-area p{
+		padding: 0px 0px;
+		text-align: center;
+		font-size: 13px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		text-align: center;
+		font-size: 11px;
+	}
+	.service-area-left h5{
+		font-size: 18px;
+		text-align: center;
+	}
+	.service-area-left p{
+		font-size: 11px;
+		text-align: center;
+	}
+	.service-area-left a{
+		font-size: 13px;
+		margin-top: 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.service-area-right{
+		border-left: 0px;
+	}
+	.resident img{
+		text-align: center;
+		margin: 0px auto;
+	}
+	.resident-inn{
+		left: 18px;
+		top: 35px;
+	}
+	.resident-inn h3{
+		font-size: 18px;
+	}
+	.service-inn-mid img{
+		margin: 20px auto;
+	}
+	.commerce-inn {
+    	left: 18px;
+		top: 130px;
+	}
+	.commerce-inn {
+    	font-size: 18px;
+	}
+	.mosque img{
+		margin: 0px auto;
+	}
+	.consult img{
+		margin: 0px auto;
+	}
+	.install img{
+		margin: 0px auto;
+	}
+	.pro-area-top h4{
+		font-size: 13px;
+	}
+	.pro-area-top h1{
+		font-size: 25px;
+	}
+	.programs button {
+	    font-size: 11px;
+	   	width: 52%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 98%;
+	}
+	.courses li img{
+		margin: 0px auto;
+		display: block;
+	}
+	.courses > li > h3{
+		font-size: 11px;
+		text-align: center;
+	}
+	.quick-contact h4{
+		font-size: 15px;
+	}
+	.quick-contact h2{
+		font-size: 22px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 15px;
+	}
+	.product-list > ul > li > a{
+		font-size: 11px;
+	}
+	.social-area h3{
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer-area-bottom-right p {
+		text-align: left;
+	}
+}
+/*** End 320px media query ***/
+/*** Media query for very small devices ***/
+@media(min-width: 360px){
+	.logo img{
+		margin: 0px auto;
+		display: block;
+	}
+	.name h2{
+		text-align: center;
+		font-size: 23px;
+	}
+	.header-right{	
+		margin-top: 0px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: none;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 14px;
+    	text-align: center;
+	}
+	.flex-caption-top{
+		height: 35px;
+		left: 3%;
+		top: 40%;
+		width: 255px;
+	}
+	.flex-caption-top h1{
+		font-size: 20px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 64%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 17px;
+	}
+	.welcome-area {
+		padding: 10px;
+	}
+	.welcome-area h1{
+		font-size: 20px;
+	}
+	.welcome-area p{
+		padding: 0px 0px;
+		text-align: center;
+		font-size: 13px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		text-align: center;
+		font-size: 12px;
+	}
+	.service-area-left h5{
+		font-size: 18px;
+		text-align: center;
+	}
+	.service-area-left p{
+		font-size: 11px;
+		text-align: center;
+	}
+	.service-area-left a{
+		font-size: 13px;
+		margin-top: 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.service-area-right{
+		border-left: 0px;
+	}
+	.resident img{
+		text-align: center;
+		margin: 0px auto;
+	}
+	.resident-inn{
+		left: 35px;
+		top: 35px;
+	}
+	.resident-inn h3{
+		font-size: 18px;
+	}
+	.service-inn-mid img{
+		margin: 20px auto;
+	}
+	.commerce-inn {
+    	left: 35px;
+		top: 130px;
+	}
+	.commerce-inn {
+    	font-size: 18px;
+	}
+	.mosque img{
+		margin: 0px auto;
+	}
+	.consult img{
+		margin: 0px auto;
+	}
+	.install img{
+		margin: 0px auto;
+	}
+	.pro-area-top h4{
+		font-size: 13px;
+	}
+	.pro-area-top h1{
+		font-size: 25px;
+	}
+	.programs button {
+	    font-size: 11px;
+	   	width: 52%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 98%;
+	}
+	.courses li img{
+		margin: 0px auto;
+		display: block;
+	}
+	.courses > li > h3{
+		font-size: 11px;
+		text-align: center;
+	}
+	.quick-contact h4{
+		font-size: 15px;
+	}
+	.quick-contact h2{
+		font-size: 22px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 15px;
+	}
+	.product-list > ul > li > a{
+		font-size: 11px;
+	}
+	.social-area h3{
+		font-size: 15px;
+		margin: 0px;
+	}
+	
+	.footer-area-bottom-right p {
+		text-align: left;
+	}
+}
+/*** End 360px media query ***/
+
+/*** Media query for small devices ***/
+@media(min-width: 480px){
+	.logo img{
+		margin: 0px auto;
+		display: block;
+	}
+	.name h2{
+		text-align: center;
+		font-size: 25px;
+	}
+	.header-right{	
+		margin-top: 0px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: none;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 14px;
+    	text-align: center;
+	}
+	.flex-caption-top{
+		height: 40px;
+		left: 3%;
+		top: 45%;
+		width: 320px;
+	}
+	.flex-caption-top h1{
+		font-size: 25px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 65%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 17px;
+	}
+	.welcome-area {
+		padding: 10px;
+	}
+	.welcome-area h1{
+		font-size: 20px;
+	}
+	.welcome-area p{
+		padding: 0px 0px;
+		text-align:center;
+		font-size: 13px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		text-align: center;
+		font-size: 15px;
+	}
+	.service-area-left h5{
+		font-size: 18px;
+		text-align: center;
+	}
+	.service-area-left p{
+		font-size: 11px;
+		text-align: center;
+	}
+	.service-area-left a{
+		font-size: 13px;
+		margin-top: 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.service-area-right{
+		border-left: 0px;
+	}
+	.resident img{
+		text-align: center;
+		margin: 0px auto;
+	}
+	.resident-inn{
+		left: 100px;
+		top: 35px;
+	}
+	.resident-inn h3{
+		font-size: 18px;
+	}
+	.service-inn-mid img{
+		margin: 20px auto;
+	}
+	.commerce-inn {
+    	left: 100px;
+		top: 130px;
+	}
+	.commerce-inn {
+    	font-size: 18px;
+	}
+	.mosque img{
+		margin: 0px auto;
+	}
+	.consult img{
+		margin: 0px auto;
+	}
+	.install img{
+		margin: 0px auto;
+	}
+	.pro-area-top h4{
+		font-size: 14px;
+	}
+	.pro-area-top h1{
+		font-size: 28px;
+	}
+	.programs button {
+	    font-size: 11px;
+	   	width: 52%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 98%;
+	}
+	.courses li img{
+		margin: 0px auto;
+		display: block;
+	}
+	.courses > li > h3{
+		font-size: 11px;
+		text-align: center;
+	}
+	.quick-contact h4{
+		font-size: 15px;
+	}
+	.quick-contact h2{
+		font-size: 22px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 15px;
+	}
+	.product-list > ul > li > a{
+		font-size: 11px;
+	}
+	.social-area h3{
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer-area-bottom-right p {
+		text-align: left;
+	}
+}
+/*** End 480px media query ***/
+/*** Media query for small devices ***/
+@media(min-width: 640px){
+
+	.logo img{
+		margin: 0px auto;
+		display: block;
+	}
+	.name h2{
+		text-align: center;
+		font-size: 25px;
+	}
+	.header-right{	
+		margin-top: 0px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: none;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 14px;
+    	text-align: center;
+	}
+	.flex-caption-top{
+		height: 52px;
+		left: 3%;
+		top: 45%;
+		width: 430px;
+	}
+	.flex-caption-top h1{
+		font-size: 33px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 65%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 23px;
+	}
+	.welcome-area {
+		padding: 20px;
+	}
+	.welcome-area h1{
+		font-size: 24px;
+	}
+	.welcome-area p{
+		padding: 0px 0px;
+		text-align: center;
+		font-size: 13px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		text-align: center;
+		font-size: 15px;
+	}
+	.service-area-left h5{
+		font-size: 18px;
+		text-align: center;
+	}
+	.service-area-left p{
+		font-size: 11px;
+		text-align: center;
+	}
+	.service-area-left a{
+		font-size: 13px;
+		margin-top: 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.service-area-right{
+		border-left: 0px;
+	}
+	.resident img{
+		text-align: center;
+		margin: 0px auto;
+	}
+	.resident-inn{
+		left: 175px;
+		top: 35px;
+	}
+	.resident-inn h3{
+		font-size: 18px;
+	}
+	.service-inn-mid img{
+		margin: 20px auto;
+	}
+	.commerce-inn {
+    	left: 170px;
+		top: 130px;
+	}
+	.commerce-inn {
+    	font-size: 18px;
+	}
+	.mosque img{
+		margin: 0px auto;
+	}
+	.consult img{
+		margin: 0px auto;
+	}
+	.install img{
+		margin: 0px auto;
+	}
+	.pro-area-top h4{
+		font-size: 14px;
+	}
+	.pro-area-top h1{
+		font-size: 28px;
+	}
+
+	.programs button {
+	    font-size: 11px;
+	   	width: 52%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width:45%;
+	}
+	.courses li img{
+		margin: 0px auto;
+		display: block;
+	}
+	.courses > li > h3{
+		font-size: 11px;
+		text-align: center;
+	}
+	.quick-contact h4{
+		font-size: 15px;
+	}
+	.quick-contact h2{
+		font-size: 22px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 15px;
+	}
+	.product-list > ul > li > a{
+		font-size: 11px;
+	}
+	.social-area h3{
+		font-size: 15px;
+		margin: 0px;
+	}
+	
+	.footer-area-bottom-right p {
+		text-align: left;
+	}
+	
+}
+/*** End 640px media query ***/
+
+/*** Media query for large devices ***/
+@media(min-width: 768px){
+	.name h2{
+		text-align: left;
+		font-size: 15px;
+		margin-top: 6px;
+	}
+	.header-right{	
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: right;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 12px;
+    	text-align: none;
+	}
+	.flex-caption-top{
+		height: 52px;
+		left: 3%;
+		top: 40%;
+		width: 455px;
+	}
+	.flex-caption-top h1{
+		font-size: 33px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 56%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 24px;
+	}
+	.welcome-area {
+		padding: 20px;
+	}
+	.welcome-area h1{
+		font-size: 24px;
+	}
+	.welcome-area p{
+		padding: 0px 0px;
+		text-align: center;
+		font-size: 13px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		text-align: right;
+		font-size: 15px;
+	}
+	.service-area-left h5{
+		font-size: 18px;
+		text-align: right;
+	}
+	.service-area-left p{
+		font-size: 11px;
+		text-align: right;
+	}
+	.service-area-left a{
+		font-size: 13px;
+		margin-top: 0px;
+		text-align: right;
+		width: 64%;
+	}
+	.service-inn-left{
+		padding-left: 0px;
+	}
+	.service-area-right{
+		border-left: 1px solid #bababa;
+	}
+	.resident{
+		text-align: center;
+	}
+	.resident-inn{
+		left: 10px;
+		top: 8px;
+	}
+	.resident-inn h3{
+		font-size: 12px;
+	}
+	.mosque{
+		margin-top: 15px;
+	}
+	.service-inn-mid{
+		padding-left: 0px;
+	}
+	.service-inn-mid img {
+    	margin: 0 auto;
+	}
+	.commerce-inn{
+		left: 10px;
+		top: 63px;
+	}
+	.commerce-inn h3{
+		font-size: 12px;
+	}
+	.service-inn-right{
+		padding-left: 0px;
+	}
+	.install{
+		margin-top: 15px;
+	}
+	.pro-area-top h4{
+		font-size: 15px;
+	}
+	.pro-area-top h1{
+		font-size: 32px;
+	}
+	.programs button {
+	    font-size: 12px;
+	   	width: 15%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 22%;
+	    margin: 10px;
+	}
+	.courses > li > h3{
+		font-size: 12px;
+		padding: 5px 0px;
+		margin: 8px 0px;
+		text-align: left;
+	}
+	.caption h1{
+		margin: 0px;
+		font-size: 26.7px;
+		margin-top: 25px;
+	}
+	.caption p{
+		font-size: 12px;
+		padding: 8px 90px;
+	}
+	.view-button{
+		font-size: 12px;
+		height: 38px;
+		line-height: 26px;
+		width: 120px;
+	}
+	.quick-contact h4{
+		font-size: 15px;
+	}
+	.quick-contact h2{
+		font-size: 22px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 15px;
+	}
+	.product-list > ul > li > a{
+		font-size: 11px;
+	}
+	.social-area h3{
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer-area-bottom-right p {
+		text-align: right;
+	}
+}
+/*** End 768px media query ***/ 
+
+/*** Media query for large devices ***/
+@media(min-width: 800px){
+	.name h2{
+		text-align: left;
+		font-size: 15px;
+		margin-top: 6px;
+	}
+	.header-right{	
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: right;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 12px;
+    	text-align: none;
+	}
+	.flex-caption-top{
+		height: 52px;
+		left: 3%;
+		top: 40%;
+		width: 455px;
+	}
+	.flex-caption-top h1{
+		font-size: 33px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 56%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 24px;
+	}
+	.welcome-area {
+		padding: 29px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		font-size: 15px;
+		text-align: right;
+	}
+	.service-area-left h5{
+		font-size: 18px;
+		text-align: right;
+	}
+	.service-area-left p{
+		font-size: 11px;
+		text-align: right;
+	}
+	.service-area-left a{
+		font-size: 13px;
+		margin-top: 0px;
+		text-align: right;
+	}
+	.service-inn-left{
+		padding-left: 0px;
+	}
+	.service-area-right{
+		border-left: 1px solid #bababa;
+	}
+	.resident{
+		text-align: center;
+	}
+	.resident-inn{
+		left: 5px;
+		top: 8px;
+	}
+	.resident-inn h3{
+		font-size: 13px;
+	}
+	.mosque{
+		margin-top: 15px;
+	}
+	.service-inn-mid{
+		padding-left: 0px;
+	}
+	.service-inn-mid img {
+    	margin: 0 auto;
+	}
+	.commerce-inn{
+		left: 0px;
+		top: 63px;
+	}
+	.commerce-inn h3{
+		font-size: 13px;
+	}
+	.service-inn-right{
+		padding-left: 0px;
+	}
+	.install{
+		margin-top: 15px;
+	}
+	.pro-area-top h4{
+		font-size: 15px;
+	}
+	.pro-area-top h1{
+		font-size: 33px;
+	}
+	.programs button {
+	    font-size: 12px;
+	   	width: 15%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 22%;
+	    margin: 10px;
+	}
+	.courses > li > h3{
+		font-size: 12px;
+		padding: 5px 0px;
+		margin: 8px 0px;
+		text-align: left;
+	}
+	.caption h1{
+		margin: 0px;
+		font-size: 26.7px;
+		margin-top: 25px;
+	}
+	.caption p{
+		font-size: 12px;
+		padding: 10px 100px;
+	}
+	.view-button{
+		font-size: 14px;
+		height: 43px;
+		line-height: 30px;
+		width: 132px;
+	}
+	.quick-contact h4{
+		font-size: 15px;
+	}
+	.quick-contact h2{
+		font-size: 22px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 15px;
+	}
+	.product-list > ul > li > a{
+		font-size: 11px;
+	}
+	.social-area h3{
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer-area-bottom-right p {
+		text-align: right;
+	}
+}
+/*** End 800px media query ***/ 
+
+/*** Media query for large devices ***/
+@media(min-width: 980px){
+	.name h2{
+		text-align: left;
+		font-size: 15px;
+		margin-top: 5px;
+	}
+	.header-right{	
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: right;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 12px;
+    	text-align: none;
+	}
+	.flex-caption-top{
+		height: 52px;
+		left: 3%;
+		top: 40%;
+		width: 455px;
+	}
+	.flex-caption-top h1{
+		font-size: 33px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 52%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 24px;
+	}
+	.welcome-area {
+		padding: 29px;
+	}
+	.welcome-area h1{
+		font-size: 24px;
+	}
+	.welcome-area p{
+		padding: 0px 0px;
+		text-align: center;
+		font-size: 13px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		font-size: 15px;
+		text-align: right;
+	}
+	.service-area-left h5{
+		font-size: 18px;
+		text-align: right;
+	}
+	.service-area-left p{
+		font-size: 11px;
+		text-align: right;
+	}
+	.service-area-left a{
+		font-size: 13px;
+		margin-top: 0px;
+		text-align: right;
+	}
+	.service-inn-left{
+		padding-left: 0px;
+	}
+	.service-area-right{
+		border-left: 1px solid #bababa;
+	}
+	.resident{
+		text-align: center;
+	}
+	.resident-inn{
+		left: 5px;
+		top: 8px;
+	}
+	.resident-inn h3{
+		font-size: 13px;
+	}
+	.mosque{
+		margin-top: 15px;
+	}
+	.service-inn-mid{
+		padding-left: 0px;
+	}
+	.service-inn-mid img {
+    	margin: 0 auto;
+	}
+	.commerce-inn{
+		left: 0px;
+		top: 63px;
+	}
+	.commerce-inn h3{
+		font-size: 13px;
+	}
+	.service-inn-right{
+		padding-left: 0px;
+	}
+	.install{
+		margin-top: 15px;
+	}
+	.pro-area-top h4{
+		font-size: 16px;
+	}
+	.pro-area-top h1{
+		font-size: 35px;
+	}
+	.programs button {
+	    font-size: 12px;
+	   	width: 15%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 22%;
+	    margin: 10px;
+	}
+	.courses > li > h3{
+		font-size: 12px;
+		padding: 5px 0px;
+		margin: 8px 0px;
+		text-align: left;
+	}
+	.caption h1{
+		margin: 0px;
+		font-size: 32.7px;
+		margin-top: 25px;
+	}
+	.caption h1{
+		margin: 0px;
+		font-size: 28.7px;
+		margin-top: 25px;
+	}
+	.caption p{
+		font-size: 14px;
+		padding: 20px 130px;
+	}
+	.view-button{
+		font-size: 15px;
+		height: 48px;
+		line-height: 34px;
+		width: 138px;
+	}
+	.quick-contact h4{
+		font-size: 15px;
+	}
+	.quick-contact h2{
+		font-size: 22px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 15px;
+	}
+	.product-list > ul > li > a{
+		font-size: 11px;
+	}
+	.social-area h3{
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer-area-bottom-right p {
+		text-align: right;
+	}
+}
+/*** End 980px media query ***/ 
+
+
+
+/*** Media query for large devices ***/
+@media(min-width: 992px){
+	.name h2{
+		text-align: left;
+		font-size: 26px;
+	}
+	.header-right{	
+		margin-top: 35px;
+		margin-bottom: 15px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: right;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 14px;
+    	text-align: none;
+	}
+	.flex-caption-top{
+		height: 57px;
+		left: 3%;
+		top: 40%;
+		width: 584px;
+	}
+	.flex-caption-top h1{
+		font-size: 40px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 52%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 30px;
+	}
+	.welcome-area {
+		padding: 50px;
+	}
+	.welcome-area h1{
+		font-size:28px;
+	}
+	.welcome-area p{
+		padding: 0px 0px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.service-area-left{
+		margin-top: 20px;
+	}
+	.service-area-left h1{
+		font-size: 20px;
+		text-align: right;
+	}
+	.service-area-left h5{
+		font-size: 20px;
+		text-align: right;
+	}
+	.service-area-left p{
+		font-size: 13px;
+		text-align: right;
+	}
+	.service-area-left a{
+		font-size: 14px;
+		margin-top: 0px;
+		text-align: right;
+		width: 52%;
+	}
+	.service-inn-left{
+		padding-left: 0px;
+	}
+	.service-area-right{
+		border-left: 1px solid #bababa;
+	}
+	.resident{
+		text-align: center;
+	}
+	.resident-inn{
+		top: 30px;
+		left: 20px;
+	}
+	.resident-inn h3{
+		font-size: 15px;
+	}
+	.mosque{
+		margin-top: 20px;
+	}
+	.service-inn-mid{
+		padding-left: 0px;
+	}
+	.service-inn-mid img {
+    	margin: 0 auto;
+	}
+	.commerce-inn{
+		top: 80px;
+		left: 20px;
+	}
+	.commerce-inn h3{
+		font-size: 15px;
+	}
+	.service-inn-right{
+		padding-left: 0px;
+	}
+	.install{
+		margin-top: 20px;
+	}
+	.pro-area-top h4{
+		font-size: 19px;
+	}
+	.pro-area-top h1{
+		font-size: 38px;
+	}
+	.programs button {
+	    font-size: 12px;
+	   	width: 12%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 22%;
+	    margin: 10px;
+	}
+	.courses > li > h3{
+		font-size: 12.61px;
+		padding: 5px 0px;
+		margin: 8px 0px;
+		text-align: left;
+	}
+	.caption h1{
+		margin: 0px;
+		font-size: 32.7px;
+		margin-top: 25px;
+	}
+	.caption p{
+		font-size: 14px;
+		padding: 20px 150px;
+	}
+	.view-button{
+		font-size: 18px;
+		height: 50px;
+		width: 143px;
+		line-height: 35px;
+	}
+	.quick-contact h4{
+		font-size: 17px;
+	}
+	.quick-contact h2{
+		font-size: 30px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 17px;
+	}
+	.product-list > ul > li > a{
+		font-size: 12px;
+	}
+	.social-area h3{
+		font-size: 17px;
+		margin: 0px;
+	}
+	.footer-area-bottom-right p {
+		text-align: right;
+	}
+}
+/*** End 992px media query ***/ 
+
+/*** Media query for large devices ***/
+@media(min-width: 1200px){
+	.name h2{
+		text-align: left;
+		font-size: 28px;
+	}
+	.header-right{	
+		margin-top: 35px;
+		margin-bottom: 15px;
+	}
+	.navbar-inverse .navbar-nav{
+		float: right;
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    	font-size: 14px;
+    	text-align: none;
+	}
+	.flex-caption-top{
+		height: 57px;
+		left: 3%;
+		top: 40%;
+		width: 584px;
+	}
+	.flex-caption-top h1{
+		font-size: 40px;
+		margin: 0;
+		padding: 5px 10px;
+	}
+	.flex-caption-bottom{
+		left: 4%;
+		position: absolute;
+		top: 50%;
+	}
+	.flex-caption-bottom p{ 
+		font-size: 30px;
+	}
+	.welcome-area {
+		padding: 50px;
+	}
+	.welcome-area h1{
+		font-size:30px;
+	}
+	.welcome-area p{
+		padding: 0px 80px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.service-area-left{
+		margin-top: 70px;
+	}
+	.service-area-left h1{
+		font-size: 20px;
+		text-align: right;
+	}
+	.service-area-left h5{
+		font-size: 20px;
+		text-align: right;
+	}
+	.service-area-left p{
+		font-size: 13px;
+		text-align: right;
+	}
+	.service-area-left a{
+		font-size: 14px;
+		margin-top: 20px;
+		text-align: right;
+		width: 41%;
+	}
+	.service-inn-left{
+		padding-left: 0px;
+	}
+	.service-area-right{
+		border-left: 1px solid #bababa;
+	}
+	.resident{
+		text-align: center;
+	}
+	.resident-inn{
+		top: 30px;
+		left: 30px;
+	}
+	.resident-inn h3{
+		font-size: 18px;
+	}
+	.mosque{
+		margin-top: 20px;
+	}
+	.service-inn-mid{
+		padding-left: 0px;
+	}
+	.service-inn-mid img {
+    	margin: 0 auto;
+	}
+	.commerce-inn{
+		top: 80px;
+		left: 30px;
+	}
+	.commerce-inn h3{
+		font-size: 18px;
+	}
+	.service-inn-right{
+		padding-left: 0px;
+	}
+	.install{
+		margin-top: 20px;
+	}
+	.pro-area-top h4{
+		font-size: 20px;
+	}
+	.pro-area-top h1{
+		font-size: 40px;
+	}
+	.programs button {
+	    font-size: 13.91px;
+	   	width: 12%;
+	}
+	.courses {
+	    margin-bottom: 15px;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+
+	.courses li {
+	    text-align: center;
+	    display: inline-block;
+	    width: 23%;
+	    margin: 10px;
+	}
+	.courses > li > h3{
+		font-size: 12.61px;
+		padding: 0px 6px;
+		margin: 8px 0px;
+		text-align: left;
+	}
+	.caption h1{
+		font-size: 32.7px;
+	}
+	.caption p{
+		font-size: 17px;
+		padding: 20px 150px;
+	}
+	.view-button{
+		font-size: 18px;
+		height: 50px;
+		width: 143px;
+		line-height: 35px;
+	}
+	.quick-contact h4{
+		font-size: 17px;
+	}
+	.quick-contact h2{
+		font-size: 30px;
+		margin: 0px;
+	}
+	.quick-contact p{
+		font-size: 11px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.product-list h3{
+		font-size: 17px;
+	}
+	.product-list > ul > li > a{
+		font-size: 12px;
+	}
+	.social-area h3{
+		font-size: 17px;
+		margin: 0px;
+	}
+	.footer-area-bottom-right p {
+		text-align: right;
+	}
+	
+}
+/*** End 1280px media query ***/ 

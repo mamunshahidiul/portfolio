@@ -1,0 +1,820 @@
+/* This CSS for small Mobile*/
+
+@media (max-width: 479px) {
+	
+header {
+	position:static;
+	}
+
+.sign-in-or-option, .or-option {
+  margin-top: 40px;
+  text-align: center;
+}
+.sign-part {
+  font-size: 12px;
+  left: 180px;
+  position: absolute;
+  top: 5px;
+  z-index: 1000;
+}
+.center-h2 {
+  text-align: center;
+}
+.navbar-toggle {
+	z-index: 9999;
+}
+.banner-inner h1 {
+  font-size: 83%;
+  top: 27%;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+  top: 30%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+left: 50%;
+margin-left: 0px;
+}.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+right: 50%;
+margin-right: 0px;
+}
+.carousel-area .carousel .fa-align {
+  margin-left: -10%;
+  padding-top: 15px;
+}
+.content h2 {
+  font-size: 20px;
+}
+.promo-part h4 {
+  font-size: 20px;
+}
+.promo-slider img {
+  margin-left: 35%;
+}
+.promo-slider p {
+  font-size: 13px;
+  margin-left: 23%;
+}
+.content-bloger-img img {
+  margin:0px auto;
+  width: 30% !important;
+}
+.signinbox{
+  margin-top: 15px;
+}
+
+.social-box{
+  text-align: center;
+}
+
+.cleft{
+  float: none;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.cright{
+  float: none;
+  width: 100%;
+}
+
+.backtotop{
+  left: 5%;
+}
+/*************Architect Projects Start ***********/
+.find-pro-margin{
+    margin-top: 30px;
+}
+.activities-pro-center {
+  margin-left: 10%;
+}
+/*************Architect Projects End ***********/
+/*************Sign In Page Start ***********/
+.facebook-connect-link a {
+  font-size: 13px;
+  padding: 15px 18px 15px 10px;
+}
+.facebook-connect-link-sign-in a {
+  padding: 15px 5px 15px 10px;
+}
+.facebook-connect-link {
+  margin-top: 45px !important;
+  text-align: center;
+}
+.facebook-connect-link-sign-in {
+  margin-top: 80px;
+  text-align: center;
+}
+.sign-in-form {
+  text-align: center;
+}
+/*************Sign In Page  End***********/
+/*************Sign Up Page  Start***********/
+.sign-up-form {
+  text-align: center;
+}
+.sign-up-part h1 {
+  font-size: 15px;
+}
+.sign-up-form input[type="email"],.sign-up-form input[type="text"], .sign-up-form input[type="password"] {
+  width: 100%;
+}
+.sign-up-form p {
+  text-align: center;
+}
+.sign-up-form input[type="submit"] {
+  height: 40px;
+}
+.facebook-connect-link a {
+  font-size: 8px;
+  padding: 10px 5px;
+}
+.facebook-connect-link i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.or-option h7 {
+  margin-left: -60px;
+}
+.sign-in-or-option h7 {
+  margin-left: -20px;
+}
+
+/*************Sign Up Page  End***********/
+
+/*************FAQ Page  Start***********/
+.faq h1 {
+  font-size: 22px;
+}
+.text-border {
+  border:none;
+}
+.btn-own {
+  width: 65%;
+}
+/*************FAQ Page  End***********/
+.viw {
+  font-size: 13px;
+  width: 44%;
+}
+.cright {
+  text-align: center;
+}
+
+.top-designer-image {
+		float:none;
+		text-align:center;
+		}
+		
+		.jobs-link a  {
+			font-size:12px;
+			}
+			
+		.jobs-link ul {
+			padding:0px;
+			}
+			
+/* Project Page */
+.project-container {
+	margin-top:40px;
+	}
+	
+.about-us-head {
+	margin-top:40px;
+	}
+/* Project Page End */
+
+/* Header Clear */
+
+.archi-top-clear {
+	margin-top:0px;
+	}
+  .activities-pro-name {
+  text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 480px) {
+	
+	header {
+	position:static;
+	}
+	
+.or-option {
+  margin-top: 40px;
+  text-align: center;
+}
+.sign-in-or-option {
+  margin-top: 40px;
+  text-align: center;
+}
+.center-h2 {
+  text-align: center;
+}
+.sign-part {
+  font-size: 12px;
+  left: 71%;
+  position: absolute;
+  top: 8px;
+  width: auto;
+  z-index: 1000;
+}
+.banner-inner h1 {
+  font-size: 125%;
+  top: 33%;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+  top: 35%;
+}
+.carousel-area .carousel .fa-align {
+  margin-left: -5%;
+  padding-top: 15px;
+}
+.content h2 {
+  font-size: 20px;
+}
+.promo-slider img {
+  margin-left: 40%;
+}
+
+.promo-part h4 {
+  font-size: 20px;
+}
+.content-comment-text {
+  margin-left: -5%;
+  margin-top: 15px;
+}
+.carousel-area .carousel img {
+  margin-left: 45%;
+}
+.content-bloger-img img {
+  margin:0px auto;
+  width: 30% !important;
+}
+.content-comment-text {
+  text-align: center;
+}
+.footer-menu .list-inline {
+  margin-left: 0%;
+
+}
+.footer-solial ul {
+  margin-left: 0%;
+}
+/*************Architect Projects Start ***********/
+.find-pro-margin{
+    margin-top: 30px;
+}
+.activities-pro-center {
+  margin-left: 26%;
+}
+.activities-pro-name {
+  text-align: center;
+}
+/*************Architect Projects End ***********/
+/*************Sign In Page Start ***********/
+.facebook-connect-link-sign-in {
+  margin-top: 80px;
+  text-align: center;
+}
+.facebook-connect-link-sign-in a {
+padding: 15px 25px 15px 15px;
+}
+.facebook-connect-link {
+  margin-top: 50px;
+  text-align: center;
+}
+.sign-in-form {
+  text-align: center;
+}
+.sign-up-form input[type="email"],.sign-up-form input[type="text"], .sign-up-form input[type="password"] {
+  width: 100%;
+}
+.sign-up-form p {
+  text-align: center;
+}
+.sign-up-form input[type="submit"] {
+  height: 40px;
+}
+.facebook-connect-link a {
+  font-size: 13px;
+  padding: 15px 45px 15px 25px;
+}
+.or-option h7 {
+  margin-left: -60px;
+}
+.sign-in-or-option h7 {
+  margin-left: -20px;
+}
+/*************Sign In Page  End***********/
+
+/*************FAQ Page  Start***********/
+.faq h1 {
+  font-size: 22px;
+}
+.btn-own {
+  width: 50%;
+}
+
+
+/*************FAQ Page  End***********/
+
+/* Project Page */
+.project-container {
+	margin-top:40px;
+	}
+	
+.about-us-head {
+	margin-top:40px;
+	}
+
+/* Project Page End */
+
+/* Header Clear */
+
+.archi-top-clear {
+	margin-top:0px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* This CSS for Tablet */
+@media (min-width: 768px) {
+	
+	header {
+	position:fixed;
+	}
+	
+	
+.sign-in-or-option, .or-option {
+		text-align:justify;
+		}
+.sign-in-or-option {
+  margin-top: 185px;
+}
+.sign-part {
+  left: 84%;
+  top: -6px;
+}
+ .promo-arrow img{
+ margin-top: 200%; 
+}
+
+.promo-slider i{
+font-size:50px;   
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  top: 40%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+left: 50%;
+margin-left: 0px;
+}.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+right: 50%;
+margin-right: 0px;
+}
+.highlights{
+  left: 4%;
+  position: relative;
+}
+
+.promo-slider p {
+    font-weight: bold;
+    font-size: 14px;
+    
+    text-align: center;
+}
+.sign-part a {
+  font-size: 9px;
+}
+.sign_up {
+  padding-left: 0px;
+}
+.banner-inner h1 {
+  font-size: 30px;
+  top: 35%;
+}
+
+.promo-slider img {
+  margin-left: 32%;
+}
+.promo-part h4 {
+  font-size: 30px;
+}
+.content-bloger-img img {
+  margin-left: 0%;
+  margin-top: 10px;
+  width: 80% !important;
+}
+.content-comment-text p {
+  text-align: justify;
+}
+.carousel-area .carousel .fa-align {
+  margin-left: -25px;
+  padding-top: 15px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.nav > li > a {
+padding: 10px 2px;
+}
+.navbar-inverse .navbar-nav > li > a {
+font-size: 10px;
+}
+.s_font {
+font-size: 9px;
+}
+
+.promo-part h4{
+  margin-top: 75px;
+  margin-bottom: 45px;
+
+}
+
+   .contact-bg a, .follow-bg a {
+	 font-size:13px; 
+	  }
+	  
+	 .archi-project-body .overlay a i {
+	padding:0px 3px;
+	}
+	
+	.archi-project-body .overlay a {
+		top:15%;
+		}
+		
+	.top-designer-details {
+		text-align:left;
+		}
+
+	
+	  
+/*************Architect Projects Start ***********/
+.viw {
+  font-size: 12px;
+  width: 40%;
+}
+.activities-pro-center {
+  margin-left: 0%;
+}
+.activities-pro-name {
+  text-align: left;
+}
+/*************Architect Projects End ***********/
+/*************Sign In Page Start ***********/
+.facebook-connect-link a {
+  font-size: 14px;
+  padding: 15px 30px 15px 20px;
+}
+
+.facebook-connect-link-sign-in {
+margin-top: 250px;
+}
+.facebook-connect-link-sign-in a {
+padding: 15px 25px 15px 15px;
+}
+
+/*************Sign In Page  End***********/
+/*************Sign Up Page  Start***********/
+.sign-up-form input[type="email"], .sign-up-form input[type="submit"] {
+  height: 40px;
+  width: 98%;
+}
+.sign-up-form input[type="text"], .sign-up-form input[type="password"] {
+  height: 40px;
+  margin-right: 1px;
+  padding-left: 10px;
+  width: 48%;
+}
+.sign-up-form p {
+  margin-right: 20px;
+  text-align: right;
+}
+.sign-up-margin {
+  padding-left: 50px;
+}
+.facebook-connect-link a {
+  font-size: 10px;
+  padding:15px 5px;
+}
+.facebook-connect-link i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.facebook-connect-link {
+  margin-top: 32%;
+}
+.or-option h7 {
+  margin-left: -20px;
+}
+.sign-in-or-option h7 {
+  margin-left: -20px;
+}
+/*************Sign Up Page  End***********/
+
+/*************FAQ Page  Start***********/
+.faq h1 {
+  font-size: 30px;
+}
+.btn-own {
+  width: 40%;
+}
+.dropdown.last-child.mobile-dropdown-menu {
+  display: none;
+}
+/*************FAQ Page  End***********/
+
+/* Project Page */
+.project-container {
+	margin-top:105px;
+	}
+	
+.about-us-head {
+	margin-top:105px;
+	}
+/* Project Page End */
+
+/* Header Clear */
+
+.archi-top-clear {
+	margin-top:55px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This CSS for Large Devices */
+@media (min-width: 992px) {
+	
+	.sign-in-or-option, .or-option {
+		text-align:justify;
+		}
+		
+.nav > li > a {
+ padding: 10px 7px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 10px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  top: 44%;
+}
+.s_font {
+  font-size: 11px;
+}
+.sign-part a {
+  font-size: 13px;
+}
+.sign_up {
+  padding-left: 5px;
+}
+.banner-inner h1 {
+  font-size: 38px;
+  top: 35%;
+}
+.promo-slider {
+  
+}
+.carousel-area .carousel .fa-align {
+  margin-left: -25px;
+  padding-top: 15px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.content-bloger-img img {
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 90% !important;
+}
+.promo-arrow img {
+  margin-top: 63%;
+}
+/*************Architect Projects Start ***********/
+.overview-menu li {
+  padding: 2px 1px;
+}
+/*************Architect Projects End ***********/
+/*************Sign In Page Start ***********/
+.facebook-connect-link a{
+  font-size: 15px;
+  padding: 15px 45px 15px 25px;
+}
+
+.facebook-connect-link {
+margin-top: 250px;
+}
+/*************Sign In Page  End***********/
+/*************Sign Up Page  Start***********/
+.sign-up-form input[type="text"], .sign-up-form input[type="password"] {
+    width: 45%;
+}
+.sign-up-form input[type="email"],.sign-up-form input[type="submit"] {
+    width: 94%;
+    height: 40px;
+}
+.sign-up-form p {
+  margin-right: 30px;
+  text-align: right;
+}
+.facebook-connect-link {
+  margin-top: 24%;
+}
+.facebook-connect-link a {
+  font-size: 13px;
+  padding: 15px 20px 15px 25px;
+}
+.or-option h7 {
+  margin-left: -20px;
+}
+.sign-in-or-option {
+  margin-top: 160px;
+}
+.sign-in-or-option h7 {
+  margin-left: -20px;
+}
+/*************Sign Up Page  End***********/
+
+/*************FAQ Page  Start***********/
+.faq h1 {
+  font-size: 30px;
+}
+.btn-own {
+  width: 35%;
+}
+
+.dropdown.last-child.mobile-dropdown-menu {
+  display: none;
+}
+/*************FAQ Page  End***********/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+	
+	.sign-in-or-option, .or-option {
+		text-align:justify;
+		}
+    .sign-part {
+  left: 81%;
+  top: -6px;
+}
+		
+.nav > li > a {
+  padding: 10px 9px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	font-size: 14px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  top: 44%;
+}
+.s_font {
+  font-size: 11px;
+}
+.sign-part a {
+  font-size: 13px;
+}
+.sign_up {
+  padding-left: 45px;
+}
+.banner-inner h1 {
+  font-size: 45px;
+  top: 35%;
+}
+.promo-slider {
+  
+}
+.carousel-area .carousel .fa-align {
+  margin-left: -25px;
+  padding-top: 15px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.content-bloger-img img{
+	margin-left: 0px;
+  width: 80% !important;
+}
+
+.promo-arrow img{
+ margin-top: 80%; 
+}
+
+  .contact-bg a, .follow-bg a {
+	 font-size:15px; 
+	  }
+	  
+   .archi-project-body .overlay a i {
+	padding:0px 8px;
+	}
+	
+	.viw {
+		width:30%;
+		}
+		
+		.archi-project-body .overlay a {
+		top:20%;
+		}
+	  
+	  
+/*************Architect Projects Start ***********/
+.overview-menu li {
+  padding: 2px 8px;
+}
+/*************Architect Projects End ***********/
+/*************Sign In Page Start ***********/
+.facebook-connect-link a{
+  font-size: 15px;
+  padding: 15px 45px 15px 25px;
+}
+
+.facebook-connect-link {
+margin-top: 18%;
+}
+/*************Sign In Page  End***********/
+/*************Sign Up Page  Start***********/
+.sign-up-form input[type="text"], .sign-up-form input[type="password"] {
+    width: 47%;
+}
+.sign-up-form input[type="email"], .sign-up-form input[type="submit"] {
+  height: 40px;
+  width: 97%;
+}
+.sign-up-form p {
+  margin-right: 20px;
+}
+.or-option h7 {
+  margin-left: -20px;
+}
+.sign-in-or-option h7 {
+  margin-left: -20px;
+}
+/*************Sign Up Page  End***********/
+
+/*************FAQ Page  Start***********/
+.faq h1 {
+  font-size: 30px;
+}
+.btn-own {
+  width: 30%;
+}
+.dropdown.last-child.mobile-dropdown-menu {
+  display: none;
+}
+/*************FAQ Page  End***********/
+
+}
+

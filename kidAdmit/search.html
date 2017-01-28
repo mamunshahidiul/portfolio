@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>KidAdmit Search</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+      <!-- Palce fontawesome style directory-->
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+      <!-- jqPagination styles -->
+      <link rel="stylesheet" href="css/jqpagination.css" /
+
+      <!-- Palce Bootstrap style directory-->
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      
+      <!-- Palce Main style directory-->
+      <link rel="stylesheet" href="css/main.css">
+
+      <!-- Palce Main style directory-->
+      <link rel="stylesheet" href="css/responsive.css">
+     
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <header id="header">
+      <div class="container-fluid search-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 header-top search-header-top">
+              <div class="col-md-8 col-sm-6 col-xs-12 header-top-left search-header-left">
+                <a href="index.html"><img src="img/search_logo.png" alt="Logo" class="img-responsive"></a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 search-header-right pull-right">
+                <div class="col-md-7 col-sm-7 col-xs-12 search-login">
+                  <ul class="list-unstyled">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">Sign Up</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal2">Log in</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12 padd-left-off">
+                  <div class="school-list ">
+                    <a href="#" class="school-list-btn search-school-list">List Your School</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Data Modal For Sign Up Added Here -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sign Up for DUGSI PRO</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="signup-form">
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i></span>
+                          <input class="form-control" type="text" placeholder="Email">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Password">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Retype Password">
+                        </div>
+                        <div class="sign-up">
+                          <a href="#" class="sign-btn">Sign Up</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="or">
+                      <div class="or-inner">
+                        <p>OR</p>
+                      </div>
+                    </div>
+                    <div class="share-area">
+                      <div class="share">
+                        <button class="btn btn-default fb-btn" type="button">
+                          <i class="fa fa-facebook-square"></i>
+                          Sign up with Facebook
+                        </button>
+                      </div>
+                      <div class="share">
+                        <button class="btn btn-default google-btn" type="button">
+                          <i class="fa fa-google-plus-square"></i>
+                          Sign up with Google
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- Data Modal For Sign In Added Here -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sign In for DUGSI PRO</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="signup-form">
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Password">
+                        </div>
+                        <div class="sign-up">
+                          <a href="#" class="sign-btn">Sign In</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="or">
+                      <div class="or-inner sign-in-or">
+                        <p>OR</p>
+                      </div>
+                    </div>
+                    <div class="share-area">
+                      <div class="share">
+                        <button class="btn btn-default fb-btn" type="button">
+                          <i class="fa fa-facebook-square"></i>
+                          Sign In with Facebook
+                        </button>
+                      </div>
+                      <div class="share">
+                        <button class="btn btn-default google-btn" type="button">
+                          <i class="fa fa-google-plus-square"></i>
+                          Sign In with Google
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12 map-area">
+            <!-- SATRT MAP SECTION -->
+            <div class="google-maps">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804" frameborder="0" style="border:0"></iframe>
+            </div>
+            <!-- END MAP SECTION-->
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 search-right">
+            <div class="col-md-11 col-sm-11 col-xs-12 filter_search_head">
+              <div class="col-md-6 col-sm-6 col-xs-5 filter">
+                <button class="btn btn-primary filter-btn">
+                  <i class="fa fa-plus-square-o"></i> Filters</button>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-7 search-search">
+                <div class="input-group stylish-input-group pull-right">
+                  <input type="text" class="form-control" >
+                  <span class="input-group-addon search-input-group-addon">
+                    <button type="submit">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>  
+                  </span>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="location-list">
+              <div class="col-md-11 col-sm-12 col-xs-12 locate-1">
+                <div class="col-md-1 col-sm-1 col-xs-1 locate-num">
+                  <ul>
+                    <li><i class="fa fa-map-marker"></i></li>
+                    <li>1</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <a href="#">
+                    <div class="home">
+                      <i class="fa fa-home"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-7 programm">
+                  <a href="#"><h3>Beverly Hills Preschool Program (N. Beverly)</h3></a>
+                  <ul>
+                    <li><a href="#"><i class="fa fa-crosshairs"></i><span>Daycare, Preschool</span></a></li>
+                    <li><a href="#"><i class="fa fa-shield"></i><span>Play Based</span></a></li>
+                    <li><a href="#"><i class="fa fa-clock-o"></i><span>Part Time</span></a></li>
+                    <li><a href="#"><i class="fa fa-child"></i><span>3 Years</span></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-1 bookmark">
+                  <a href="#"><i class="fa fa-bookmark"></i></a>
+                </div>
+              </div>
+              <div class="col-md-11 col-sm-12 col-xs-12 locate-2">
+                <div class="col-md-1 col-sm-1 col-xs-1 locate-num">
+                  <ul>
+                    <li><i class="fa fa-map-marker"></i></li>
+                    <li>2</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <a href="#">
+                    <div class="home">
+                      <i class="fa fa-home"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-7 programm">
+                  <a href="#"><h3>Beverly Hills Preschool Program (N. Beverly)</h3></a>
+                  <ul>
+                    <li><a href="#"><i class="fa fa-crosshairs"></i><span>Daycare, Preschool</span></a></li>
+                    <li><a href="#"><i class="fa fa-shield"></i><span>Play Based</span></a></li>
+                    <li><a href="#"><i class="fa fa-clock-o"></i><span>Part Time</span></a></li>
+                    <li><a href="#"><i class="fa fa-child"></i><span>3 Years</span></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-1 bookmark">
+                  <a href="#"><i class="fa fa-bookmark"></i></a>
+                </div>
+              </div>
+              <div class="col-md-11 col-sm-12 col-xs-12 locate-2">
+                <div class="col-md-1 col-sm-1 col-xs-1 locate-num">
+                  <ul>
+                    <li><i class="fa fa-map-marker"></i></li>
+                    <li>3</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <a href="#">
+                    <div class="home">
+                      <i class="fa fa-home"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-7 programm">
+                  <a href="#"><h3>Beverly Hills Preschool Program (N. Beverly)</h3></a>
+                  <ul>
+                    <li><a href="#"><i class="fa fa-crosshairs"></i><span>Daycare, Preschool</span></a></li>
+                    <li><a href="#"><i class="fa fa-shield"></i><span>Play Based</span></a></li>
+                    <li><a href="#"><i class="fa fa-clock-o"></i><span>Part Time</span></a></li>
+                    <li><a href="#"><i class="fa fa-child"></i><span>3 Years</span></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-1 bookmark">
+                  <a href="#"><i class="fa fa-bookmark"></i></a>
+                </div>
+              </div>
+              <div class="col-md-11 col-sm-12 col-xs-12 locate-2">
+                <div class="col-md-1 col-sm-1 col-xs-1 locate-num">
+                  <ul>
+                    <li><i class="fa fa-map-marker"></i></li>
+                    <li>4</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <a href="#">
+                    <div class="home">
+                      <i class="fa fa-home"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-7 programm">
+                  <a href="#"><h3>Beverly Hills Preschool Program (N. Beverly)</h3></a>
+                  <ul>
+                    <li><a href="#"><i class="fa fa-crosshairs"></i><span>Daycare, Preschool</span></a></li>
+                    <li><a href="#"><i class="fa fa-shield"></i><span>Play Based</span></a></li>
+                    <li><a href="#"><i class="fa fa-clock-o"></i><span>Part Time</span></a></li>
+                    <li><a href="#"><i class="fa fa-child"></i><span>3 Years</span></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-1 bookmark">
+                  <a href="#"><i class="fa fa-bookmark"></i></a>
+                </div>
+              </div>
+              <div class="col-md-11 col-sm-12 col-xs-12 locate-2">
+                <div class="col-md-1 col-sm-1 col-xs-1 locate-num">
+                  <ul>
+                    <li><i class="fa fa-map-marker"></i></li>
+                    <li>5</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <a href="#">
+                    <div class="home">
+                      <i class="fa fa-home"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-7 programm">
+                  <a href="#"><h3>Beverly Hills Preschool Program (N. Beverly)</h3></a>
+                  <ul>
+                    <li><a href="#"><i class="fa fa-crosshairs"></i><span>Daycare, Preschool</span></a></li>
+                    <li><a href="#"><i class="fa fa-shield"></i><span>Play Based</span></a></li>
+                    <li><a href="#"><i class="fa fa-clock-o"></i><span>Part Time</span></a></li>
+                    <li><a href="#"><i class="fa fa-child"></i><span>3 Years</span></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-1 bookmark">
+                  <a href="#"><i class="fa fa-bookmark"></i></a>
+                </div>
+              </div>
+              <div class="col-md-11 page-part">
+                <div class="pagination">
+                  <a href="#" class="previous" data-action="previous">&lsaquo;</a>
+                  <input type="text" readonly="readonly" data-max-page="15" />
+                  <a href="#" class="next" data-action="next">&rsaquo;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+    
+    <!-- End your site or application content here -->
+
+    <!-- Palce jQuery-1.11.3 directory-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+     <!-- Palce Bootstraps directory-->
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Palce Our Customize Javascript directory-->
+    <script src="js/main.js"></script>
+
+    <!-- Palce Our Pagination Javascript directory-->
+    <script src="js/jquery.jqpagination.min.js"></script>
+    <script src="js/jquery.jqpagination.js"></script>
+    <script>
+        $(document).ready(function() {
+          $('.pagination').jqPagination({
+            link_string : '/?page={page_number}',
+            max_page  : 40,
+            paged   : function(page) {
+              $('.log').prepend('<li>Requested page ' + page + '</li>');
+            }
+          });
+
+        });
+    </script>
+  
+    </body>
+</html>

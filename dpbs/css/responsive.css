@@ -1,0 +1,407 @@
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+    /* Style adjustments for viewports that meet the condition */
+    .links ul li {
+      padding: 0 16px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    /* Style adjustments for viewports that meet the condition */
+    .navbar-default .navbar-nav > li > a {
+      padding-right: 15px;
+    }
+    .nbs-flexisel-nav-right {    
+      right: -48px;
+      top: 30px !important;
+    }
+    .nbs-flexisel-nav-left {    
+      top: 30px !important;
+    }
+    .links ul li {
+      padding: 0 25px;
+    }
+    .important-message h3 {
+      font-size: 24px;
+    }
+    .important-message span {
+      font-size: 18px;
+    }
+    .important-message p {
+      font-size: 13px;
+    }
+    .dpbs-heading h2 {
+      font-size: 18px;
+    }
+    .chairman-heading h3 {
+      font-size: 13px;
+    }
+    .dpbs-details p {
+      font-size: 12px;
+    }
+    .events-right p {
+     font-size: 12px;
+    }
+    .chairman-inner h4 {
+      font-size: 11px;
+    }
+    .chairman-inner h3 {
+      font-size: 14px;
+    }
+    .connection h3 {
+      font-size: 13px;
+    }
+    .local-offices h3 {
+      font-size: 13px;
+    }
+    .helpline h3 {
+      font-size: 13px;
+    }
+    .media-head a {
+      font-size: 18px;
+    }
+    .links-head a {
+      font-size: 18px;
+    }
+    .visitors-btn {
+      font-size: 23px;
+    }
+    .hit-btn {
+      font-size: 23px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+    
+    .navbar-default .navbar-nav > li > a {
+      padding-right: 15px;
+    }
+    .nbs-flexisel-nav-right {    
+      right: -48px;
+      top: 30px !important;
+    }
+    .nbs-flexisel-nav-left {    
+      top: 30px !important;
+    }
+    .links ul li {
+      padding: 0 25px;
+    }
+    .important-message h3 {
+      font-size: 24px;
+    }
+    .important-message span {
+      font-size: 18px;
+    }
+    .important-message p {
+      font-size: 13px;
+    }
+    .dpbs-heading h2 {
+      font-size: 18px;
+    }
+    .chairman-heading h3 {
+      font-size: 13px;
+    }
+    .dpbs-details p {
+      font-size: 12px;
+    }
+    .events-right p {
+     font-size: 12px;
+    }
+    .chairman-inner h4 {
+      font-size: 11px;
+    }
+    .chairman-inner h3 {
+      font-size: 14px;
+    }
+    .connection h3 {
+      font-size: 13px;
+    }
+    .local-offices h3 {
+      font-size: 13px;
+    }
+    .helpline h3 {
+      font-size: 13px;
+    }
+    .media-head a {
+      font-size: 18px;
+    }
+    .links-head a {
+      font-size: 18px;
+    }
+    .visitors-btn {
+      font-size: 23px;
+    }
+    .hit-btn {
+      font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+    .container{
+      margin-bottom: 0px;
+      margin: 0px auto;
+      max-width: 738px;
+    }
+    .navbar-default .navbar-nav > li > a {
+      padding-right: 15px;
+    }
+    .nbs-flexisel-nav-right {    
+      right: -48px;
+      top: 30px !important;
+    }
+    .nbs-flexisel-nav-left {    
+      top: 30px !important;
+    }
+    .links ul li {
+      padding: 0 25px;
+    }
+    .important-message h3 {
+      font-size: 24px;
+    }
+    .important-message span {
+      font-size: 18px;
+    }
+    .important-message p {
+      font-size: 13px;
+    }
+    .dpbs-heading h2 {
+      font-size: 18px;
+    }
+    .chairman-heading h3 {
+      font-size: 13px;
+    }
+    .dpbs-details p {
+      font-size: 12px;
+    }
+    .events-right p {
+     font-size: 12px;
+    }
+    .chairman-inner h4 {
+      font-size: 11px;
+    }
+    .chairman-inner h3 {
+      font-size: 14px;
+    }
+    .connection h3 {
+      font-size: 13px;
+    }
+    .local-offices h3 {
+      font-size: 13px;
+    }
+    .helpline h3 {
+      font-size: 13px;
+    }
+    .media-head a {
+      font-size: 18px;
+    }
+    .links-head a {
+      font-size: 18px;
+    }
+    .visitors-btn {
+      font-size: 23px;
+    }
+    .hit-btn {
+      font-size: 23px;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    /* Style adjustments for viewports that meet the condition */
+   .header-top-left img {
+      margin: 10px auto;
+    }
+    .header-top-right h4 {
+      text-align: center;
+    }
+    .header-top-right {
+      margin-top: 0px;
+    }
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+      background: none;
+    }
+    .main-content-left {
+      padding-right: 0;
+    }
+    .chairman {
+      padding-right: 0;
+    }
+    .manager {
+      padding-left: 0;
+      margin-top: 15px;
+    }
+    .main-content-right {
+      padding-left: 0;
+      margin-top: 15px;
+    }
+    .chairman-heading h3 {
+      text-align: center;
+    }
+    .chairman-heading{
+      background: none;
+    }
+    .chair{
+      background: url(../img/history-head-bg.png) no-repeat;
+    }
+    .footer-left {
+      padding-left: 0;
+    }
+ }     
+@media only screen and (max-width: 640px) {
+    /* Style adjustments for viewports that meet the condition */
+    .language ul {
+      display: block;
+      float: none;
+      margin: 5px auto;
+      width: 29%;
+    }
+    .links ul li {
+      padding: 0 12px;
+    }
+    .visitors h4 {
+      text-align: right;
+    }
+    .visitors-btn {
+      float: right;
+    }
+    .nbs-flexisel-nav-right {    
+      right: -48px;
+      top: 30px !important;
+    }
+    .nbs-flexisel-nav-left {    
+      top: 30px !important;
+    }
+    .events-left {
+      width: 20%;
+    }
+    .all-events {
+      float: right;
+      width: 40%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+    .language ul {
+      display: block;
+      float: none;
+      margin: 5px auto;
+      width: 36%;
+    }
+    .latest-news h3 {
+      font-size: 11px;
+    }
+    .nbs-flexisel-nav-right {    
+      right: -48px;
+      top: 30px !important;
+    }
+    .nbs-flexisel-nav-left {    
+      top: 30px !important;
+    }
+}
+@media only screen and (max-width: 360px) {
+    /* Style adjustments for viewports that meet the condition */
+    .language ul {
+      display: block;
+      float: none;
+      margin: 5px auto;
+      width: 50%;
+    }
+    .header-top-right h4 {
+      font-size: 12px;
+    }
+    .latest-news h3 {
+      font-size: 11px;
+      margin: 2px 0 0;
+    }
+    .visitors h4 {
+      font-size: 16px;
+    }
+    .hit-btn {
+      width: 138px;
+    }
+    .visitors-btn {
+      width: 138px;
+    }
+    .important-message p {
+      font-size: 14px;
+    }
+    .important-message h3 {
+      font-size: 25px;
+    }
+    .important-message span {
+      font-size: 20px;
+    }
+    .nbs-flexisel-nav-right {    
+      right: -48px;
+      top: 40px !important;
+    }
+    .nbs-flexisel-nav-left {    
+      top: 40px !important;
+    }
+    .events-left {
+     width: 33%;
+   }
+   .all-events {
+    float: right;
+    width: 64%;
+   }
+}
+@media only screen and (max-width: 359px) {
+    /* Style adjustments for viewports that meet the condition */
+    .language ul {
+      display: block;
+      float: none;
+      margin: 5px auto;
+      width: 57%;
+    }
+    .header-top-right h4 {
+      font-size: 12px;
+    }
+    .latest-news h3 {
+      font-size: 11px;
+      margin: 2px 0 0;
+    }
+    .visitors h4 {
+      font-size: 16px;
+    }
+    .hit-btn {
+      width: 125px;
+    }
+    .visitors-btn {
+      width: 125px;
+    }
+    .important-message p {
+      font-size: 14px;
+    }
+    .important-message h3 {
+      font-size: 25px;
+    }
+    .important-message span {
+      font-size: 20px;
+    }
+    .nbs-flexisel-nav-right {
+      top: 25px !important;
+    }
+    .nbs-flexisel-nav-left {
+      top: 25px !important;
+    }
+    .events-left {
+     width: 33%;
+   }
+   .all-events {
+    float: right;
+    width: 64%;
+  }
+}
+

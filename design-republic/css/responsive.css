@@ -1,0 +1,2538 @@
+
+/* This CSS for small Mobile*/
+@media (max-width: 359px) {
+ .signup-button button{
+  width: 50%;
+}
+
+.alternative-button button{
+  font-size: 10px;
+}
+
+.logo img{
+    float:none;
+    margin: 0px auto !important;
+}
+.header-right-middle-right a{
+    padding: 0px 5px
+}
+.navbar-nav {
+    margin: 0px;
+    float: none;
+}
+.navbar-nav li {
+    border-bottom: 1px solid #fff;
+    padding: 0px 8px;
+}
+.navbar-nav li:last-child{
+    border-bottom: 0px;
+}
+.navbar-nav  li  a{
+    text-align: center;
+    font-size: 12px;
+}
+.flex-caption-right { 
+    width: 80px;
+    height: 24px;
+}
+.flex-caption-right a{
+    font-size: 9px;
+    padding: 4px 10px;
+}
+.flex-caption-left {  
+    bottom: 8px;
+    height: 80px;
+    width: 80px;
+    left: 8px;
+}
+.flex-caption-left h3{
+    font-size: 10px;
+    margin-top: 22px;
+}
+.caption-left-area-2{
+    font-size: 8px;
+}
+.caption-left-area-3{
+    font-size: 20px;
+    text-align: center;
+}
+.promo-area-top-left-top img{
+    width: 100%;
+}
+.promo-area-top-left-bottom img{
+    width: 100%;
+}
+.promo-area-top-left-top-caption{
+    bottom: 18px;
+    height: 22px;
+    left: 120px;
+    width: 70px;
+}
+.promo-area-top-left-top-caption a{
+    padding: 0px 9px;
+    font-size: 9px
+}
+.promo-area-top-right-left img{
+    width: 100%;
+}
+.promo-area-top-right-right img{
+    width: 100%;
+}
+.promo-area-top-right-top-caption{
+    bottom: 146px;
+    height: 22px;
+    left: 56px;
+    width: 70px;
+}
+.promo-area-top-right-top-caption a{
+    padding: 0px 9px;
+    font-size: 9px
+}
+.promo-area-mid-heading h3{
+    font-size: 20px;
+}
+.promo-area-mid-1 img{
+    margin: 0px auto;
+}
+.promo-area-mid-2 img{
+    margin: 0px auto;
+}
+.promo-area-mid-3 img{
+    margin: 0px auto;
+}
+.promo-area-mid-4 img{
+    margin: 0px auto;
+}
+.promo-area-bottom-right-inner h1{
+    font-size: 34.6px;
+}
+.ih-item.square.effect13 .info p {
+    font-size: 10px;
+    left: -75px;
+    top: 145px;
+}
+.sub-info{
+    font-size: 10px;
+}
+.status-head{
+    font-size: 30px;
+}
+.status-details{
+    font-size: 10px;
+}
+.footer-top-one h5 {
+    text-align: center;
+}
+.footer-top-one h2 {
+    text-align: center;
+    font-size: 28px;
+}
+.footer-top-one p {
+    text-align: center;
+    font-size: 10px;
+} 
+.footer-top-one a {
+    text-align: center;
+} 
+.footer-top-two h2{
+    text-align: center;
+}
+.list-unstyled{
+    text-align: center;
+}
+.footer-top-three h2{
+    text-align: center;
+}
+.footer-top-four h2{
+    text-align: center;
+    font-size: 20.50px;
+}
+.list-inline{
+    float: none;
+    text-align: center;
+}
+
+/**** Product page styles start for 320****/
+.logo-inn img{
+    float:none;
+    margin: 0px auto !important;
+}
+.inner-nav {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+.login ul li {
+    float: none;
+}
+.shopping-inline {
+    bottom: 5px;
+    text-align: center;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 5px;
+}
+.bx-pager-item img{
+    width: 45px;
+    height: 45px;
+}
+.bx-wrapper .bx-pager a {
+    display: block;
+    margin: 0 5px;
+}
+.flex-caption-right-inner{
+    bottom: 16px;
+    height: 28px;
+    right: 16px;
+    width: 90px;
+}
+.flex-caption-right-inner a{
+    font-size: 11.8px;
+    padding: 3px 8px;
+}
+.content-left h3{
+    font-size: 25px;
+    text-align: center;
+}
+.content-left p{
+    font-size: 9px;
+    text-align: center;
+  
+}
+.content-left h5{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 9px;
+    text-align: center;
+}
+.size-grid-left{
+    font-size: 9px;
+    text-align: center;
+}
+.size-grid-right{
+    font-size: 9px;
+    text-align: center;
+}
+.cart-button{
+    font-size: 9px;
+    padding:5px 13px;
+    float: none;
+}
+.content-right h3{
+     font-size: 13px;
+     text-align: center;
+}
+.pro-img img{
+     margin: 0px auto;
+}
+.pro-details h3{
+    font-size: 9.5px;
+    text-align: center;
+}
+.pro-details p{
+    font-size: 9px;
+    text-align: center;
+}
+/**** Product page styles end for 320****/
+
+/**** Categories page styles start for 320****/
+.caption-bar{
+    height: 38px; 
+}
+.caption-left{
+    top: 5px;
+    height: 22px;
+    width: 78px;
+    left: 13px;
+}
+.caption-left a{
+    font-size: 8px;
+    margin: 0px 0px 0px 0px;
+}
+.caption-right{
+    float: right;
+    bottom: 15px;
+    left: 190px;
+}
+.circle-area li {
+    width: 25px;
+    height: 25px;
+}
+.circle-area li a{
+    font-size: 12px;
+}
+.circle-area i{
+    top: 0px;
+    left: 5px;
+}
+/**** Categories page styles End for 320****/
+
+/**** Franchise page styles Start for 320****/
+.fran-banner-cap{
+    left: -30%;
+    bottom: 0%; 
+}
+.fran-banner-cap h4{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.franchise-arrow a img{
+    margin-top: 15px;
+}  
+.work-area h2{
+    font-size: 22px;
+}
+.work-area h5{
+    font-size: 22px;
+}  
+.quoate-right-pro{
+    margin-right: 115px;
+    float: right;
+}
+
+/**** Franchise page styles End for 320****/
+
+
+
+}
+
+
+/* This CSS for Tablet */
+@media (min-width: 360px) {
+.logo img{
+    float:none;
+    margin: 0px auto !important;
+}
+.header-right-middle-right a{
+    padding: 0px 15px
+}
+.navbar-nav {
+    margin: 0px;
+    float: none;
+}
+.navbar-nav li {
+    border-bottom: 1px solid #fff;
+    padding: 0px 8px;
+}
+.navbar-nav li:last-child{
+    border-bottom: 0px;
+}
+.navbar-nav  li  a{
+    text-align: center;
+    font-size: 14px;
+}
+.flex-caption-right { 
+    width: 80px;
+    height: 25px;
+}
+.flex-caption-right a{
+    font-size: 10px;
+    padding: 4px 12px;
+}
+.flex-caption-left {  
+    bottom: 15px;
+    height: 90px;
+    width: 90px;
+    left: 13px;
+}
+.flex-caption-left{
+    bottom: 8px;
+    height: 90px;
+    left: 8px;
+    width: 90px;
+}
+.flex-caption-left h3{
+    font-size: 10px;
+    margin-top: 23px;
+}
+.caption-left-area-2 {
+    font-size: 8px;
+}
+.caption-left-area-3 {
+    font-size: 20.12px;
+}
+.promo-area-top-left-top img{
+    width: 100%;
+}
+.promo-area-top-left-bottom img{
+    width: 100%;
+}
+.promo-area-top-left-top-caption{
+    bottom: 20px;
+    height: 26px;
+    left: 138px;
+    width: 76px;
+}
+.promo-area-top-left-top-caption a{
+    padding: 4px 10px;
+    font-size: 10px
+}
+.promo-area-top-right-left img{
+    width: 100%;
+}
+.promo-area-top-right-right img{
+    width: 100%;
+}
+.promo-area-top-right-top-caption{
+    bottom: 160px;
+    left: 65px;
+    width: 76px;
+    height: 26px;
+}
+.promo-area-top-right-top-caption a{
+    padding: 4px 10px;
+    font-size: 10px
+}
+.promo-area-mid-heading h3{
+    font-size: 21px;
+}
+.promo-area-mid-1 img{
+    margin: 0px auto;
+}
+.promo-area-mid-2 img{
+    margin: 0px auto;
+}
+.promo-area-mid-3 img{
+    margin: 0px auto;
+}
+.promo-area-mid-4 img{
+    margin: 0px auto;
+}
+.promo-area-bottom-right-inner h1{
+    font-size: 35.6px;
+}
+.ih-item.square.effect13 .info p {
+    font-size: 10px;
+    left: -85px;
+    top: 165px;
+}
+.sub-info{
+    font-size: 10px;
+}
+.status-head{
+    font-size: 31px;
+}
+.status-details{
+    font-size: 11px;
+}
+.footer-top-one h5 {
+    text-align: center;
+}
+.footer-top-one h2 {
+    text-align: center;
+    font-size: 28px;
+}
+.footer-top-one p {
+    text-align: center;
+    font-size: 10px;
+} 
+.footer-top-one a {
+    text-align: center;
+} 
+.footer-top-two h2{
+    text-align: center;
+}
+.list-unstyled{
+    text-align: center;
+}
+.footer-top-three h2{
+    text-align: center;
+}
+.footer-top-four h2{
+    text-align: center;
+    font-size: 21.50px;
+}
+.list-inline{
+    float: none;
+    text-align: center;
+}
+/**** Product page styles start for 360****/
+
+.signup-button button{
+  width: 50%;
+}
+
+.alternative-button button{
+  font-size: 13px;
+}
+
+.logo-inn img{
+    float:none;
+    margin: 0px auto !important;
+}
+.inner-nav {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+.login ul li {
+    float: none;
+}
+.shopping-inline {
+    bottom: 5px;
+    text-align: center;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 5px;
+}
+.bx-wrapper .bx-pager a {
+    display: block;
+    margin: 0 5px;
+  }
+.bx-pager-item img{
+    width: 45px;
+    height: 45px;
+}
+.flex-caption-right-inner{
+    bottom: 17px;
+    height: 30px;
+    right: 17px;
+    width: 100px;
+}
+.flex-caption-right-inner a{
+    font-size: 12.8px;
+    padding: 4px 10px;
+}
+.content-left h3{
+    font-size: 25px;
+    text-align: center;
+}
+.content-left p{
+    font-size: 9px;
+    text-align: center;
+}
+.content-left h5{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 9px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 9px;
+    text-align: center;
+}
+.size-grid-left{
+    font-size: 9px;
+    text-align: center;
+}
+.size-grid-right{
+    font-size: 9px;
+    text-align: center;
+}
+.cart-button{
+    font-size: 9px;
+    padding:5px 13px;
+    float: none;
+}
+.content-right h3{
+     font-size: 13px;
+     text-align: center;
+}
+.pro-img img{
+    margin: 0px auto;
+}
+.pro-details h3{
+    font-size: 9.5px;
+    text-align: center;
+}
+.pro-details p{
+    font-size: 9px;
+    text-align: center;
+}
+/**** Product page styles end for 360 ****/
+
+
+/**** Categories page styles start for 360****/
+.caption-bar{
+    height: 38px; 
+}
+.caption-left{
+    top: 5px;
+    height: 24px;
+    width: 84px;
+    left: 15px;
+}
+.caption-left a{
+    font-size: 9px;
+    margin: 2px 0px 0px 0px;
+}
+.caption-right{
+    float: right;
+    bottom: 20px;
+    left: 225px;
+}
+.circle-area li {
+    width: 27px;
+    height: 27px;
+}
+.circle-area li a{
+    font-size: 12px;
+}
+.circle-area i{
+    top: 2px;
+    left: 6px;
+}
+/**** Categories page styles End for 360****/
+
+/**** Franchise page styles Start for 360****/
+.fran-banner-cap{
+    left: -20%;
+    bottom: 0%; 
+}
+.fran-banner-cap h4{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.franchise-arrow a img{
+    margin-top: 18px;
+}  
+.work-area h2{
+    font-size: 23px;
+}
+.work-area h5{
+    font-size: 23px;
+}  
+.quoate-right-pro{
+    margin-left: 115px;
+    float: left;
+}
+
+/**** Franchise page styles End for 360****/
+
+}
+
+/* This CSS for Tablet */
+@media (min-width: 480px) {
+.logo img{
+    float:none;
+    margin: 0px auto !important;
+}
+.header-right-middle-right a{
+    padding: 0px 39px
+}
+.navbar-nav {
+    margin: 0px;
+    float: none;
+}
+.navbar-nav li {
+    border-bottom: 1px solid #fff;
+    padding: 0px 8px;
+}
+.navbar-nav li:last-child{
+    border-bottom: 0px;
+}
+.shopping-inline {
+    bottom: 5px;
+    text-align: center;
+}
+.navbar-nav  li  a{
+    text-align: center;
+    font-size: 14px;
+}
+.flex-caption-left{
+    bottom: 10px;
+    height: 120px;
+    left: 12px;
+    width: 120px;;
+}
+.flex-caption-left h3{
+    font-size: 14px;
+    margin-top: 35px;
+}
+.caption-left-area-2 {
+    font-size: 11px;
+}
+.caption-left-area-3 {
+    font-size: 25.12px;
+}
+.promo-area-top-left-top img{
+    width: 100%;
+}
+.promo-area-top-left-bottom img{
+    width: 100%;
+}
+.promo-area-top-left-top-caption{
+    bottom: 37px;
+    left: 190px;
+    width: 89px;
+    height: ;
+}
+.promo-area-top-left-top-caption a{
+    padding: 4px 15px;
+}
+.promo-area-top-right-left img{
+    width: 100%;
+}
+.promo-area-top-right-right img{
+    width: 100%;
+}
+.promo-area-top-right-top-caption{
+    bottom: 231px;
+    left: 87px;
+    width: 90px;
+}
+.promo-area-top-right-top-caption a{
+    padding: 4px 15px;
+}
+.promo-area-mid-heading h3{
+    font-size: 22px;
+}
+.promo-area-mid-2 img{
+    margin: 0px auto;
+}
+.promo-area-mid-3 img{
+    margin: 0px auto;
+}
+.promo-area-mid-4 img{
+    margin: 0px auto;
+}
+.promo-area-bottom-right-inner h1{
+    font-size: 36.6px;
+}
+.ih-item.square.effect13 .info p {
+    font-size: 11px;
+    left: -40px;
+    top: 105px;
+}
+.sub-info{
+    font-size: 11px;
+}
+.status-head{
+    font-size: 32px;
+}
+.status-details{
+    font-size: 12px;
+}
+.footer-top-one h5 {
+    text-align: center;
+}
+.footer-top-one h2 {
+    text-align: center;
+    font-size: 28px;
+}
+.footer-top-one p {
+    text-align: center;
+    font-size: 10px;
+} 
+.footer-top-one a {
+    text-align: center;
+} 
+.footer-top-two h2{
+    text-align: center;
+}
+.list-unstyled{
+    text-align: center;
+}
+.footer-top-three h2{
+    text-align: center;
+}
+.footer-top-four h2{
+    text-align: center;
+    font-size: 22px;
+}
+.list-inline{
+    float: none;
+    text-align: center;
+}
+/**** Product page styles start for 480****/
+.inner-nav {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+.logo-inn img{
+  float:none;
+  margin: 0px auto !important;
+}
+.login ul li {
+    float: none;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 12px;
+}
+.shopping-inline {
+    bottom: 5px;
+    text-align: center;
+}
+.bx-pager-item img{
+    width: 50px;
+    height: 50px;
+}
+.flex-caption-right-inner{
+    bottom: 18px;
+    height: 32px;
+    right: 18px;
+    width: 125px;
+}
+.flex-caption-right-inner a{
+    font-size: 14.8px;
+    padding: 5px 18px;
+}
+.content-left h3{
+    font-size: 26px;
+    text-align: center;
+}
+
+.content-left p{
+    font-size: 9.5px;
+    text-align: center;
+  
+}
+.content-left h5{
+    font-size: 9.5px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 9.5px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 9.5px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 9.5px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 9.5px;
+    text-align: center;
+}
+.size-grid-left{
+    font-size: 9.5px;
+    text-align: center;
+}
+.size-grid-right{
+    font-size: 9.5px;
+    text-align: center;
+}
+.cart-button{
+    font-size: 9.5px;
+    padding:5px 13px;
+    float: none;
+}
+.content-right h3{
+    font-size: 14px;
+   text-align: center;
+}
+.pro-img img{
+   margin: 0px auto;
+}
+.pro-details h3{
+    font-size: 10px;
+    text-align: center;
+}
+.pro-details p{
+    font-size: 9.5px;
+    text-align: center;
+}
+/**** Product page styles end for 480****/
+
+/**** Categories page styles start for 480****/
+.caption-bar{
+    height: 40px; 
+}
+.caption-left{
+    top: 8px;
+    height: 26px;
+    width: 90px;
+    left: 20px;
+}
+.caption-left a{
+    font-size: 10px;
+    margin: 4px 0px 0px 0px;
+}
+.caption-right{
+    float: right;
+    bottom: 20px;
+    left: 350px;
+}
+/**** Categories page styles End for 480****/
+
+/**** Franchise page styles Start for 480****/
+.fran-banner-cap{
+    left: -2%;
+    bottom: 0%; 
+}
+.fran-banner-cap h4{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.franchise-arrow a img{
+    margin-top: 18px;
+}  
+.work-area h2{
+    font-size: 24px;
+}
+.work-area h5{
+    font-size: 24px;
+}  
+.join-area-left  img{
+    text-align: center;
+    margin: 0px auto; 
+}
+.quoate-right-pro{
+    margin-right: 185px;
+    float: right;
+}
+
+/**** Franchise page styles End for 480****/
+}
+
+
+
+/* This CSS for Tablet */
+@media (min-width: 640px) {
+.logo img{
+    float:none;
+    margin: 0px auto !important;
+}
+.header-right-middle-right a{
+    padding: 0px 70px;
+}
+.list-inline {
+    margin: 0px auto;
+    float: none;
+}
+.list-inline li {
+    text-align: center;
+}
+.navbar-nav li {
+    border-bottom: 1px solid #fff;
+    padding: 0px 8px;
+}
+.navbar-nav  li  a{
+    text-align:center;
+    font-size: 15px;
+}
+.flex-caption-left{
+    bottom: 12px;
+    height: 145px;
+    left: 12px;
+    width: 145px;
+}
+.flex-caption-left h3{
+    font-size: 15px;
+    margin-top: 45px;
+}
+.caption-left-area-2 {
+    font-size: 11px;
+}
+.caption-left-area-3 {
+    font-size: 25.12px;
+}
+.promo-area-top-left-top img{
+    width: 100%;
+}
+.promo-area-top-left-bottom img{
+    width: 100%;
+}
+.promo-area-top-left-top-caption{
+    bottom: 61px;
+    left: 277px;
+}
+.promo-area-top-left-top-caption a{
+    padding: 4px 16px;
+}
+.promo-area-top-right-left img{
+    width: 100%;
+}
+.promo-area-top-right-right img{
+    width: 100%;
+}
+.promo-area-top-right-top-caption{
+    bottom: 327px;
+    left: 127px;
+}
+.promo-area-top-right-top-caption a{
+    padding: 4px 16px;
+}
+.promo-area-mid-heading h3{
+    font-size: 23px;
+}
+.promo-area-mid-1 img{
+    margin: 0px auto;
+}
+.promo-area-mid-2 img{
+    margin: 0px auto;
+}
+.promo-area-mid-3 img{
+    margin: 0px auto;
+}
+.promo-area-mid-4 img{
+    margin: 0px auto;
+}
+.promo-area-bottom-right{
+    margin: 0px auto;
+}
+.promo-area-bottom-right-inner h1{
+    font-size: 37.6px;
+}
+.ih-item.square.effect13 .info p {
+    font-size: 11px;
+    left: -30px;
+    top: 95px;
+}
+.sub-info{
+    font-size: 11px;
+}
+.status-head{
+    font-size: 33px;
+}
+.status-details{
+    font-size: 13px;
+}
+.footer-top-one h5 {
+    text-align: center;
+}
+.footer-top-one h2 {
+    text-align: center;
+    font-size: 28px;
+}
+.footer-top-one p {
+    text-align: center;
+    font-size: 10px;
+} 
+.footer-top-one a {
+    text-align: center;
+} 
+.footer-top-two h2{
+    text-align: center;
+}
+.list-unstyled {
+    text-align: center;
+}
+.footer-top-three h2{
+    text-align: center;
+}
+.footer-top-four h2{
+    text-align: center;
+}
+.list-inline{
+    float: none;
+    text-align: center;
+}
+/**** Product page styles start for 640****/
+.inner-nav {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+.header-area-inner{
+    background: #000;
+}
+.login ul li {
+    float: none;
+}
+.logo-inn img{
+    float:none;
+    margin: 0px auto !important;
+}
+.shopping-inline {
+    bottom: 5px;
+    text-align: center;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 18px;
+    margin: 0px 0px;
+}
+.bx-pager-item img{
+    width: 50px;
+    height: 50px;
+}
+.flex-caption-right-inner{
+    bottom: 20px;
+    height: 35px;
+    right: 20px;
+    width: 130px;
+}
+.flex-caption-right-inner a{
+    font-size: 15.8px;
+    padding: 6px 20px;
+}
+.content-left h3{
+    font-size: 27px;
+    text-align: center;
+}
+.content-left p{
+    font-size: 10px;
+    text-align: center;
+  
+}
+.content-left h5{
+    font-size: 10px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 10px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 10px;
+    text-align: center;
+}
+.color-grid-left{
+    font-size: 10px;
+    text-align: center;
+}
+.color-grid-right{
+    font-size: 10px;
+    text-align: center;
+}
+.size-grid-left{
+    font-size: 10px;
+    text-align: center;
+}
+.size-grid-right{
+    font-size: 10px;
+    text-align: center;
+}
+.cart-button{
+    font-size: 9.5px;
+    padding:5px 13px;
+    float: none;
+}
+.content-right h3{
+     font-size: 15px;
+     text-align: center;
+}
+.pro-img img{
+    margin: 0px auto;
+}
+.pro-details h3{
+    font-size: 11px;
+    text-align: center;
+}
+.pro-details p{
+    font-size: 10px;
+    text-align: center;
+}
+/**** Product page styles end for 640****/
+/**** Categories page styles start for 640****/
+.caption-bar{
+  height: 45px; 
+}
+
+.caption-left{
+  top: 8px;
+  height: 26px;
+  width: 90px;
+  left: 20px;
+}
+.caption-left a{
+  font-size: 10px;
+  margin: 4px 0px 0px 0px;
+}
+.caption-right{
+  float: right;
+  bottom: 18px;
+  left: 500px;
+}
+/**** Categories page styles End for 640****/
+
+/**** Franchise page styles Start for 640****/
+.fran-banner-cap{
+  left: 11%;
+  bottom: 1%; 
+}
+.fran-banner-cap h4{
+  font-size: 26px;
+  margin-top: 35px;
+}
+.franchise-arrow a img{
+  margin-top: 20px;
+}  
+.work-area h2{
+  font-size: 25px;
+}
+.work-area h5{
+  font-size: 25px;
+}
+.product-quoat-right h2{
+      font-size: 21.9px;
+}
+
+}
+/**** Franchise page styles End for 640****/
+
+
+@media (max-width: 767px) {
+.navbar-form{
+    float: none;
+    width: 105%;
+  }
+.header-right-top{
+  float: none;
+  width: 100%;
+}
+.nav-inn{
+  float: none;
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+}
+.header-right-middle-right{
+  float: none;
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  text-align: center;
+}
+.header-right-top ul li {
+  float: none;
+}
+.color-grid-right ul{
+  display: block;
+   margin-top: 5px;
+}
+.color-grid-right ul li {
+  display: inline-block;
+  float: none;
+}
+.size-grid-right ul{
+  display: block;
+  margin-top: 5px;
+}
+.size-grid-right ul li{
+  float: none;
+  display: inline-block;
+}
+.add-to-bag{
+  display: inline-block;
+  text-align: center;
+}
+.footer-top-one h5 {
+  text-align: center;
+}
+.footer-top-one h2 {
+  text-align: center;
+}
+.footer-top-one p {
+  text-align: center;
+} 
+.footer-top-one a {
+  text-align: center;
+} 
+.footer-top-three h2{
+  text-align: center;
+}
+
+/**** Product page styles start for 767****/
+.content-right-inner{
+  border-left: 0px;
+  /*border: url(../images/border-inner-page.png) no-repeat scroll left; */
+}
+/**** Product page styles end for 767 ****/
+
+/**** Franchise page styles start for 767 ****/
+.join-area-right i{
+  font-size: 24px;
+}
+.join-area-right h2{
+  font-size: 24px;
+}
+.quote-right{
+  margin-left: 100px;
+}
+.join-area-right h5{
+  font-size: 13px;
+}
+.join-button{
+  font-size: 16px;
+  height: 38px;
+  margin-left: 20px;
+  width: 110px;
+}
+.share h2{
+  font-size: 26px;
+}
+.share p{
+  font-size: 12px;
+}
+.create h2{
+  font-size: 26px;
+}
+.create p{
+  font-size: 12px;
+}
+.connect h2{
+  font-size: 26px;
+}
+.connect p{
+  font-size: 12px;
+}  
+.blue-box h2{
+  font-size: 25px;
+}
+.blue-box h5{
+  font-size: 25px;
+}
+.product{
+  float: none;
+}
+.product-quoat-right i{
+  font-size: 30px;
+}
+.product-quoat-right h2{
+  font-size: 23px;
+}
+
+.product-quoat-right h5{
+  font-size: 13px;
+}
+.popular-product h2{
+  font-size: 25px;
+}
+.popular-product p{
+  font-size: 12px;
+}
+
+.business-tool h2 {
+  font-size: 25px;
+}
+.business-tool  p {
+  font-size: 12px;
+}
+
+.friendly-support h2{
+  font-size: 25px;
+}
+.friendly-support p{
+  font-size: 12px;
+}
+.alternative{
+  padding: 0px 30px;
+}
+/**** Franchise page styles End for 767 ****/  
+
+}
+@media (max-width: 767px) {
+.fran-banner-visible img{
+  display: none;
+}
+.fran-banner-cap-test img{
+  display: block;
+  margin: 0px auto;
+  float: none;
+  display: flex;
+}
+
+.fran-banner-cap-test{
+  margin: 0px auto;
+  float: none;
+  display: flex;
+}
+
+.resrv-time p {
+    color: #424343;
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    padding: 11px;
+}
+/**** Check out page styles Start for 767****/
+.city{
+    padding-right: 0px;
+}
+.bang{
+    padding-left: 0px;
+}
+.postal-code{
+    padding-right: 0px;
+    margin-top: 15px;
+}
+.phone-num{
+    padding-left: 0px;
+}
+.mm{
+    padding-right: 0px;
+}
+.yy{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.cvc{
+    padding-left: 0px;
+}
+.billing{
+    padding-right: 0px;
+}
+/**** Check Out page styles End for 767****/
+
+}
+
+
+
+/* This CSS for Tablet */
+@media (min-width: 768px) {
+.logo img{
+  float:none;
+  height: 131px;
+}
+.list-inline{
+  float: right;
+}
+.navbar-nav {
+  margin: 0px;
+  float: right;
+}
+.navbar-nav li {
+  border-bottom: 0px; 
+  padding: 0px 20px;
+}
+.navbar-nav  li  a{
+  text-align: none;
+  font-size: 17px;
+}
+.header-right-top ul li a{
+  font-size: 11px;
+}
+.header-right-middle-right a{
+  padding: 0px 0px; 
+}
+.header-right-middle-right a{
+  font-size: 8px;
+}
+.navbar-inverse .navbar-nav > li {
+  padding: 0px 8px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 15px;
+}
+.flex-caption-right { 
+   width: 100px;
+   height: 30px;
+}
+.flex-caption-right a{
+  font-size: 11px;
+  padding: 6px 20px;
+}
+
+.flex-caption-left{
+  bottom: 10px;
+  height: 155px;
+  left: 10px;
+  width: 155px;
+}
+.flex-caption-left h3{
+  font-size:  16px;
+  margin-top: 42px;
+}
+.caption-left-area-2 {
+  font-size:  12px;
+}
+.caption-left-area-3 {
+  font-size: 34.12px;
+}
+.promo-area-top-left-top img{
+  float: none;
+}
+.promo-area-top-left-top-caption{
+  left: 170px;
+}
+.promo-area-top-left-top-caption a{
+  padding: 4px 16px;
+}
+.promo-area-top-right-top-caption{
+  bottom: 195px;
+  left: 70px;
+}
+.promo-area-top-right-top-caption a{
+  padding: 4px 16px;
+}
+
+.promo-area-mid-heading h3{
+  font-size: 25px;
+}
+.promo-area-bottom-right{
+  float: right;
+}
+.promo-area-bottom-right-inner h1{
+  font-size: 37.6px;
+}
+.ih-item.square.effect13 .info p {
+  font-size: 12px;
+  left: -20px;
+  top: 85px;
+}
+.sub-info{
+  font-size: 12px;
+}
+.status-head{
+  font-size: 38px;
+}
+.status-details{
+  font-size: 14px;
+}
+.footer-top-one h5 {
+  font-size: 15px;
+  text-align: left;
+ }
+.footer-top-one h2 {
+  font-size: 23px;
+  text-align: left;
+}
+.footer-top-one p {
+  font-size: 9px;
+  text-align: left;
+} 
+.footer-top-two h2{
+  text-align: left;
+}
+.list-unstyled{
+  text-align: left;
+}
+.footer-top-three h2{
+  text-align: left
+}
+.footer-top-four h2{
+  font-size: 22.31px;
+  text-align: right;
+}
+.footer-top-four i{
+  font-size: 17px;
+}
+.list-inline{
+  float: right;
+  
+}
+/**** Product page styles start for 768****/
+.inner-nav{
+  float: left !important;
+}
+
+.menu .navbar-inverse .navbar-nav > li > a{
+  font-size: 12.5px;
+}
+
+.menu .navbar-inverse .navbar-nav > li{
+  padding: 0px 0px;
+}
+
+.logo-inn img{
+  height:80px;
+}
+.nav-inn{
+  float: none !important;
+}
+.shopping-inline{
+   margin-bottom: 0px;
+   margin-top: 12px;
+}
+.shopping-inline a {
+    font-size: 8.5px;
+    text-align: center;
+    padding: 0px 0px;
+    
+}
+.shopping-inline i {
+  margin-left: 5px;
+  font-size: 12px
+}
+.login ul li {
+    float: left;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 30px;
+}
+.bx-wrapper .bx-pager a {
+  display: block;
+  margin: 0 10px;
+}
+.bx-pager-item img{
+  width: 100%;
+  height: 100%;
+}
+.flex-caption-right-inner{
+  bottom: 20px;
+  height: 42px;
+  right: 22px;
+  width: 145px;
+}
+.flex-caption-right-inner a{
+  font-size: 16.8px;
+  padding: 8px 25px;
+}
+ .content-left h3{
+  font-size: 28px;
+  text-align: left;
+}
+.content-left p{
+  font-size: 10.5px;
+  text-align: left;
+  
+}
+.content-left h5{
+  font-size: 10.5px;
+  text-align: left;
+ 
+}
+.color-grid-left{
+  font-size: 10.5px;
+  text-align: left;
+}
+.color-grid-right{
+  font-size: 10.5px;
+  text-align: left;
+}
+.color-grid-left{
+  font-size: 10px;
+  text-align: left;
+}
+.color-grid-right{
+  font-size: 10px;
+  text-align: left;
+}
+.size-grid-left{
+  font-size: 10px;
+  text-align: left;
+}
+.size-grid-right{
+  font-size: 10px;
+  text-align: left;
+}
+.add-to-bag{
+  
+}
+.cart-button{
+  font-size: 10px;
+  padding:5px 13px;
+  float: right;
+}
+.content-right h3{
+   font-size: 16px;
+   text-align: left;
+}
+.pro-details h3{
+  font-size: 12px;
+  text-align: left;
+}
+.pro-details p{
+  font-size: 10px;
+  text-align: left;
+}
+/**** Product page styles end for 768****/
+
+/**** Categories page styles start for 768****/
+.caption-bar{
+  height: 40px; 
+}
+.caption-left{
+  top: 8px;
+  height: 26px;
+  width: 90px;
+  left: 20px;
+}
+.caption-left a{
+  font-size: 10px;
+  margin: 4px 0px 0px 0px;
+}
+.caption-right{
+    float: right;
+    bottom: 22px;
+    left: 50px;
+}
+.circle-area li {
+    float: left;
+    margin-right: 10px;
+    width: 29px;
+    height: 29px;
+}
+.circle-area li a {
+    font-size: 12px;
+}
+.circle-area i{
+    top: 3px;
+    left: 7px;
+}
+/**** Categories page styles End for 768****/
+
+/**** Franchise page styles Start for 768****/
+.fran-banner-cap{
+  left: 0%;
+  bottom: 6%; 
+}
+.fran-banner-cap h4{
+  font-size: 30px;
+  margin-top: 45px;
+}
+.franchise-arrow a img{
+  margin-top: 30px;
+}  
+.work-area h2{
+  font-size: 32px;
+}
+.work-area h5{
+  font-size: 32px;
+}  
+.join-area-right i{
+  font-size: 27px;
+  margin-left: none
+}
+.join-area-right h2{
+  font-size: 27px;
+}
+.quote-right{
+  margin-left: 123px;
+}
+.join-area-right h5{
+  font-size: 14px;
+}
+.join-button{
+  font-size: 17px;
+  height: 38px;
+  margin-left: 20px;
+  width: 120px;
+}  
+
+.share h2{
+  font-size: 26px;
+}
+.share p{
+  font-size: 12px;
+}
+.create h2{
+  font-size: 26px;
+}
+.create p{
+  font-size: 12px;
+}
+.connect h2{
+  font-size: 26px;
+}
+.connect p{
+  font-size: 12px;
+}  
+.blue-box h2{
+  font-size: 32px;
+}
+.blue-box h5{
+  font-size: 32px;
+}
+.product{
+  float: none;
+}
+.product-quoat-right i{
+  font-size: 30px;
+}
+.product-quoat-right h2{
+  font-size: 30px;
+}
+.quoate-right-pro{
+  margin-right: 180px;
+  float: right;
+}
+.product-quoat-right h5{
+  font-size: 16px;
+}
+.popular-product h2{
+  font-size: 25px;
+}
+.popular-product p{
+  font-size: 12px;
+}
+
+.business-tool h2 {
+  font-size: 25px;
+}
+.business-tool  p {
+  font-size: 12px;
+}
+
+.friendly-support h2{
+  font-size: 25px;
+}
+.friendly-support p{
+  font-size: 12px;
+}
+/**** Franchise page styles End for 768****/
+
+}
+@media (min-width: 800px){
+  /**** Franchise page styles Start for 980****/
+.fran-banner-cap{
+  left: 2%;
+  bottom: 8%; 
+}
+.fran-banner-cap h4{
+  font-size: 30px;
+  margin-top: 45px;
+}
+.work-area h2{
+  font-size: 32px;
+}
+.work-area h5{
+  font-size: 32px;
+} 
+.join-area-right i{
+  font-size: 28px;
+}
+.join-area-right h2{
+  font-size: 28px;
+}
+.quote-right{
+  margin-left: 123px;
+}
+.join-area-right h5{
+  font-size: 16px;
+}
+.join-button{
+  font-size: 20px;
+  height: 42px;
+  margin-left: 20px;
+  width: 135px;
+} 
+.share h2{
+  font-size: 27px;
+}
+.share p{
+  font-size: 12px;
+}
+.create h2{
+  font-size: 27px;
+}
+.create p{
+  font-size: 12px;
+}
+.connect h2{
+  font-size: 27px;
+}
+.connect p{
+  font-size: 12px;
+}  
+.blue-box h2{
+  font-size: 36px;
+}
+.blue-box h5{
+  font-size: 36px;
+}
+.product{
+  float: right;
+}
+.product-quoat-right i{
+  font-size: 30px;
+}
+.product-quoat-right h2{
+  font-size: 30px;
+}
+.quoate-right-pro{
+  margin-right: 180px;
+  float: right;
+}
+.product-quoat-right h5{
+  font-size: 16px;
+}
+.popular-product h2{
+  font-size: 25px;
+}
+.popular-product p{
+  font-size: 12px;
+}
+
+.business-tool h2 {
+  font-size: 25px;
+}
+.business-tool  p {
+  font-size: 12px;
+}
+
+.friendly-support h2{
+  font-size: 25px;
+}
+.friendly-support p{
+  font-size: 12px;
+}
+/**** Franchise page styles End for 800****/
+}
+
+
+/* This CSS for Large Devices */
+@media (min-width: 980px) {
+.promo-area-top-left-top-caption a{
+    padding: 4px 16px;
+}
+.promo-area-top-right-top-caption a{
+  padding: 4px 16px;
+}
+/**** Product page style start ****/
+.shopping-inline a {
+    font-size: 8px;
+    padding: 0px 6px;
+}
+.shopping-inline i{
+    margin-left: 4px;
+}
+.flex-caption-right-inner{
+  bottom: 20px; 
+  height: 48px;
+  right: 35px;
+  width: 160px;
+}
+.flex-caption-right-inner a{
+  font-size: 17.8px;
+  padding: 10px 28px;
+}
+.content-left h3{
+  font-size: 29px;
+}
+.content-left p{
+  font-size: 11px;
+  
+}
+.content-left h5{
+  font-size: 11px;
+ 
+}
+.color-grid-left{
+  font-size: 11px;
+}
+.color-grid-right{
+  font-size: 11.5px;
+}
+.color-grid-left{
+  font-size: 10.5px;
+}
+.color-grid-right{
+  font-size: 10px;
+}
+.size-grid-left{
+    font-size: 11px;
+  }
+.size-grid-right{
+    font-size: 11px;
+  }
+.cart-button{
+  font-size: 10.5px;
+  padding:5px 13px;
+}
+.content-right h3{
+   font-size: 17px;
+}
+.pro-details h3{
+  font-size: 11.5px;
+}
+.pro-details p{
+  font-size: 10.5px;
+}
+/**** Product page style End****/
+
+/**** Product page styles Start for 980****/
+.caption-right{
+  float: right;
+  bottom: 20px;
+  left: 110px
+}
+.circle-area li {
+  float: left;
+  margin-right: 10px;
+  width: 27px;
+  height: 27px;
+}
+.circle-area i{
+  top: 2px;
+  left: 5px;
+}
+/**** Product page styles End for 980****/
+
+/**** Categories page styles strat for 980****/
+.caption-right{
+    float: right;
+    bottom: 22px;
+    left: 110px;
+}
+.circle-area li {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.circle-area li a {
+    font-size: 13px;
+}
+.circle-area i{
+    top: 4px;
+    left: 7px;
+}
+/**** Categories page styles strat for 980****/
+
+/**** Franchise page styles Start for 980****/
+.fran-banner-cap{
+  left: 11%;
+  bottom: 16%; 
+}
+.fran-banner-cap h4{
+  font-size: 30px;
+  margin-top: 45px;
+}
+.work-area h2{
+  font-size: 33px;
+}
+.work-area h5{
+  font-size: 33px;
+} 
+.join-area-right i{
+  font-size: 30px;
+}
+.join-area-right h2{
+  font-size: 30px;
+}
+.quote-right{
+  margin-left: 123px;
+}
+.join-area-right h5{
+  font-size: 17px;
+}
+.join-button{
+  font-size: 22px;
+  height: 44px;
+  margin-left: 20px;
+  width: 138px;
+} 
+.share h2{
+  font-size: 27px;
+}
+.share p{
+  font-size: 12px;
+}
+.create h2{
+  font-size: 27px;
+}
+.create p{
+  font-size: 12px;
+}
+.connect h2{
+  font-size: 27px;
+}
+.connect p{
+  font-size: 12px;
+} 
+.blue-box h2{
+  font-size: 37px;
+}
+.blue-box h5{
+  font-size: 37px;
+}
+.product{
+  float: right;
+}
+.product-quoat-right i{
+  font-size: 30px;
+}
+.product-quoat-right h2{
+  font-size: 30px;
+}
+.quoate-right-pro{
+  margin-right: 180px;
+  float:right;
+}
+.product-quoat-right h5{
+  font-size: 16px;
+}
+.popular-product h2{
+  font-size: 25px;
+}
+.popular-product p{
+  font-size: 12px;
+}
+
+.business-tool h2 {
+  font-size: 25px;
+}
+.business-tool  p {
+  font-size: 12px;
+}
+
+.friendly-support h2{
+  font-size: 25px;
+}
+.friendly-support p{
+  font-size: 12px;
+}
+/**** Franchise page styles End for 980****/
+}
+
+/* This CSS for Large Devices */
+@media (min-width: 992px) {
+.header-right-middle-right a{
+  padding: 0px 8px;
+}
+.header-right-middle-right a{
+  font-size: 10px;
+}
+.promo-area-top-left-top-caption{
+  left: 170px;
+}
+.promo-area-top-right-top-caption{
+  bottom: 195px;
+  left: 70px;
+}
+.promo-area-top-left-top-caption a{
+  padding: 4px 17px;
+}
+.promo-area-top-left-top-caption a{
+  padding: 4px 17px;
+}
+
+.ih-item.square.effect13 .info p {
+  font-size: 12px;
+  left: -40px;
+  top: 110px;
+}
+.sub-info{
+  font-size: 12px;
+}
+/**** Product page styles start for 992****/
+.flex-caption-right-inner{
+  bottom: 20px;
+  height: 50px;
+  right: 25px;
+  width: 160px;
+}
+.flex-caption-right-inner a{
+  font-size: 18.8px;
+  padding: 10px 30px;
+}
+ .shopping-inline a {
+    font-size: 9px;
+    margin-left: 0px 4px;
+    padding: 0 0px;
+  }
+.shopping-inline i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+/**** Product page styles end for 992****/
+
+/**** Categories page styles strat for 992****/
+.caption-right{
+    float: right;
+    bottom: 22px;
+    left: 120px;
+}
+.circle-area li {
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.circle-area li a {
+    font-size: 14px;
+}
+.circle-area i{
+    top: 4px;
+    left: 7px;
+}
+/**** Categories page styles strat for 992****/
+
+/**** Franchise page styles Start for 992****/
+.fran-banner-cap{
+  left: 13%;
+  bottom: 17%; 
+}
+.fran-banner-cap h4{
+  font-size: 30px;
+  margin-top: 45px;
+}
+.work-area h2{
+  font-size: 37px;
+}
+.work-area h5{
+  font-size: 37px;
+} 
+.join-area-right i{
+  font-size: 32px;
+}
+.join-area-right h2{
+  font-size: 32px;
+}
+.quote-right{
+  margin-left: 130px;
+}
+.join-area-right h5{
+  font-size: 18px;
+}
+.join-button{
+  font-size: 23px;
+  height: 46px;
+  margin-left: 20px;
+  width: 141px;
+} 
+.share h2{
+  font-size: 28px;
+}
+.share p{
+  font-size: 13px;
+}
+.create h2{
+  font-size: 28px;
+}
+.create p{
+  font-size: 13px;
+}
+.connect h2{
+  font-size: 28px;
+}
+.connect p{
+  font-size: 13px;
+}
+.blue-box h2{
+  font-size: 38px;
+}
+.blue-box h5{
+  font-size: 38px;
+}
+.product-quoat-right i{
+  font-size: 33px;
+}
+.product-quoat-right h2{
+  font-size: 33px;
+}
+.quoate-right-pro{
+  margin-right: 300px;
+  float: right;
+}
+.product-quoat-right h5{
+  font-size: 18px;
+}
+.popular-product h2{
+  font-size: 28px;
+}
+.popular-product p{
+  font-size: 13px;
+}
+
+.business-tool h2 {
+  font-size: 28px;
+}
+.business-tool  p {
+  font-size: 13px;
+}
+
+.friendly-support h2{
+  font-size: 28px;
+}
+.friendly-support p{
+  font-size: 13px;
+}
+/**** Franchise page styles End for 992****/
+}
+
+
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+.header-right-middle-right a{
+  font-size: 10px;
+  padding: 0px 8px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 18px;
+}
+.flex-caption-left{
+  bottom: 13px;
+  height: 195px;
+  left: 15px;
+  width: 195px;
+}
+.flex-caption-left h3{
+  font-size: 18px;
+  margin-top: 55px;
+  
+}
+.caption-left-area-2 {
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.caption-left-area-3 {
+  font-size: 44.12px;
+}
+.promo-area-top-left-top-caption{
+  left: 209px;
+}
+.promo-area-top-left-top-caption a{
+  padding: 4px 16px;
+}
+.promo-area-top-right-top-caption{
+  bottom: 250px;
+  left: 93px;
+}
+.promo-area-top-right-top-caption a{
+  padding: 4px 16px;
+}
+.promo-area-mid-heading h3{
+  font-size: 28px;
+}
+.promo-area-bottom-right-inner h1{
+  font-size: 38.6px;
+}
+.ih-item.square.effect13 .info p {
+  left: -35px;
+  top: 115px;
+  font-size: 14px;
+}
+.sub-info{
+  font-size: 14px;
+}
+.status-head{
+  font-size: 45px;
+}
+.status-details{
+  font-size: 17px;
+}
+.footer-top-one  {
+  text-align: left;
+}
+.footer-top-one h5 {
+  font-size: 16px;
+  text-align: left;
+}
+.footer-top-one h2 {
+  font-size: 25px;
+  text-align: left;
+}
+.footer-top-one p {
+  font-size: 10px;
+  text-align: left;
+} 
+.footer-top-four h2{
+  font-size: 26.31px;
+
+}
+.footer-top-four i{
+  font-size: 20px;
+}
+.header-right-top ul li a{
+  font-size: 12px;
+}
+
+}
+
+ @media (min-width: 1280px) {
+.flex-caption-right-inner{
+    bottom: 20px;
+    height: 58px;
+    right: 50px;
+    width: 200px;
+}
+.flex-caption-right-inner a{
+    font-size: 21.8px;
+    padding: 10px 40px;
+} 
+.content-left h3{
+    font-size: 35px;
+}
+.content-left p{
+    font-size: 12px;
+}
+.content-left h5{
+   font-size: 12px;
+}
+.color-grid-left{
+    font-size: 12px;
+}
+.color-grid-right{
+    font-size: 12px;
+}
+.size-grid-left{
+    font-size: 12px;
+}
+.size-grid-right{
+    font-size: 12px;
+}
+.cart-button{
+    font-size: 12px;
+    padding:5px 13px;
+}
+.content-right h3{
+    font-size: 20px;
+}
+.pro-details h3{
+    font-size: 14px;
+}
+.pro-details p{
+    font-size: 12px;
+}
+/**** Product page styles start for 1280****/
+.inner-nav{
+    float: left !important;
+}
+.menu .navbar-inverse .navbar-nav > li > a{
+    font-size: 15px;
+}
+.menu .navbar-inverse .navbar-nav > li{
+    padding: 0px 9px;
+}
+.shopping-inline{
+    border: 1px solid #808080;
+    margin-top: 12px;
+    padding: 2px 0px;
+    margin-bottom: 0px;
+}
+.shopping-inline a {
+    font-size: 10px;
+    padding: 0px 5px;
+}
+.shopping-inline i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.login ul li {
+    float: left;
+}
+/**** Product page styles end for 1280****/
+
+/**** Categories page styles start for 1280****/
+.caption-bar{
+    height: 53px;
+}
+.caption-left{
+    top: 10px;
+    height: 30px;
+    width: 100px;
+    left: 20px;
+}
+.caption-left a{
+    font-size: 11px;
+    margin: 5px 0px 0px 0px;
+}
+.caption-right{
+    float: right;
+    bottom: 18px;
+    left: 160px;
+}
+.circle-area li {
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.circle-area li a {
+    font-size: 14px;
+}
+.circle-area i{
+    top: 3px;
+    left: 7px;
+}
+/**** Categories page styles End for 1280****/
+
+/**** Franchise page styles Start for 1280****/
+.fran-banner-cap{
+    left: 20%;
+    bottom: 22%; 
+}
+.fran-banner-cap h4{
+    font-size: 35px;
+    margin-top: 45px;
+}
+.franchise-arrow a img{
+    margin-top: 30px;
+} 
+.work-area h2{
+    font-size: 40px;
+}
+.work-area h5{
+    font-size: 40px;
+}  
+.join-area-right i{
+    font-size: 35px;
+}
+.join-area-right h2{
+    font-size: 35px;
+}
+.quote-right{
+    margin-left: 140px;
+}
+.join-area-right h5{
+    font-size: 20px;
+}
+.join-button{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.share h2{
+    font-size: 30px;
+}
+.share p{
+    font-size: 14px;
+}
+.create h2{
+    font-size: 30px;
+}
+.create p{
+    font-size: 14px;
+}
+.connect h2{
+    font-size: 30px;
+}
+.connect p{
+    font-size: 14px;
+}
+.blue-box h2{
+    font-size: 40px;
+}
+.blue-box h5{
+    font-size: 40px;
+}
+.product{
+    float: right;
+}
+.product-quoat-right i{
+    font-size: 35px;
+}
+.product-quoat-right h2{
+    font-size: 35px;
+}
+.quoate-right-pro{
+    margin-right: 40px;
+    float: right
+}
+.product-quoat-right h5{
+    font-size: 20px;
+}
+.popular-product h2{
+    font-size: 30px;
+}
+.popular-product p{
+    font-size: 14px;
+}
+.business-tool h2 {
+    font-size: 30px;
+}
+.business-tool  p {
+    font-size: 14px;
+}
+
+.friendly-support h2{
+    font-size: 30px;
+}
+.friendly-support p{
+    font-size: 14px;
+}
+/**** Franchise page styles End for 1280****/
+
+

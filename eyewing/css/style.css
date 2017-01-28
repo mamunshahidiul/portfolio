@@ -1,0 +1,336 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,700);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+.padding-off {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.container {
+	max-width: 1000px;
+}
+.fa-home {
+	color: #fff;
+}
+.fa-home:hover {
+	color: #FF1E00;
+}
+.menu .navbar-inverse {
+  background: none;
+  border: none;
+}
+.navbar-inverse .navbar-toggle {
+  background: none repeat scroll 0 0 #635757;
+  border-color: #635757;
+}
+.navbar-inverse .navbar-nav > li:last-child {
+	padding-right: 0px;
+	background: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #FF1E00;
+}
+.header-area {
+	position: relative;
+	z-index: 9999;
+	background: url(../images/header-opacity.png) repeat;
+}
+.banner-area {
+  position: absolute;
+  top: 0%;
+}
+.menu {
+	float: right;
+}
+
+/******  Promo Part ************/
+.promo-slider-area {
+  background: url("../images/promo-slider-bg.png") repeat-y scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+}
+.promo-slider-bottom-bg img {
+	height: 63px;
+	width: 100%;
+}
+.promo-top-title h1 {
+	color: #ffffff;
+	float: left;
+	font-family: "Kozuka Gothic Pr6N";
+	font-size: 44.14px;
+	margin-top: 40px;
+}
+.fa.fa-angle-right {
+  color: #ff0000;
+  font-size: 55px;
+  padding-left: 20px;
+}
+.promo-top-cntent p {
+	color: #ffffff;
+	font-family: "Kozuka Gothic Pr6N";
+	font-size: 14px;
+	text-align: justify;
+	margin-top: 40px;
+}
+.promo-border {
+	border-bottom: 1px solid #444545;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+.slider-title h3 {
+  color: #fff;
+}
+.product-area {
+  background: url("../images/product-area-bg.png") repeat-y scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.product-img img {
+	float: none;
+	margin: 0 auto;
+}
+.slider1 > li {
+  background: none repeat scroll 0 0 #000000;
+}
+.promo-slider-caption-one, .promo-slider-caption-two, .promo-slider-caption-three {
+  color: #ffffff;
+  font-family: "Kozuka Gothic Pr6N";
+  padding-right: 20px;
+  text-align: right;
+  width: 100%;
+}
+.promo-slider-caption-one {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.promo-slider-caption-two {
+  font-size: 13px;
+}
+.promo-slider-caption-three {
+	font-size: 12px;
+}
+.product-header {
+	border-bottom: medium none #a8a8a8;
+	color: #000000;
+	float: none;
+	font-family: "Kozuka Gothic Pr6N";
+	font-size: 26px;
+	font-weight: 700;
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+}
+.product-header-text::before {
+  background: none repeat scroll 0 0 #a9a9a9;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.product-header-text p {
+	background: none repeat scroll 0 0 #f1f1f1;
+	color: #000000;
+	display: inline;
+	font-size: 26px;
+	margin: 0;
+	padding: 0 10px;
+	position: relative;
+}
+.product-menu {
+	margin-top: 20px;
+}
+.product-menu a {
+	color: #898989;
+	font-family: "Kozuka Gothic Pr6N";
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.product-menu a:hover {
+	color: #000;
+}
+.active a {
+	color: #000;
+}
+.product-img {
+  margin-top: 30px;
+}
+.product-caption {
+  background: none repeat scroll 0 0 #000;
+  padding: 10px;
+}
+.product-caption p {
+  text-align: right;
+  color: #fff;
+  line-height: 15px;
+  font-family: "Kozuka Gothic Pr6N";
+  padding-right: 10px;
+}
+.pro-cap-one {
+	font-size: 15px;
+	font-weight: 700;
+}
+.pro-cap-two {
+	font-size: 13px;
+}
+.pro-cap-three {
+	font-size: 12px;
+	font-weight: 400;
+}
+.promo-bottom-top-bg img {
+	height: 65px;
+	width: 100%;
+}
+.promo-bottom-area {
+	background: url(../images/promo-bottom-bg.png) repeat;
+	padding-bottom: 110px;
+
+}
+.pro-bottom-menu {
+	padding-top: 80px;
+}
+.pro-bottom-header {
+	border-bottom: medium none #fff;
+	color: #000000;
+	float: none;
+	font-family: "Kozuka Gothic Pr6N";
+	font-size: 26px;
+	font-weight: 700;
+	margin: 0 auto;
+	text-align: center;
+	width: 220px;
+}
+ .pro-bottom-text::before {
+  background: none repeat scroll 0 0 #fff;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+ .pro-bottom-text p {
+	background: none repeat scroll 0 0 #282828;
+	color: #fff;
+	display: inline;
+	font-size: 26px;
+	margin: 0;
+	padding: 0 10px;
+	position: relative;
+}
+.pro-bottom-menu li:first-child {
+  padding-left: 0px;
+}
+.pro-bottom-menu li:last-child {
+  padding-right: 0;
+}
+.pro-bottom-menu a {
+	color: #ffffff;
+	font-family: 'Noticia Text', serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+} 
+.footer-area {
+	background: #ff1e00;
+	padding-top: 15px;
+}
+ .footer-left-menu li {
+  padding-top: 5px;
+}
+ .footer-left-menu a, .footer-right-menu a {
+ 	color: #ffffff;
+	font-family: "Kozuka Gothic Pr6N";
+	text-decoration: none;
+}
+.fa.fa-square {
+  padding-right: 10px;
+}
+.footer-top-right img {
+  float: right;
+  padding: 0px;
+}
+.footer-top-left h5 {
+	color: #ffffff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-size: 13.64px;
+	font-weight: 600;
+	line-height: 0;
+	text-transform: uppercase;
+}
+.footer-top-left h2 {
+	color: #ffffff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 700;
+	}
+.footer-top-left a {
+	color: #ffffff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-size: 13.64px;
+	font-weight: normal;
+}
+.footer-top-left, .footer-top-middle {
+	margin-top: 15px;
+}
+.footer-bottom-bg p {
+	background: url(../images/footer-bottom-bg.png) no-repeat;
+	background-size: 100%;
+	height: 9px;
+	margin-top: 12px;
+}
+.footer-bottom-right p {
+	color: #181818;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-size: 10px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+.footer-bottom-right a {
+	color: #181818;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.footer-bottom-left i {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 5px;
+  color: #ff624d;
+  font-size: 20px;
+  padding: 5px;
+}
+.footer-bottom-left i:hover {
+  background: none repeat scroll 0 0 #f5a937;
+}
+.fa.fa-facebook {
+  padding: 5px 8px;
+}
+
+
+.navbar-collapse {
+ /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	
+	}

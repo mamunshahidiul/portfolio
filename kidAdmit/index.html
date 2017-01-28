@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>KidAdmit</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+      
+      <!-- Important ResponsiveSlide stylesheet -->
+      <link rel="stylesheet" href="ResponsiveSlide/responsiveslides.css">
+
+      <!-- Important Owl stylesheet -->
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+      <!-- Palce fontawesome style directory-->
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+      <!-- Palce Bootstrap style directory-->
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      
+      <!-- Palce Main style directory-->
+      <link rel="stylesheet" href="css/main.css">
+
+      <!-- Palce Main style directory-->
+      <link rel="stylesheet" href="css/responsive.css">
+     
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <header id="header">
+      <div class="container-fluid header-top-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 header-top">
+              <div class="col-md-8 col-sm-6 col-xs-12 header-top-left">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" class="img-responsive"></a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 header-top-right pull-right">
+                <div class="col-md-7 col-sm-7 col-xs-12 ">
+                  <ul class="list-unstyled">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">Sign Up</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal2">Log in</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                  <div class="school-list">
+                    <a href="#" class="school-list-btn">List Your School</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Data Modal For Sign Up Added Here -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sign Up for DUGSI PRO</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="signup-form">
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i></span>
+                          <input class="form-control" type="text" placeholder="Email">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Password">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Retype Password">
+                        </div>
+                        <div class="sign-up">
+                          <a href="#" class="sign-btn">Sign Up</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="or">
+                      <div class="or-inner">
+                        <p>OR</p>
+                      </div>
+                    </div>
+                    <div class="share-area">
+                      <div class="share">
+                        <button class="btn btn-default fb-btn" type="button">
+                          <i class="fa fa-facebook-square"></i>
+                          Sign up with Facebook
+                        </button>
+                      </div>
+                      <div class="share">
+                        <button class="btn btn-default google-btn" type="button">
+                          <i class="fa fa-google-plus-square"></i>
+                          Sign up with Google
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- Data Modal For Sign In Added Here -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sign In for DUGSI PRO</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="signup-form">
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Password">
+                        </div>
+                        <div class="sign-up">
+                          <a href="#" class="sign-btn">Sign In</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="or">
+                      <div class="or-inner sign-in-or">
+                        <p>OR</p>
+                      </div>
+                    </div>
+                    <div class="share-area">
+                      <div class="share">
+                        <button class="btn btn-default fb-btn" type="button">
+                          <i class="fa fa-facebook-square"></i>
+                          Sign In with Facebook
+                        </button>
+                      </div>
+                      <div class="share">
+                        <button class="btn btn-default google-btn" type="button">
+                          <i class="fa fa-google-plus-square"></i>
+                          Sign In with Google
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="banner">
+          <ul class="rslides">
+            <li>
+             <img src="img/banner.png" alt="Banner" class="img-responsive">
+            </li>
+            <li>
+              <img src="img/banner.png" alt="Banner" class="img-responsive">
+            </li>
+            <li>
+              <img src="img/banner.png" alt="Banner" class="img-responsive">
+           </li>
+          </ul>
+          <div class="container-fluid banner-caption hidden-xs">
+            <div class="container">
+              <div class="row">
+                <div class="caption-heading">
+                  <h1>Search, Compare, and Apply to <span>Thousands of Preschools</span></h1>
+                </div>
+                <div class="find-school">
+                  <div class="input-group logo-search">
+                    <input class="form-control search-input" type="text">
+                    <span class="input-group-btn">
+                      <a href="search.html"><button class="btn btn-default search-btn" type="submit">FIND <span>SCHOOLS</span></button></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="best-result">
+                  <p>For best results, search using a complete address</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <section>
+      <div class="container-fluid pro-content-bg">
+        <div class="container">
+          <div class="row">
+            <div class="pro-one">
+              <div class="col-md-4 col-sm-4 col-xs-12 location">
+                <div class="locate-icon">
+                  <img src="img/locate.png" alt="Location" class="img-responsive">
+                </div>
+                <div class="quize">
+                  <h4>Not sure where to start?</h4>
+                  <a href="#" class="quize-btn">TAKE <span>OUR QUIZ</span></a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 spot">
+                <div class="search-icon-bg">
+                  <img src="img/search.png" alt="Search Icon" class="img-responsive">
+                </div>
+                <div class="quize">
+                  <h4>Need to find an open spot now?</h4>
+                  <a href="#" class="quize-btn">VIEW <span>iMmediate openings</span></a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 signup-today">
+                <h3>Represent a school? </h3>
+                <h2>Sign up for your FREE account &amp; start 
+                <span>connecting with families </span></h2>
+                <h1>today!</h1>
+              </div>
+            </div>
+            <div class="pro-two">
+              <div class="col-md-4 col-sm-4 col-xs-12 services">
+                <h2>Search Thousands <span>of Preschools</span></h2>
+                <img src="img/abc.png" alt="Preschools" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 services">
+                <h2>Compare<span>Your Favorites</span></h2> 
+                <img src="img/compare.png" alt="Preschools" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 services">
+                <h2>Apply Directly<span>to Schools</span></h2>
+                <img src="img/art.png" alt="Preschools" class="img-responsive">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="welcome-heading">
+              <h2>Thousands of parents have successfully <span>used KidAdmit to apply to preschool.</span></h2>
+            </div>
+            <div class="heading-border">
+              
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 slogan hidden-xs">
+              <div class="col-md-6 col-sm-12 col-xs-12 quoat" id="owl-demo">
+                <div class="slogan-inn item">
+                  <div class="col-md-8 col-sm-9 col-xs-8 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="col-md-4 col-sm-3 col-xs-4 slogan-right">
+                    <img src="img/preschool-1.png" alt="PreSchools">  
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                 <div class="slogan-inn item">
+                  <div class="col-md-8 col-sm-9 col-xs-8 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="col-md-4 col-sm-3 col-xs-4 slogan-right">
+                    <img src="img/preschool-1.png" alt="PreSchools">  
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12 quoat" id="owl-demo2">
+                <div class="slogan-inn item">
+                  <div class="col-md-8 col-sm-9 col-xs-8 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="col-md-4 col-sm-3 col-xs-4 slogan-right">
+                    <img src="img/preschool-3.png" alt="PreSchools">  
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="slogan-inn item">
+                  <div class="col-md-8 col-sm-9 col-xs-8 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="col-md-4 col-sm-3 col-xs-4 slogan-right">
+                    <img src="img/preschool-3.png" alt="PreSchools">  
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 slogan visible-xs">
+              <div class="col-md-6 col-sm-6 col-xs-12" id="owl-demo3">
+                <div class="slogan-inn item">
+                  <div class="col-md-4 col-sm-4 col-xs-12 slogan-right">
+                    <img src="img/preschool-1.png" alt="PreSchools">  
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-12 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="slogan-inn item">
+                  <div class="col-md-4 col-sm-4 col-xs-12 slogan-right">
+                    <img src="img/preschool-1.png" alt="PreSchools">  
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-12 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12" id="owl-demo4">
+                <div class="slogan-inn item">
+                  <div class="col-md-4 col-sm-4 col-xs-12 slogan-right">
+                    <img src="img/preschool-1.png" alt="PreSchools">  
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-12 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="slogan-inn item">
+                  <div class="col-md-4 col-sm-4 col-xs-12 slogan-right">
+                    <img src="img/preschool-1.png" alt="PreSchools">  
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-12 slogan-left">
+                    <p>"KidAdmit is my go-to when it comes to figuring out where I should start... I knew when and where I needed to be in terms of school tours, application deadlines, etc. I am happy to say we found yet another great school for our daughter, thanks to KidAdmit!"</p>
+                    <span>—Shereen I.</span>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+    <section>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="parents-account">
+              <a href="#" class="parents-btn">Parents, Sign Up For Your FREE Account Now!</a>
+            </div>
+            <div class="group-pics">
+              <img src="img/kids-group.png" alt="KIDS" class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section>
+      <div class="container-fluid pro-four-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 com-add">
+              <a href="#"><img src="img/footer-logo.png" alt="Footer-Logo" class="img-responsive"></a>
+              <p>© 2015 KidAdmit, Inc. All rights reserved.</p>
+              <div class="condition">
+                <ul>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6  col-xs-12 refe-links">
+              <div class="col-md-6 col-sm-6 links">
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">How it works for families</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-sm-6 links">
+                <ul>
+                  <li><a href="#">How it works for Schools</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Feedback</a></li>
+                  <li><a href="#">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>  
+             <div class="col-md-3 col-sm-3 col-xs-12 support">
+               <h3>QUESTIONS? NEED HELP?</h3>
+               <div class="help">
+                 <h4>Call Support</h4>
+                 <h1>415-890-5430</h1>
+               </div>
+               <div class="social">
+                <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                </ul>
+               </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+    <footer id="footer">
+      <div class="container-fluid footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 footer-inn">
+              <h3>Find a school by city!</h3>
+            <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-4 find-schools ">
+              <ul class="list-uns">
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools ">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End your site or application content here -->
+
+        <!-- Palce jQuery-1.11.3 directory-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+         <!-- Palce Bootstraps directory-->
+         <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Palce Our Customize Javascript directory-->
+        <script src="js/main.js"></script>
+
+        <!-- ResponsiveSlide Jquery-->
+        <script type="text/javascript" src="ResponsiveSlide/responsiveslides.js"></script>
+        <script type="text/javascript" src="ResponsiveSlide/responsiveslides.min.js"></script>
+        <script>
+          $(function() {
+            $(".rslides").responsiveSlides({
+              auto: true,
+            });
+          });
+        </script>
+        
+        <!-- owl-carousel -->
+        <script src="owl-carousel/owl.carousel.js"></script>
+        <script>
+          $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+           
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+                items : 1,
+                itemsDesktop : [1199,1],
+                itemsDesktopSmall : [768,1],
+                pagination: false,
+           
+            });
+           
+          });
+        </script>
+        <script>
+          $(document).ready(function() {
+            $("#owl-demo2").owlCarousel({
+           
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+                items : 1,
+                itemsDesktop : [1199,1],
+                itemsDesktopSmall : [768,1],
+                pagination: false,
+           
+            });
+           
+          });
+        </script>
+        <script>
+          $(document).ready(function() {
+            $("#owl-demo3").owlCarousel({
+           
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+                items : 1,
+                itemsDesktop : [1199,1],
+                itemsDesktopSmall : [768,1],
+                pagination: false,
+           
+            });
+           
+          });
+        </script>
+        <script>
+          $(document).ready(function() {
+            $("#owl-demo4").owlCarousel({
+           
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+                items : 1,
+                itemsDesktop : [1199,1],
+                itemsDesktopSmall : [768,1],
+                pagination: false,
+           
+            });
+           
+          });
+        </script>
+       
+    </body>
+</html>

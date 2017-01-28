@@ -1,0 +1,1023 @@
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+    /* Style adjustments for viewports that meet the condition */
+    .com-add h1 {
+      font-size: 25px;
+    }
+    .condition ul li {
+      padding-left: 0px;
+    }
+    .links ul li a {
+      font-size: 13px;
+    }
+    .request-btn {
+      height: 35px;
+      line-height: 32px;
+      width: 130px;
+      font-size: 14px;
+    }
+    .connect-btn {
+      height: 35px;
+      line-height: 32px;
+      width: 130px;
+      font-size: 14px;
+    }
+    .nearby-schools {
+      padding: 10px;
+    }
+    .nearby-inner {
+      padding-left: 0px;
+    }
+    .friends-about h3 {
+      font-size: 21px;
+    }
+    
+}
+@media only screen and (max-width: 980px) {
+    /* Style adjustments for viewports that meet the condition */
+    .caption-heading {
+      margin-top: 220px;
+    }
+    .caption-heading h1 {
+      font-size: 32px;
+    }
+    .locate-icon i {
+      font-size: 120px;
+    }
+    .search-icon-bg i {
+      font-size: 100px;
+    }
+    .search-input {
+      height: 42px;
+    }
+    .search-btn {
+      height: 41px;
+      width: 125px;
+    }
+    .quize h4 {
+      font-size: 16px;
+    }
+    .signup-today h2 {
+      font-size: 13px;
+    } 
+    .signup-today h1 {
+      font-size: 36px;
+    }
+    .services h2 {
+      font-size: 23px;
+    }
+    .welcome-heading h2 {
+      font-size: 23px;
+    }
+    .support h3 {
+      font-size: 15px;
+    }
+    .help h1 {
+      font-size: 25px;
+    }
+    .links ul li a {
+      font-size: 11px;
+    }
+    .social ul li {
+      padding: 0 3px;
+    }
+    .com-add h1 {
+      font-size: 19px;
+    }
+    .condition ul li {
+      padding-left: 2px;
+      font-size: 11px;
+    }
+    .quoat{
+      margin-top: 20px;
+      padding-left: 0px;
+    }
+     .about-us-left h1{
+      font-size: 30px;
+    }
+    .about-us-detials p {
+      font-size: 13px;
+    }
+    .who-heading h2 {
+      font-size: 32px;
+    }
+    .desig h3{
+      font-size: 18px;
+    }
+    .mem-detials p {
+      font-size: 13px;
+    }
+    .locate-num ul li{
+      font-size: 16px;
+    }
+    .locate-num ul li i {
+      font-size: 25px;
+    }
+    .home{
+      width: 70px;
+      height: 70px;
+    }
+    .home i{
+      font-size: 35px;
+    }
+    .programm h3 {
+      font-size: 11px;
+    }
+    .bookmark i{
+      font-size: 15px;
+    }
+     .school-home {
+      height: 80px;
+      width: 80px;
+    }
+    .school-home i{
+      font-size: 50px;
+    }
+    .schools-details h2 {
+      font-size: 14px;
+    }
+    .request-btn {
+      height: 32px;
+      line-height: 30px;
+      width: 105px;
+      font-size: 11px;
+    }
+    .connect-btn {
+      height: 32px;
+      line-height: 30px;
+      width: 105px;
+      font-size: 11px;
+    }
+    .nearby-heading{
+      padding-bottom: 15px;
+    }
+    .nearby-schools{
+      padding: 15px;
+    }
+    .schools-details h2 {
+      font-size: 14px;
+    }
+    .nearby-inner:first-child{
+      margin-top: 0px;
+    }
+    .nearby-inner{
+      margin-top: 10px;
+    }
+    .school-home {
+      height:100px;
+      width: 100px;
+    }
+    .school-home i{
+      font-size: 75px;
+    }
+    .friends-about h3 {
+      font-size: 20px;
+    }
+    .friends-about h2 {
+      font-size: 20px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+    .caption-heading {
+      margin-top: 160px;
+    }
+    .caption-heading h1 {
+      font-size: 32px;
+    }
+    .locate-icon i {
+      font-size: 120px;
+    }
+    .search-icon-bg i {
+      font-size: 100px;
+    }
+    .search-input {
+      height: 42px;
+    }
+    .search-btn {
+      height: 41px;
+      width: 125px;
+    }
+    .quize h4 {
+      font-size: 16px;
+    }
+    .signup-today h2 {
+      font-size: 13px;
+    } 
+    .signup-today h1 {
+      font-size: 36px;
+    }
+    .services h2 {
+      font-size: 23px;
+    }
+    .welcome-heading h2 {
+      font-size: 23px;
+    }
+    .support h3 {
+      font-size: 15px;
+    }
+    .help h1 {
+      font-size: 25px;
+    }
+    .links ul li a {
+      font-size: 11px;
+    }
+    .social ul li {
+      padding: 0 3px;
+    }
+    .com-add h1 {
+      font-size: 19px;
+    }
+    .condition ul li {
+      padding-left: 2px;
+      font-size: 11px;
+    }
+    .quoat{
+      margin-top: 20px;
+      padding-left: 0px;
+    }
+     .about-us-left h1{
+      font-size: 30px;
+    }
+    .about-us-detials p {
+      font-size: 13px;
+    }
+    .who-heading h2 {
+      font-size: 32px;
+    }
+    .desig h3{
+      font-size: 18px;
+    }
+    .mem-detials p {
+      font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+    .caption-heading {
+      margin-top: 160px;
+    }
+    .caption-heading h1 {
+      font-size: 32px;
+    }
+    .locate-icon i {
+      font-size: 120px;
+    }
+    .search-icon-bg i {
+      font-size: 100px;
+    }
+    .search-input {
+      height: 42px;
+    }
+    .search-btn {
+      height: 41px;
+      width: 125px;
+    }
+    .quize h4 {
+      font-size: 16px;
+    }
+    .signup-today h2 {
+      font-size: 13px;
+    } 
+    .signup-today h1 {
+      font-size: 36px;
+    }
+    .services h2 {
+      font-size: 23px;
+    }
+    .welcome-heading h2 {
+      font-size: 23px;
+    }
+    .support h3 {
+      font-size: 15px;
+    }
+    .help h1 {
+      font-size: 25px;
+    }
+    .links ul li a {
+      font-size: 11px;
+    }
+    .social ul li {
+      padding: 0 3px;
+    }
+    .com-add img {
+      margin: 10px auto;
+      display: block;
+    }
+    .condition ul li {
+      padding-left: 2px;
+      font-size: 11px;
+    }
+    .quoat{
+      margin-top: 20px;
+      padding-left: 0px;
+    }
+    .about-us-left h1{
+      font-size: 30px;
+    }
+    .about-us-detials p {
+      font-size: 13px;
+    }
+    .who-heading h2 {
+      font-size: 32px;
+    }
+    .desig h3{
+      font-size: 18px;
+    }
+    .mem-detials p {
+      font-size: 13px;
+    }
+    .locate-num ul li{
+      font-size: 16px;
+    }
+    .locate-num ul li i {
+      font-size: 25px;
+    }
+    .home{
+      width: 70px;
+      height: 70px;
+    }
+    .home i{
+      font-size: 35px;
+    }
+    .programm h3 {
+      font-size: 11px;
+    }
+    .bookmark i{
+      font-size: 15px;
+    }
+    .school-home {
+      height: 80px;
+      width: 80px;
+    }
+    .school-home i{
+      font-size: 50px;
+    }
+    .schools-details h2 {
+      font-size: 14px;
+    }
+    .request-btn {
+      height: 32px;
+      line-height: 30px;
+      width: 105px;
+      font-size: 11px;
+    }
+    .connect-btn {
+      height: 32px;
+      line-height: 30px;
+      width: 105px;
+      font-size: 11px;
+    }
+    .nearby-heading{
+      padding-bottom: 15px;
+    }
+    .nearby-schools{
+      padding: 15px;
+    }
+    .schools-details h2 {
+      font-size: 14px;
+    }
+    .nearby-inner:first-child{
+      margin-top: 0px;
+    }
+    .nearby-inner{
+      margin-top: 10px;
+    }
+    .school-home {
+      height:100px;
+      width: 100px;
+    }
+    .school-home i{
+      font-size: 75px;
+    }
+    .friends-about h3 {
+      font-size: 20px;
+    }
+    .friends-about h2 {
+      font-size: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    /* Style adjustments for viewports that meet the condition */
+    .header-top-left img{
+      margin: 10px auto;
+      display: block;
+    }
+    .header-top-right {
+      margin: 10px 0;
+    }
+    .school-list-btn {
+      margin: 0 auto;
+      margin-top: 10px;
+      display: block;
+    }
+    .com-add {
+      margin-top: 10px;
+    }
+    .com-add p {
+      text-align: center;
+    }
+    .slogan-right img {
+      margin: 0px auto;
+      display: block;
+    }
+    .slogan-inn{
+      margin-top: 20px;
+      padding-bottom: 20px;
+    }
+    .about-us-left h1{
+      text-align: center;
+    }
+    .search-header-top{
+      padding-bottom: 25px;
+    }
+    .search-school-list {
+      border: 2px solid #595959;
+      color: #595959;
+      line-height: 22px;
+    }
+    .tab-content-inner{
+      padding: 0px;
+    }
+    .nav-tabs > li > a {
+      padding: 3px;
+    }
+ }     
+@media only screen and (max-width: 640px) {
+    /* Style adjustments for viewports that meet the condition */
+    .list-unstyled {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      width: 27%;
+    }
+    .school-list-btn {
+      width: 130px;
+      height: 25px;
+    }
+    .pro-one {
+      margin-top: -20px;
+    }
+    .locate-icon i {
+      font-size: 130px;
+    }
+    .quize h4 {
+      font-size: 22px;
+   }
+   .quize-btn {
+      font-size: 15px;
+      width: 320px;
+    }
+    .search-icon-bg i {
+      font-size: 120px;
+    }
+    .signup-today h2 {
+      font-size: 27px;
+      line-height: 30px;
+    }
+    .signup-today h1 {
+      font-size: 45px;
+    }
+    .services h2 {
+      font-size: 25px;
+    }
+    .welcome-heading h2 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    .parents-btn {
+      font-size: 14px;
+      width: 392px;
+    }
+    .condition ul {
+      margin:  0px auto;
+      display:  block;
+      width:  43%;
+    }
+    .links ul li a {
+      font-size: 13px;
+    }
+    .support h3 {
+      font-size: 17px;
+    }
+   .help h1 {
+      font-size: 35px;
+    }
+    .social ul li {
+      padding: 0 5px;
+    }
+    .about-us-left h1{
+      text-align: center;
+      font-size: 30px;
+    }
+    .breadcrumb {
+      margin: 0px auto;
+      display: block;
+      width: 23%;
+    }
+    .about-us-detials p {
+      font-size: 13px;
+    }
+    .who-heading h2 {
+      text-align: center;
+      font-size: 32px;
+    }
+    .desig h3{
+      font-size: 18px;
+      text-align: center;
+    }
+    .mem-detials p {
+      font-size: 13px;
+    }
+    .schools-details{
+      margin-top: 15px;
+    }
+    .schools-details h2 {
+      font-size: 18px;
+      text-align:  center;
+    }
+    .schools-details p{
+      text-align: center;
+    }
+    .web-btn {
+      text-align: center;
+      margin: 0px auto;
+      display: block;
+    }
+   .request-btn {
+      margin: 0px auto;
+      display: block;
+    }
+    .connect-btn {
+      margin: 10px auto;
+      display: block;
+    }
+    .nearby-heading h3 {
+      text-align: center;
+    }
+    .nearby-school-details h2{
+      font-size: 14px;
+    }  
+}
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+    
+    .list-unstyled {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      width: 38%;
+    }
+    .school-list-btn {
+      width: 130px;
+      height: 25px;
+    }
+    .pro-one {
+      margin-top: -20px;
+    }
+    .locate-icon i {
+      font-size: 130px;
+    }
+    .quize h4 {
+      font-size: 18px;
+   }
+   .quize-btn {
+      font-size: 13px;
+      width: 245px;
+    }
+    .search-icon-bg i {
+      font-size: 120px;
+    }
+    .signup-today h2 {
+      font-size: 19px;
+    }
+    .signup-today h1 {
+      font-size: 40px;
+    }
+    .services h2 {
+      font-size: 24px;
+    }
+    .welcome-heading h2 {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .parents-btn {
+      font-size: 14px;
+      width: 392px;
+    }
+    .condition ul {
+      margin:  0px auto;
+      display:  block;
+      width:  43%;
+    }
+    .links ul li a {
+      font-size: 13px;
+    }
+    .support h3 {
+      font-size: 17px;
+    }
+    .help h1 {
+      font-size: 35px;
+    }
+    .social ul li {
+      padding: 0 5px;
+    }
+    .about-us-left h1{
+      text-align: center;
+      font-size: 30px;
+    }
+    .breadcrumb {
+      margin: 0px auto;
+      display: block;
+      width: 31%;
+    }
+    .about-us-detials p {
+      font-size: 13px;
+    }
+    .who-heading h2 {
+      text-align: center;
+      font-size: 32px;
+    }
+    .desig h3{
+      font-size: 18px;
+      text-align: center;
+    }
+    .mem-detials p {
+      font-size: 13px;
+    }
+    .or-inner::before {
+      bottom: 29%;
+      left: 192px;
+    }
+    .or-inner::after {
+      bottom: 29%;
+      left: 245px;
+    }
+    .sign-in-or::before{
+      bottom: 35%;
+    }
+    .sign-in-or::after{
+      bottom: 35%;
+    }
+    .locate-num ul li{
+      font-size: 16px;
+    }
+    .locate-num ul li i {
+      font-size: 30px;
+    }
+    .home{
+      width: 70px;
+      height: 70px;
+    }
+    .home i{
+      font-size: 35px;
+    }
+    .programm h3 {
+      font-size: 13px;
+    }
+    .bookmark i{
+      font-size: 15px;
+    }
+    .schools-details{
+      margin-top: 15px;
+    }
+    .schools-details h2 {
+      font-size: 18px;
+      text-align:  center;
+    }
+    .schools-details p{
+      text-align: center;
+    }
+    .web-btn {
+      text-align: center;
+      margin: 0px auto;
+      display: block;
+    }
+   .request-btn {
+      margin: 0px auto;
+      display: block;
+    }
+    .connect-btn {
+      margin: 10px auto;
+      display: block;
+    }
+    .nearby-heading h3 {
+      text-align: center;
+    }
+    .nearby-school-details h2{
+      font-size: 14px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    /* Style adjustments for viewports that meet the condition */
+    .list-unstyled {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      width: 57%;
+    }
+    .school-list-btn {
+      width: 130px;
+      height: 25px;
+    }
+    .pro-one {
+      margin-top: -20px;
+    }
+    .locate-icon i {
+      font-size: 120px;
+    }
+    .quize h4 {
+      font-size: 15px;
+    }
+   .quize-btn {
+      font-size: 13px;
+      width: 200px;
+    }
+    .search-icon-bg i {
+      font-size: 110px;
+    }
+    .signup-today h2 {
+      font-size: 15px;
+    }
+    .signup-today h1 {
+      font-size: 35px;
+    }
+    .services h2 {
+      font-size: 22px;
+    }
+    .welcome-heading h2 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .parents-btn {
+      font-size: 12px;
+      width: 300px;
+    }
+    .condition ul {
+      margin:  0px auto;
+      display:  block;
+      width:  68%;
+    }
+    .links ul li a {
+      font-size: 12px;
+    }
+    .support h3 {
+      font-size: 16px;
+    }
+   .help h1 {
+      font-size: 30px;
+    }
+    .social ul li {
+      padding: 0 5px;
+    }
+    .about-us-left h1{
+      text-align: center;
+      font-size: 30px;
+    }
+    .breadcrumb {
+      margin: 0px auto;
+      display: block;
+      width: 45%;
+    }
+    .about-us-detials h1 {
+      text-align: center;
+      font-size: 33px;
+    }
+    .about-us-detials p {
+      font-size: 13px;
+    }
+    .who-heading h2 {
+      text-align: center;
+      font-size: 32px;
+    }
+    .desig h3{
+      font-size: 18px;
+      text-align: center;
+    }
+    .mem-detials p {
+      font-size: 13px;
+    }
+    .or-inner::before {
+      bottom: 29%;
+      left: 138px;
+    }
+    .or-inner::after {
+      bottom: 29%;
+      left: 184px;
+    }
+    .sign-in-or::before{
+      bottom: 35%;
+    }
+    .sign-in-or::after{
+      bottom: 35%;
+    }
+    .locate-num ul li{
+      font-size: 14px;
+    }
+    .locate-num ul li i {
+      font-size: 25px;
+    }
+    .home{
+      width: 55px;
+      height: 55px;
+    }
+    .home i{
+      font-size: 30px;
+    }
+    .programm h3 {
+      font-size: 11px;
+    }
+    .bookmark i{
+      font-size: 15px;
+    }
+    .schools-details{
+      margin-top: 15px;
+    }
+    .schools-details h2 {
+      font-size: 15px;
+      text-align:  center;
+    }
+    .schools-details p{
+      text-align: center;
+    }
+    .web-btn {
+      text-align: center;
+      margin: 0px auto;
+      display: block;
+    }
+    .request-btn {
+      margin: 0px auto;
+      display: block;
+    }
+    .connect-btn {
+      margin: 10px auto;
+      display: block;
+    }
+    .nearby-heading h3 {
+      text-align: center;
+    }
+    .nearby-school-details h2{
+      font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /* Style adjustments for viewports that meet the condition */
+    .list-unstyled {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      width: 67%;
+    }
+    .school-list-btn {
+      width: 130px;
+      height: 25px;
+    }
+    .pro-one {
+      margin-top: -20px;
+    }
+    .locate-icon i {
+      font-size: 120px;
+    }
+    .quize h4 {
+      font-size: 15px;
+    }
+    .quize-btn {
+      font-size: 13px;
+      width: 200px;
+    }
+    .search-icon-bg i {
+      font-size: 110px;
+    }
+    .signup-today h2 {
+      font-size: 15px;
+    }
+    .signup-today h1 {
+      font-size: 35px;
+    }
+    .services h2 {
+      font-size: 22px;
+    }
+    .welcome-heading h2 {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .parents-btn {
+      font-size: 11px;
+      width: 265px;
+    }
+    .condition ul {
+      margin:  0px auto;
+      display:  block;
+      width:  68%;
+    }
+    .links ul li a {
+      font-size: 12px;
+    }
+    .support h3 {
+      font-size: 16px;
+    }
+   .help h1 {
+      font-size: 30px;
+    }
+    .social ul li {
+      padding: 0 5px;
+    }
+    .about-us-left h1{
+      text-align: center;
+      font-size: 30px;
+    }
+    .breadcrumb {
+      margin: 0px auto;
+      display: block;
+      width: 54%;
+    }
+    .about-us-detials h1 {
+      text-align: center;
+      font-size: 33px;
+    }
+    .about-us-detials p {
+      font-size: 13px;
+    }
+    .who-heading h2 {
+      text-align: center;
+      font-size: 32px;
+    }
+    .desig h3{
+      font-size: 18px;
+      text-align: center;
+    }
+    .mem-detials p {
+      font-size: 13px;
+    }
+    .or-inner::before {
+      bottom: 29%;
+      left: 120px;
+    }
+    .or-inner::after {
+      bottom: 29%;
+      left: 166px;
+    }
+    .sign-in-or::before{
+      bottom: 35%;
+    }
+    .sign-in-or::after{
+      bottom: 35%;
+    }
+    .locate-num ul li{
+      font-size: 14px;
+    }
+    .locate-num ul li i {
+      font-size: 25px;
+    }
+    .home{
+      width: 45px;
+      height: 45px;
+    }
+    .home i{
+      font-size: 20px;
+    }
+    .schools-details{
+      margin-top: 15px;
+    }
+    .schools-details h2 {
+      font-size: 15px;
+      text-align:  center;
+    }
+    .schools-details p{
+      text-align: center;
+    }
+    .web-btn {
+      text-align: center;
+      margin: 0px auto;
+      display: block;
+    }
+    .request-btn {
+      margin: 0px auto;
+      display: block;
+    }
+    .connect-btn {
+      margin: 10px auto;
+      display: block;
+    }
+    .nearby-heading h3 {
+      text-align: center;
+    }
+    .nearby-school-details h2{
+     font-size: 12px;
+    }
+  
+}
+

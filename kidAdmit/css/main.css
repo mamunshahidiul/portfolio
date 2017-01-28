@@ -1,0 +1,1386 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #f2f2f2;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+a:hover{
+    text-decoration: none;
+    outline: 0px;
+}
+a:focus{
+	outline: 0px;
+}
+/*----------------------------
+    Headers
+-----------------------------*/
+.header-top-bg{
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	width: 100%;
+	z-index: 9999;
+}
+.header-top-left img{
+	margin: 35px 0px;
+}
+.header-top-right{
+	margin: 35px 0px;
+}
+.list-unstyled{
+	float: right;
+}
+.list-unstyled li{
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+}
+.list-unstyled li a{
+	font-size: 12px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 1px solid #fff;
+	padding-right: 10px; 
+
+	-o-transition:color .5s ease-out, color 0.6s ease-in;
+	-ms-transition:color .5s ease-out, color 0.6s ease-in;
+	-moz-transition:color .5s ease-out, color 0.6s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.6s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.6s ease-in;
+}
+.list-unstyled li:last-child a{
+	border-right:0;
+}
+.list-unstyled li a:hover{
+	color: #3088e7;
+}
+.school-list{
+	margin: -5px 0px;
+}
+.school-list-btn{
+	border: 2px solid #fff;
+	width: 145px;
+	height: 30px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	display: block;
+	line-height: 28px;
+	font-weight: bold;
+
+	-o-transition:color .5s ease-out, color 0.6s ease-in;
+	-ms-transition:color .5s ease-out, color 0.6s ease-in;
+	-moz-transition:color .5s ease-out, color 0.6s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.6s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.6s ease-in;
+
+	-o-transition:border .5s ease-out, border 0.4s ease-in;
+	-ms-transition:border .5s ease-out, border 0.4s ease-in;
+	-moz-transition:border .5s ease-out, border 0.4s ease-in;
+	-webkit-transition:border .5s ease-out, border 0.4s ease-in;
+	/* ...and now for the proper property */
+	transition:border .5s ease-out, border 0.4s ease-in;
+}
+.school-list-btn:hover{
+	color: #3088e7;
+	border: 2px solid #3088e7;
+}
+.banner-caption{
+	position: absolute;
+	top: 0px;
+	z-index: 999;
+	width: 100%;
+}
+.banner{
+	position: relative;
+	background: rgba(0, 0, 0, 0.8)
+}
+.caption-heading{
+	margin-top: 285px;
+}
+.caption-heading h1{
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	line-height: 50px;
+}
+.caption-heading span{
+	display: block;
+}
+.logo-search{
+	width: 40%;
+	margin: 10px auto;
+}
+.search-btn{
+	background: #ff9c37;
+	color: #ffffff;
+	border: 1px solid #ca6107;
+	height: 50px;
+	width: 140px;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+
+	-o-transition:background .5s ease-out, background 0.6s ease-in;
+	-ms-transition:background .5s ease-out, background 0.6s ease-in;
+	-moz-transition:background .5s ease-out, background 0.6s ease-in;
+	-webkit-transition:background .5s ease-out, background 0.6s ease-in;
+	/* ...and now for the proper property */
+	transition:background .5s ease-out, background 0.6s ease-in;
+}
+.search-btn:hover{
+	background:#3088e7;
+	color: #fff; 
+}
+.search-btn span{
+	font-weight: normal;
+}
+.search-input{
+	background: #ebebeb;
+	border: 0px;
+	box-shadow: 0px 0px 0px;
+	height: 50px;
+}
+.search-icon{
+	color: #4490c4;
+	border: 0px;
+	background: #ebebeb;
+	height: 50px;
+	font-size: 28px;
+}
+.best-result p{
+	font-size: 15px;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+/*----------------------------
+    Pro One
+-----------------------------*/
+.pro-content-bg{
+	background: url(../img/service2-border.png) #dbdbdb no-repeat bottom;
+	padding-bottom: 33px;
+} 
+.pro-one{
+	position: relative;
+	margin-top: -50px;
+	z-index: 999;
+}
+.location{
+	background:#ffffff ;
+	padding-bottom: 35px;
+	border-right: 1px solid #d5d8dc;
+}
+ .locate-icon {
+	  z-index: 999;
+}
+.locate-icon img{
+	position: absolute;
+    margin-top: 32px;
+    display: block;
+} 
+.quize{
+	z-index: 9999;
+	position: relative;
+}
+.quize h4{
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 35px;
+	font-family: 'Oswald', sans-serif;
+}
+.quize-btn{
+	width: 220px;
+	height: 38px;
+	background: #2f87e7;
+	border-radius: 4px;
+	border: 1px solid #196cc8;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin: 20px auto;
+	display: block;
+	line-height: 35px;
+	z-index: 9999;
+
+	-o-transition:color .5s ease-out, color 0.6s ease-in;
+	-ms-transition:color .5s ease-out, color 0.6s ease-in;
+	-moz-transition:color .5s ease-out, color 0.6s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.6s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.6s ease-in;
+}
+.quize-btn span{
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+.spot{
+	background: #fff;
+	padding-bottom: 35px;
+}
+.search-icon-bg img{
+	position: absolute;
+    margin-top: 40px;
+    display: block;
+}
+.quize h4{
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 35px;
+	font-family: 'Oswald', sans-serif;
+}
+.signup-today{
+	background: #f6c640;
+}
+.signup-today h3{
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+.signup-today h2{
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+.signup-today h2{
+	color: #333333;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+	line-height: 25px;
+}
+.signup-today h1{
+	color: #333333;
+	font-size: 38px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+	margin-top: 20px;
+	padding-bottom: 8px;
+}
+.services{
+	margin-top: 50px;
+	padding-bottom: 28px;
+	background: url(../img/service.png) no-repeat left bottom;
+}
+.services h2{
+	font-size: 25px;
+	color: #00316a;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.services span{
+	display: block;
+}
+.services img{
+	margin: 0px auto;
+	display: block;
+}
+/*----------------------------
+   WELCOME 
+-----------------------------*/
+.welcome-heading h2{
+	font-size: 25px;
+	color: #333333;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-top: 90px;
+	line-height: 35px;
+}
+.welcome-heading span{
+	display: block;
+}
+.heading-border{
+	border-bottom: 1px solid #0090ff;
+	width: 135px;
+	margin: 0px auto;
+	display: block;
+}
+.slogan{
+	margin-top: 50px;
+}
+.slogan-inn{
+	background: #e9e9e9;
+	border-top: 1px solid #f6c642;
+	padding-right: 15px;
+}
+.slogan-left p{
+	color: #333333;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.slogan-left span{
+	color: #0090ff;
+	font-size: 12px;
+	float: right;
+}
+/*----------------------------
+   Parents
+-----------------------------*/
+.parents-account{
+	margin-top: 45px;
+}
+.parents-account a:hover{
+	text-decoration: none;
+}
+.parents-btn{
+	width: 435px;
+	height: 46px;
+	background: #f6c640;
+	color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0px auto;
+	display: block;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 42px;
+
+	-o-transition:color .5s ease-out, color 0.8s ease-in;
+	-ms-transition:color .5s ease-out, color 0.8s ease-in;
+	-moz-transition:color .5s ease-out, color 0.8s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.8s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.8s ease-in;
+}
+.group-pics{
+	margin-top: 80px;
+}
+.group-pics img{
+	margin-bottom: 0px;
+}
+/*----------------------------
+    Pro Four
+-----------------------------*/
+.pro-four-bg{
+	background: #e6e6e6;
+	margin-top: 0px;
+	padding-bottom: 35px;
+}
+.com-add{
+	margin-top: 100px;
+}
+.com-add p{
+	font-size: 12px;
+	color: #5d5d5d;
+	margin-top: 5px;
+}
+.condition ul{
+	padding-left: 0px;
+}
+.condition ul li{
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+}
+.condition ul li a{
+	color: #5d5d5d;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-right: 1px solid #5d5d5d;
+	padding-right: 10px;
+
+	-o-transition:color .5s ease-out, color 0.8s ease-in;
+	-ms-transition:color .5s ease-out, color 0.8s ease-in;
+	-moz-transition:color .5s ease-out, color 0.8s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.8s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.8s ease-in;
+}
+.condition ul li a:hover{
+	color: #202020;
+}
+.condition ul li:last-child a{
+	border-right: 0px ;
+}
+.links ul{
+	padding-left: 0px;
+	margin-top: 40px;
+}
+.links ul li{
+	list-style: none;
+	padding: 10px 0px;
+	border-bottom: 1px solid #5d5d5d;
+}
+.links ul li a{	
+	text-decoration: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #5d5d5d;
+	font-size: 15px;
+
+	-o-transition:color .5s ease-out, color 0.6s ease-in;
+	-ms-transition:color .5s ease-out, color 0.6s ease-in;
+	-moz-transition:color .5s ease-out, color 0.6s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.6s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.6s ease-in;
+}
+.links ul li a:hover{
+	color: #202020;
+}
+.support{
+	margin-top: 50px;
+}
+.support h3{
+	color: #740000;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+}
+.help{
+	margin-top: 20px;
+}
+.help h4{
+	color: #202020;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 20px;
+	margin: 0px;
+}
+.help h1{
+	font-size: 40px;
+	color: #202020;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	text-align: right;
+	margin: 0px;
+}
+.social ul{
+	padding-left: 0px;
+	float: right;
+	margin-top: 15px;
+}
+.social ul li{
+	list-style: none;
+	float: left;
+	padding: 0px 10px;
+}
+.social ul li a{
+	text-decoration: none;
+}
+.social ul li i{
+	text-align: center;
+	line-height: 30px;
+	font-size: 25px;
+}
+.fa-facebook{
+	background: #666666;
+	width: 26px;
+	height: 26px;
+	color: #fff;
+	border-radius: 4px;
+
+	-o-transition:background .5s ease-out, background 0.4s ease-in;
+	-ms-transition:background .5s ease-out, background 0.4s ease-in;
+	-moz-transition:background .5s ease-out, background 0.4s ease-in;
+	-webkit-transition:background .5s ease-out, background 0.4s ease-in;
+	/* ...and now for the proper property */
+	transition:background .5s ease-out, background 0.4s ease-in;
+}
+.fa-facebook:hover{
+	background: #47639E;
+	color: #fff;
+}
+.fa-twitter{
+	background: #666666;
+	width: 26px;
+	height: 26px;
+	color: #fff;
+	border-radius: 4px;
+
+	-o-transition:background .5s ease-out, background 0.4s ease-in;
+	-ms-transition:background .5s ease-out, background 0.4s ease-in;
+	-moz-transition:background .5s ease-out, background 0.4s ease-in;
+	-webkit-transition:background .5s ease-out, background 0.4s ease-in;
+	/* ...and now for the proper property */
+	transition:background .5s ease-out, background 0.4s ease-in;
+}
+.fa-twitter:hover{
+	background: #28A9E0;
+	color: #fff;
+}
+.fa-pinterest-p{
+	background: #666666;
+	width: 26px;
+	height: 26px;
+	color: #fff;
+	border-radius: 100%;
+
+	-o-transition:background .5s ease-out, background 0.4s ease-in;
+	-ms-transition:background .5s ease-out, background 0.4s ease-in;
+	-moz-transition:background .5s ease-out, background 0.4s ease-in;
+	-webkit-transition:background .5s ease-out, background 0.4s ease-in;
+	/* ...and now for the proper property */
+	transition:background .5s ease-out, background 0.4s ease-in;
+}
+.fa-pinterest-p:hover{
+	background: #CB2027;
+	color: #fff;
+}
+/*----------------------------
+   Footer
+-----------------------------*/
+.footer{
+	border-top: 1px solid #e3e3e3;
+	margin-top: 2px;
+}
+.footer-inn{
+	margin-top: 40px;
+	padding-bottom: 42px;
+}
+.footer-inn h3{
+	font-size: 15px;
+	color: #202020;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+.find-schools{
+	padding-left: 0px;
+}
+.find-schools ul{
+	padding-left: 0px;
+	margin-top: 15px;
+}
+.list-uns{
+	margin-top: 30px;
+}
+.find-schools ul li{
+	list-style: none;
+}
+.find-schools ul li a{
+	color: #7e7d7d;
+	font-size: 11px;
+	text-transform: uppercase;
+
+	-o-transition:color .5s ease-out, color 0.6s ease-in;
+	-ms-transition:color .5s ease-out, color 0.6s ease-in;
+	-moz-transition:color .5s ease-out, color 0.6s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.6s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.6s ease-in;
+}
+.find-schools ul li a:hover{
+	color: #202020;
+} 
+
+/*----------------------------
+  Signup Modal
+-----------------------------*/
+.modal-title{
+	text-align: center;
+	color: #757575;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+.signup-form{
+	margin: 0px auto;
+	display: block;
+}
+.input-group[class*="col-"] {
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.input-group-addon {
+    background: none;
+    height: 45px;
+    padding: 5px 8px;
+}
+.input-group-addon i{
+    color: #000;
+}
+.margin-bottom-sm .form-control{
+	border-left: 0px;
+	height: 45px;
+	padding: 6px 3px;
+}
+.sign-up{
+	margin-top: 20px;
+}
+.sign-btn{
+	width: 158px;
+	height: 32px;
+	border-radius: 4px;
+	background: #8dc500;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #5b9400;
+	margin: 0px auto;
+	display: block;
+
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.or {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.or-inner p{
+	color: #cbcbcb;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.or-inner::before {
+    background: #d6d5d5 none repeat scroll 0 0;
+    bottom: 29%;
+  	content: "";
+  	display: block;
+  	height: 2px;
+  	left: 258px;
+  	margin: 0 auto;
+  	position: absolute;
+  	width: 4%;
+}
+.or-inner::after {
+  	background: #d6d5d5 none repeat scroll 0 0;
+  	content: "";
+  	display: block;
+  	height: 2px;
+  	right: 258px;
+  	position: absolute;
+  	bottom: 29%;
+  	width: 4%;
+}
+.share-area{
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+.share{
+	margin-top: 10px;
+}
+.fb-btn{
+	width: 205px;
+	height: 50px;
+	background: #3b5998;
+	margin: 0px auto;
+	display: block;
+	color: #fff;
+	
+	-o-transition:background .5s ease-out, background 0.5s ease-in;
+	-ms-transition:background .5s ease-out, background 0.5s ease-in;
+	-moz-transition:background .5s ease-out, background 0.5s ease-in;
+	-webkit-transition:background .5s ease-out, background 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:background .5s ease-out, background 0.5s ease-in;
+}
+.google-btn{
+	width: 205px;
+	height: 50px;
+	background: #c23321;
+	margin: 0px auto;
+	display: block;
+	color: #fff;
+
+	-o-transition:background .5s ease-out, background 0.5s ease-in;
+	-ms-transition:background .5s ease-out, background 0.5s ease-in;
+	-moz-transition:background .5s ease-out, background 0.5s ease-in;
+	-webkit-transition:background .5s ease-out, background 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:background .5s ease-out, background 0.5s ease-in;
+}
+.sign-in-or::before{
+	bottom: 35%;
+}
+.sign-in-or::after{
+	bottom: 35%;
+}
+/*----------------------------
+   Inner -- About Us
+-----------------------------*/
+.about-us{
+    margin: 35px 0px;
+}
+.about-us-left h1{
+    color: #5d5d5d;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.breadcrumb {
+    background: none;
+    border-radius: 0px;
+    list-style: outside none none;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: right;
+    margin-top: 25px;
+}
+.breadcrumb > li > a{
+    color: #5d5d5d;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.breadcrumb > .active a {
+    color: #020202;
+}
+.breadcrumb > .active a:hover{
+    color: #020202;
+}
+.about-us-detials h1{
+	color: #999999;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+}
+.about-us-detials p{
+	font-size: 14px;
+	text-align: justify;
+	color: #666666;
+	line-height: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+.who-we{
+	border-top: 1px solid #dddddd;
+	margin-top: 50px;
+}
+.who-heading h2{
+	color: #999999;
+	font-size: 35px;
+}
+.members{
+	margin-top: 50px;
+}
+.desig h2{
+	color: #333333;
+	font-weight: 400;
+	font-size: 20px;
+}
+.mem-pic img{
+	margin: 20px auto;
+	display: block;
+}
+.mem-detials{
+	margin-top: 20px;
+}
+.mem-detials p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #666666;
+	line-height: 22px;
+	text-align: justify;
+}
+
+/*----------------------------
+   Inner -- Search 
+-----------------------------*/
+.search-header{
+	position: relative;
+	background: #fff;
+	z-index: 9999;
+	opacity: 0.8
+}
+.search-header-left img{
+	margin: 8px 0px 8px 0px;
+	opacity: 1
+}
+.search-header-right{
+	margin: 15px 0px 0px 0px;
+}
+.search-login ul li{}
+.search-login ul li a{
+	color: #595959;
+	border-right: 1px solid #595959;
+}
+.search-school-list{
+	color: #595959;
+	border: 2px solid #595959;
+
+	-o-transition:border .5s ease-out, border 0.4s ease-in;
+	-ms-transition:border .5s ease-out, border 0.4s ease-in;
+	-moz-transition:border .5s ease-out, border 0.4s ease-in;
+	-webkit-transition:border .5s ease-out, border 0.4s ease-in;
+	/* ...and now for the proper property */
+	transition:border .5s ease-out, border 0.4s ease-in;
+}
+.search-school-list:hover{
+	border: 2px solid #8EA6E9;
+}
+.map-area{
+	padding: 0px;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: -65px !important;
+    left: 0;
+    width: 100% !important;
+    height: 885px !important;
+}
+.filter{
+	padding-left: 0px;
+}
+.filter-btn {
+    -moz-user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 4px 26px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-transform: uppercase;
+    background-color: #a9d155;
+    border-color: none;
+    color: #fff;
+
+	-o-transition:background .5s ease-out, background 0.4s ease-in;
+	-ms-transition:background .5s ease-out, background 0.4s ease-in;
+	-moz-transition:background .5s ease-out, background 0.4s ease-in;
+	-webkit-transition:background .5s ease-out, background 0.4s ease-in;
+	/* ...and now for the proper property */
+	transition:background .5s ease-out, background 0.4s ease-in;
+}
+.search-right{
+	background: #f2f2f2;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.filter_search_head{
+	margin-top: 20px;
+	border-bottom: 1px solid #d9d9d9;
+	padding-bottom: 10px;
+	padding-right: 0px;
+}
+
+/*Search Bar CSS*/
+.padd-left-off{
+	padding-left: 0px;
+}
+.search-search{
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#a7baca;
+    height: 30px;
+    width: 68%;
+    float: right;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.glyphicon-search:before {
+    color: #76923c;
+    content: "";   
+}
+.glyphicon{
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   transform: rotate(90deg);
+}
+.search .form-control{
+    border-radius: 0px;
+}
+.search-input-group-addon{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 0px 0px;
+    border-color:#a7baca;
+}
+.search-input-group-addon{
+	height: 25px;
+}
+.locate-1{
+	margin-top: 10px;
+	background: #f5e8c4;
+	padding: 12px 0px 0px;
+}
+.locate-2{
+	margin-top: 10px;
+	background: none;
+	padding:12px 0px 0px;
+}
+.locate-num ul{
+	padding-left: 0px;
+}
+.locate-num ul li{
+	float: none;
+	list-style: none;
+	color: #2a2a2a;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.locate-num ul li i{
+	color: #ff9600;
+	font-size: 40px;
+}
+.home{
+	width: 90px;
+	height: 90px;
+	border-radius: 1px solid #c4ba9d;
+	text-align: center;
+	padding: 15px;
+	background: #ffffff;
+}
+.home i{
+	color: #bcbcbc;
+	font-size: 60px;
+
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.home:hover i {
+    color: #FF9600
+}
+.programm{
+	padding: 0px;
+}
+.programm h3{
+	margin: 0px;
+	font-size: 12px;
+	color: #007bae;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.programm ul{
+	margin-top: 10px;
+	padding-left: 0px;
+}
+.programm ul li{
+	list-style: none;
+	float: none;
+	
+}
+.programm ul li a{
+	color: #2a2a2a;
+	font-size: 13px;
+
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.programm ul li a:hover{
+	color: #007BB4;
+}
+.programm ul li a i{
+	padding-right: 10px;
+}
+.programm ul li a span{
+	display: inline-block;
+}
+.bookmark i{
+	color: #ff9600;
+	font-size: 20px;
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.bookmark i:hover{
+	color: #007BB4;
+}
+.page-part{
+	margin-top: 20px;
+}
+.pagination{
+	float: right;
+}
+.pagination a{
+	background: #007eff none repeat scroll 0 0;
+	color: #fff;
+    cursor: default;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 15px;
+    cursor: pointer;
+}
+.pagination a:hover{
+	background: #007eff;
+}
+.pagination a.disabled, .pagination a.disabled:hover, .pagination a.disabled:focus, .pagination a.disabled:active {
+    background: #007eff none repeat scroll 0 0;
+    color: #fff;
+    cursor: default;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 15px;
+    outline: 0px;
+}
+.pagination input {
+    background: #005fc0 none repeat scroll 0 0;
+    color: #fff;
+    width: 85px;
+}
+.pagination a:hover, .pagination a:focus, .pagination a:active {
+    background: none;
+}
+
+/*----------------------------
+   Inner -- School Pro
+-----------------------------*/
+.school-pro{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.program-offer-inner{
+	background: #fff9e4;
+	padding: 20px 25px 15px 0px;
+	border: 1px solid #eae2c5;
+	border-radius: 4px;
+}
+.school-home{
+	width: 108px;
+	height: 108px;
+	border: 1px solid #e3d9b4;
+	text-align: center;
+	padding: 15px;
+	background: #ffffff;
+	border-radius: 4px;
+	margin: 0px auto;
+	display: block;
+
+	o-transition:border .5s ease-out, border 0.5s ease-in;
+	-ms-transition:border .5s ease-out, border 0.5s ease-in;
+	-moz-transition:border .5s ease-out, border 0.5s ease-in;
+	-webkit-transition:border .5s ease-out, border 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:border .5s ease-out, border 0.5s ease-in;
+}
+.school-home:hover{
+	border: 1px solid #FF9600
+}
+.school-home i{
+	color: #bcbcbc;
+	font-size: 80px;
+
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.school-home:hover i {
+    color: #FF9600
+}
+.save{
+	text-align: center;
+} 
+.save span{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.save i{
+	color: #ff9600;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.save span:hover{
+	color:#ff9600 ;
+}
+.save i:hover{
+	color: #007bae
+}
+.schools-details h2{
+	margin: 0px;
+	color: #007bae;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+.schools-details h2 span{
+	display: block;
+}
+.schools-details p{
+	font-size: 13px;
+	color: #555555;
+	text-transform: uppercase;
+	line-height: 18px;
+	margin-top: 12px;
+	margin: 6px 0px 10px 0px;
+}
+.schools-details p span{
+	display: block;
+}
+.web-btn {
+	font-size: 12px;
+	color: #ff0000;
+	text-transform: uppercase;;
+	text-decoration: underline;
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.request-connect-inner{
+	margin-top: 20px;
+}
+.request-btn{
+	width: 160px;
+	height: 38px;
+	border-radius: 4px;
+	background: #73880a;
+	border: 1px solid #576800;
+	color: #ffffff;
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.connect-btn{
+	width: 160px;
+	height: 38px;
+	border-radius: 4px;
+	background: #007bae;
+	color: #ffffff;
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	display: block;
+
+	o-transition:color .5s ease-out, color 0.5s ease-in;
+	-ms-transition:color .5s ease-out, color 0.5s ease-in;
+	-moz-transition:color .5s ease-out, color 0.5s ease-in;
+	-webkit-transition:color .5s ease-out, color 0.5s ease-in;
+	/* ...and now for the proper property */
+	transition:color .5s ease-out, color 0.5s ease-in;
+}
+.overview-part{
+	margin-top: 10px;
+	background: #fff;
+	padding: 0px;
+	padding-bottom: 20px;
+}
+.tab-content-inner{
+	padding: 25px;
+}
+.nav-tabs {
+  	background: #879398 none repeat scroll 0 0;
+  	border-bottom: 0px;
+  	padding-left: 20px;
+  	border-top: 10px solid #879398;
+}
+.nav-tabs > li > a{
+ 	color: #fff;
+ 	padding: 7px 7px;
+ 	border-radius: 0px;
+ 	border: 0px;
+ 	text-transform: uppercase;
+}
+.nav-tabs > li > a:hover{
+ 	background: none;
+ 	border: 0px;
+ 	border-radius: 0px;
+}
+.type{
+	margin-top: 25px;
+}
+.type:first-child{
+	margin-top: 15px;
+}
+.type h4{
+	margin: 0px;
+	font-size: 13px;
+	color: #3f3f3f;
+	font-weight: bold;
+}
+.type p{
+	font-size: 12px;
+	color: #3f3f3f;
+}
+.table tr:first-child td{
+	border-top: 0px;
+}
+.require-right{
+	text-align: right;
+}
+.direction{
+	margin-top: 40px;
+	float: right;
+}
+.direct-btn{
+	color: #73880a;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+}
+.direction i{
+	color: #73880a;
+	display: inline-block;
+}
+.nearby-schools{
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #eae2c5;
+	border-radius: 4px;
+	margin-top: 25px;
+}
+.nearby-heading{
+	padding-bottom: 25px;
+}
+.nearby-heading h3{
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.nearby-home{
+	width: 90px;
+	height: 90px;
+}
+.nearby-home i{
+	font-size: 60px;
+}
+.nearby-school-details h2{
+	font-size: 13px;
+}
+.school-pro{
+	margin-bottom: 25px;
+}
+.map-school {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    height: 555px;
+}
+.map-school iframe {
+    position: absolute;
+    top: 0px !important;
+    left: 0;
+    width: 100% !important;
+    height: 555px !important;
+}
+.share-friends{
+	margin-top: 30px;
+}
+.share-frien-inner{
+	padding: 12px 20px 0px;
+	background: #d7dbdd;
+	border-radius: 4px;
+	display: block;
+}
+.friends{
+	border-bottom: 1px solid #c7cdcf;
+	padding-bottom: 10px;
+}
+.friends h3{
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #393939;
+}
+.friends-about{
+	margin-top: 15px;
+}
+.friends-about h3{
+	font-size: 25px;
+	color: #000000;
+	margin: 0px;
+}
+.friends-about h2{
+	font-size: 25px;
+	color: #00567a;
+	margin: 0px;
+}
+.friends-about span{
+	display: block;
+	font-weight: bold;
+}
+.school-social ul{
+	padding-left: 0px;
+	float: right;
+}
+.school-social ul li{
+	list-style: none;
+	float: left;
+	padding: 0px 5px;
+}
+.school-social ul li a{
+	text-decoration: none;
+}

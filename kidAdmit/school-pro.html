@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>KidAdmit Search</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <!-- Palce fontawesome style directory-->
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+      <!-- Palce Bootstrap style directory-->
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      
+      <!-- Palce Main style directory-->
+      <link rel="stylesheet" href="css/main.css">
+
+      <!-- Palce Main style directory-->
+      <link rel="stylesheet" href="css/responsive.css">
+     
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <header id="header">
+      <div class="container-fluid search-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 header-top search-header-top">
+              <div class="col-md-8 col-sm-6 col-xs-12 header-top-left search-header-left">
+                <a href="index.html"><img src="img/search_logo.png" alt="Logo" class="img-responsive"></a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 search-header-right pull-right">
+                <div class="col-md-7 col-sm-7 col-xs-12 search-login">
+                  <ul class="list-unstyled">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">Sign Up</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal2">Log in</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12 padd-left-off">
+                  <div class="school-list ">
+                    <a href="#" class="school-list-btn search-school-list">List Your School</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Data Modal For Sign Up Added Here -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sign Up for DUGSI PRO</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="signup-form">
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i></span>
+                          <input class="form-control" type="text" placeholder="Email">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Password">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Retype Password">
+                        </div>
+                        <div class="sign-up">
+                          <a href="#" class="sign-btn">Sign Up</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="or">
+                      <div class="or-inner">
+                        <p>OR</p>
+                      </div>
+                    </div>
+                    <div class="share-area">
+                      <div class="share">
+                        <button class="btn btn-default fb-btn" type="button">
+                          <i class="fa fa-facebook-square"></i>
+                          Sign up with Facebook
+                        </button>
+                      </div>
+                      <div class="share">
+                        <button class="btn btn-default google-btn" type="button">
+                          <i class="fa fa-google-plus-square"></i>
+                          Sign up with Google
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- Data Modal For Sign In Added Here -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sign In for DUGSI PRO</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="signup-form">
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <div class="col-md-8 input-group margin-bottom-sm">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input class="form-control" type="text" placeholder="Password">
+                        </div>
+                        <div class="sign-up">
+                          <a href="#" class="sign-btn">Sign In</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="or">
+                      <div class="or-inner sign-in-or">
+                        <p>OR</p>
+                      </div>
+                    </div>
+                    <div class="share-area">
+                      <div class="share">
+                        <button class="btn btn-default fb-btn" type="button">
+                          <i class="fa fa-facebook-square"></i>
+                          Sign In with Facebook
+                        </button>
+                      </div>
+                      <div class="share">
+                        <button class="btn btn-default google-btn" type="button">
+                          <i class="fa fa-google-plus-square"></i>
+                          Sign In with Google
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="contianer-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="school-pro">
+              <div class="col-md-8 col-sm-8 col-xs-12 school-pro-left">
+                <div class="program-offer">
+                  <div class="col-md-12 col-sm-12 col-xs-12 program-offer-inner">
+                    <div class="col-md-3 col-sm-3 col-xs-12 save-now">
+                      <a href="#">
+                        <div class="school-home">
+                          <i class="fa fa-home"></i>
+                        </div>
+                      </a>
+                      <div class="clearfix"></div>
+                      <div class="save">
+                        <a href="#"><i class="fa fa-bookmark"></i>&nbsp;<span>SAVE NOW</span></a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 schools-details">
+                      <h2>Beverly Hills Preschool <span>Program (N. Beverly)</span></h2>
+                      <p>1100 N. BEVERLY DRIVE
+                        <span>Beverly Hills, CA 90210</span></p>
+                        <div class="clearfix"></div>
+                        <a href="#" class="web-btn">School Web site</a>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 req-conn">
+                      <div class="request-connect-inner">
+                        <a href="#" class="request-btn">Request</a>
+                        <a href="#" class="connect-btn">Contact School</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 overview-part">
+                  <div class="tab-inner">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a data-toggle="tab" href="#home">Overview</a></li>
+                      <li><a data-toggle="tab" href="#menu1">Tution</a></li>
+                      <li><a data-toggle="tab" href="#menu2">Addmission Info</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div id="home" class="tab-pane fade in active">
+                        <div class="tab-content-inner">
+                          <div class="col-md-3 col-sm-3 col-xs-3 tab-content-left">
+                            <div class="type">
+                              <h4>Director:</h4>
+                              <p>Lisa Perry-castaneda</p>
+                            </div>
+                            <div class="type">
+                              <h4>School type:</h4>
+                              <p>Daycare, Preschool</p>
+                            </div>
+                            <div class="type">
+                              <h4>Program type:</h4>
+                             <p>Play Based</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9 col-sm-9 col-xs-9 tab-content-left">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <td><i class="fa fa-crosshairs"></i> &nbsp; &nbsp;Age Required To Enroll:</td>
+                                  <td class="require-right">3 Years</td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-clock-o"></i> &nbsp; &nbsp;Schedule: Part Time</td>
+                                  <td class="require-right"></td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-shield"></i> &nbsp; &nbsp;School Year: </td>
+                                  <td class="require-right">N/A</td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-child"></i> &nbsp; &nbsp;Potty Training Required:</td>
+                                  <td class="require-right">Yes</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp; &nbsp; &nbsp; &nbsp;Financial Aid:</td>
+                                  <td class="require-right">No</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp; &nbsp; &nbsp; &nbsp;Tuition: </td>
+                                  <td class="require-right"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="direction">
+                            <a href="#" class="direct-btn">Get Direction &nbsp; <i class="fa fa-play"></i></a>
+                          </div>
+                        </div> 
+                      </div>
+                      <div id="menu1" class="tab-pane fade">
+                        <div class="tab-content-inner">
+                          <div class="col-md-3 col-sm-3 col-xs-3 tab-content-left">
+                            <div class="type">
+                              <h4>Director:</h4>
+                              <p>Lisa Perry-castaneda</p>
+                            </div>
+                            <div class="type">
+                              <h4>School type:</h4>
+                              <p>Daycare, Preschool</p>
+                            </div>
+                            <div class="type">
+                              <h4>Program type:</h4>
+                             <p>Play Based</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9 col-sm-9 col-xs-9 tab-content-left">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <td><i class="fa fa-crosshairs"></i> &nbsp; &nbsp;Age Required To Enroll:</td>
+                                  <td class="require-right">3 Years</td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-clock-o"></i> &nbsp; &nbsp;Schedule: Part Time</td>
+                                  <td class="require-right"></td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-shield"></i> &nbsp; &nbsp;School Year: </td>
+                                  <td class="require-right">N/A</td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-child"></i> &nbsp; &nbsp;Potty Training Required:</td>
+                                  <td class="require-right">Yes</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp; &nbsp; &nbsp; &nbsp;Financial Aid:</td>
+                                  <td class="require-right">No</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp; &nbsp; &nbsp; &nbsp;Tuition: </td>
+                                  <td class="require-right"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                           <div class="direction">
+                            <a href="#" class="direct-btn">Get Direction &nbsp; <i class="fa fa-play"></i></a>
+                          </div>
+                        </div> 
+                      </div>
+                      <div id="menu2" class="tab-pane fade">
+                        <div class="tab-content-inner">
+                          <div class="col-md-3 col-sm-3 col-xs-3 tab-content-left">
+                            <div class="type">
+                              <h4>Director:</h4>
+                              <p>Lisa Perry-castaneda</p>
+                            </div>
+                            <div class="type">
+                              <h4>School type:</h4>
+                              <p>Daycare, Preschool</p>
+                            </div>
+                            <div class="type">
+                              <h4>Program type:</h4>
+                             <p>Play Based</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9 col-sm-9 col-xs-9 tab-content-left">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <td><i class="fa fa-crosshairs"></i> &nbsp; &nbsp;Age Required To Enroll:</td>
+                                  <td class="require-right">3 Years</td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-clock-o"></i> &nbsp; &nbsp;Schedule: Part Time</td>
+                                  <td class="require-right"></td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-shield"></i> &nbsp; &nbsp;School Year: </td>
+                                  <td class="require-right">N/A</td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fa fa-child"></i> &nbsp; &nbsp;Potty Training Required:</td>
+                                  <td class="require-right">Yes</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp; &nbsp; &nbsp; &nbsp;Financial Aid:</td>
+                                  <td class="require-right">No</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp; &nbsp; &nbsp; &nbsp;Tuition: </td>
+                                  <td class="require-right"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="direction">
+                            <a href="#" class="direct-btn">Get Direction &nbsp; <i class="fa fa-play"></i></a>
+                          </div>
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 col-sm-12 col-xs-12 nearby-schools">
+                  <div class="nearby-heading">
+                    <h3>Nearby Schools</h3>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 nearby-inner">
+                    <div class="col-md-4 col-sm-4 col-xs-12 save-now">
+                      <a href="#">
+                        <div class="school-home nearby-home">
+                          <i class="fa fa-home"></i>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-12 schools-details nearby-school-details">
+                      <h2>Beverly Hills Preschool <span>Program (N. Beverly)</span></h2>
+                      <p>1100 N. BEVERLY DRIVE
+                        <span>Beverly Hills, CA 90210</span></p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 nearby-inner">
+                    <div class="col-md-4 col-sm-4 col-xs-12 save-now">
+                      <a href="#">
+                        <div class="school-home nearby-home">
+                          <i class="fa fa-home"></i>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-12 schools-details nearby-school-details">
+                      <h2>Beverly Hills Preschool <span>Program (N. Beverly)</span></h2>
+                      <p>1100 N. BEVERLY DRIVE
+                        <span>Beverly Hills, CA 90210</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 school-pro-right">
+                <div class="schools-map">
+                  <div class="google-maps map-school">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804" frameborder="0" style="border:0"></iframe>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="share-friends">
+                  <div class="col-md-12 col-sm-12 col-xs-12 share-frien-inner">
+                    <div class="friends">
+                      <h3>Your Friends</h3>
+                    </div>
+                    <div class="friends-about">
+                      <h3>See what your friends are</h3>
+                      <h2>saying about these <span>schools!</span></h2>
+                    </div>
+                    <div class="school-social">
+                      <ul>
+                        <li><a href="#"><img src="img/school-fb.png" alt="School Freinds Share" class="img-responsive"></a></li>
+                        <li><a href="#"><img src="img/school-google.png" alt="School Freinds Share" class="img-responsive"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid pro-four-bg school-pro">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 com-add">
+              <a href="#"><img src="img/footer-logo.png" alt="Footer-Logo" class="img-responsive"></a>
+              <p>© 2015 KidAdmit, Inc. All rights reserved.</p>
+              <div class="condition">
+                <ul>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6  col-xs-12 refe-links">
+              <div class="col-md-6 col-sm-6 links">
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">How it works for families</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-sm-6 links">
+                <ul>
+                  <li><a href="#">How it works for Schools</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Feedback</a></li>
+                  <li><a href="#">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>  
+             <div class="col-md-3 col-sm-3 col-xs-12 support">
+               <h3>QUESTIONS? NEED HELP?</h3>
+               <div class="help">
+                 <h4>Call Support</h4>
+                 <h1>415-890-5430</h1>
+               </div>
+               <div class="social">
+                <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                </ul>
+               </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+    <footer id="footer">
+      <div class="container-fluid footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 footer-inn">
+              <h3>Find a school by city!</h3>
+            <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-4 find-schools ">
+              <ul class="list-uns">
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+             <div class="col-md-2 col-sm-2 col-xs-4 find-schools ">
+              <ul>
+                <li><a href="#">Alameda, CA</a></li>
+                <li><a href="#">Anaheim, CA</a></li>
+                <li><a href="#">Antioch, CA</a></li>
+                <li><a href="#">Apple Valley, CA</a></li>
+                <li><a href="#">Aptos, CA</a></li>
+                <li><a href="#">Arcata, CA</a></li>
+                <li><a href="#">Atascadero, CA</a></li>
+                <li><a href="#">Atwater, CA</a></li>
+                <li><a href="#">Auburn, CA</a></li>
+                <li><a href="#">Bakersfield, CA</a></li>
+                <li><a href="#">Belmont, CA</a></li>
+                <li><a href="#">Berkeley, CA</a></li>
+                <li><a href="#">Brentwood, CA</a></li>
+                <li><a href="#">Buena Park, CA</a></li>
+                <li><a href="#">Burlingame, CA</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End your site or application content here -->
+
+        <!-- Palce jQuery-1.11.3 directory-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+         <!-- Palce Bootstraps directory-->
+         <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Palce Our Customize Javascript directory-->
+        <script src="js/main.js"></script>
+       
+    </body>
+</html>

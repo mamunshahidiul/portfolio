@@ -1,0 +1,364 @@
+/* This CSS for small Mobile*/
+@media (max-width: 359px) {
+.navbar-nav {
+  margin-top: 0px;
+}
+.header-area {
+  height: 50px;
+}
+.navbar-inverse .navbar-nav > li {
+  background: none;
+}
+.bx-wrapper .bx-prev {
+  background: url("../images/controlsspre.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: 2px;
+}
+.bx-wrapper .bx-next {
+  background: url("../images/controlssnext.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  right: -20px;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 28%;
+}
+.promo-slider-area {
+  margin-top: 151px;
+}
+.pro-bottom-menu li {
+  padding: 0;
+}
+.pro-bottom-menu a {
+  font-size: 18px;
+}
+.footer-top-left,.footer-top-middle {
+  text-align: center;
+}
+.footer-top-right img {
+  float: none;
+  margin: 0 auto;
+}
+.footer-bottom-right p {
+  text-align: center;
+}
+.footer-bottom-left {
+  text-align: center;
+  float: none;
+}
+.footer-left-menu li a{
+  border-bottom: 1px solid #384cdd;
+  padding-bottom: 5px;
+}
+}
+
+
+
+/* This CSS for Tablet */
+@media (min-width: 360px) {
+.navbar-nav {
+  margin-top: 0px;
+}
+.navbar-inverse .navbar-nav > li {
+  background: none;
+}
+.header-area {
+  height: 50px;
+}
+.bx-wrapper .bx-prev {
+  background: url("../images/controlsspre.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: 2px;
+}
+.bx-wrapper .bx-next {
+  background: url("../images/controlssnext.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  right: -20px;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 28%;
+}
+.product-caption {
+  margin: 0 auto;
+  width: 100%;
+}
+.promo-slider-area {
+  margin-top: 176px;
+}
+.pro-bottom-menu li {
+  padding: 0;
+}
+.pro-bottom-menu a {
+  font-size: 20px;
+}
+.footer-top-left,.footer-top-middle {
+  text-align: center;
+}
+.footer-top-right img {
+  float: none;
+  margin: 0 auto;
+}
+.footer-bottom-right p {
+  text-align: center;
+}
+.footer-bottom-left {
+  text-align: center;
+  float: none;
+}
+.footer-left-menu li a{
+  border-bottom: 1px solid #384cdd;
+  padding-bottom: 5px;
+}
+}
+
+
+
+/* This CSS for Tablet */
+@media (min-width: 480px) {
+.navbar-nav {
+  margin-top: 0px;
+}
+.slider1 li {
+width:140px !important; 
+}
+.bx-wrapper .bx-prev {
+  background: url("../images/controlsspre.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: 2px;
+}
+.bx-wrapper .bx-next {
+  background: url("../images/controlssnext.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  right: -20px;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 28%;
+}
+.promo-slider-area {
+  margin-top: 252px;
+}
+.product-caption {
+  margin: 0 auto;
+  width: 305px;
+}
+.pro-bottom-menu li {
+  padding: 0;
+}
+.footer-top-left,.footer-top-middle {
+  text-align: center;
+}
+.footer-top-right img {
+  float: none;
+  margin: 0 auto;
+}
+}
+
+
+
+/* This CSS for Tablet */
+@media (min-width: 640px) {
+.navbar-nav {
+  margin-top: 0px;
+}
+.slider1 li {
+width:185px !important; 
+}
+.bx-wrapper .bx-prev {
+  background: url("../images/controlsspre.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: 2px;
+}
+.bx-wrapper .bx-next {
+  background: url("../images/controlssnext.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  right: -20px;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 31%;
+}
+.promo-slider-area {
+  margin-top: 353px;
+}
+.product-caption {
+  margin: 0 auto;
+  width: 305px;
+}
+.pro-bottom-menu li {
+  padding: 0;
+}
+.footer-top-left,.footer-top-middle {
+  text-align: center;
+}
+.footer-top-right img {
+  float: none;
+  margin: 0 auto;
+}
+}
+
+
+
+/* This CSS for Tablet */
+@media (min-width: 768px) {
+.navbar-inverse .navbar-nav > li {
+  padding: 0 10px;
+}
+.navbar-nav {
+  margin-top: 60px;
+}
+.navbar-inverse .navbar-nav > li {
+  background: url(../images/border-right-img.png) no-repeat scroll right;
+}
+.slider1 li {
+width:180px !important; 
+}
+.bx-wrapper .bx-prev {
+  background: url("../images/controlspre.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -185px;
+}
+.bx-wrapper .bx-next {
+  background: url("../images/controlsnext.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -130px;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 70%;
+}
+.header-area {
+  height: 120px;
+}
+.slider-title h3 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+.promo-slider-area {
+  margin-top: 363px;
+}
+.product-caption {
+  width: 100%;
+}
+.pro-bottom-menu li {
+  padding: 0 11px;
+}
+.pro-bottom-menu a {
+  font-size: 15px;
+}
+.footer-top-left h2 {
+  font-size: 22px;
+  }
+.footer-left-menu a, .footer-right-menu a {
+  font-size: 9px;
+}
+.footer-top-left,.footer-top-middle {
+  text-align: left;
+}
+.footer-top-right img {
+  float: right;
+}
+.footer-bottom-right p {
+  text-align: right;
+}
+.footer-bottom-left {
+  float: left;
+  text-align: left;
+}
+.navbar-collapse {
+	background:none;
+	}
+  .footer-left-menu li a {
+  border-bottom: none;
+}
+}
+
+
+
+/* This CSS for Large Devices */
+@media (min-width: 980px) {
+}
+
+
+
+/* This CSS for Large Devices */
+@media (min-width: 992px) {
+.navbar-inverse .navbar-nav > li {
+  padding: 0 10px;
+}
+.navbar-nav {
+  margin-top: 60px;
+}
+.slider1 li {
+  width: 223px !important;
+}
+.bx-wrapper .bx-prev {
+  background: url("../images/controlspre.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -240px;
+}
+.bx-wrapper .bx-next {
+  background: url("../images/controlsnext.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -185px;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 75%;
+}
+.slider-title h3 {
+  font-size: 28px;
+  margin-top: 65px;
+}
+.promo-slider-area {
+  margin-top: 524px;
+}
+.product-caption {
+  width: 100%;
+}
+.pro-bottom-menu li {
+  padding: 0 17px;
+}
+.pro-bottom-menu a {
+  font-size: 19px;
+}
+.footer-top-left h2 {
+  font-size: 26.14px;
+  }
+.footer-left-menu a, .footer-right-menu a {
+  font-size: 11px;
+}
+}
+
+
+
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+.navbar-inverse .navbar-nav > li {
+  padding: 0 10px;
+}
+.navbar-nav {
+  margin-top: 60px;
+}
+.slider1 li {
+width:auto !important; 
+}
+.bx-wrapper .bx-prev {
+  background: url("../images/controlspre.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -250px;
+}
+.bx-wrapper .bx-next {
+  background: url("../images/controlsnext.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -195px;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 75%;
+}
+.slider-title h3 {
+  font-size: 28px;
+  margin-top: 70px;
+}
+.promo-slider-area {
+  margin-top: 674px;
+}
+.product-caption {
+  width: 100%;
+}
+.pro-bottom-menu li {
+  padding: 0 14px;
+}
+.pro-bottom-menu a {
+  font-size: 20.09px;
+} 
+.footer-top-left h2 {
+  font-size: 26.14px;
+  }
+.footer-left-menu a, .footer-right-menu a {
+  font-size: 11px;
+}
+}
+
+

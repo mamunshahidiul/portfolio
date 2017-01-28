@@ -1,0 +1,64 @@
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    border-radius:5px;
+    border-radius:5px;
+    border-radius:5px;  
+}
+
+.nbs-flexisel-item {
+    float:left;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    cursor: pointer;
+    position: relative;
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 45px;
+    height: 50px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: -25px; 
+    background: url(../img/button-next.png) no-repeat;
+    top: 30px !important;
+}
+
+.nbs-flexisel-nav-right {
+    right: -50px; 
+    background: url(../img/button-prev.png) no-repeat;
+    top: 30px !important;
+}
+
